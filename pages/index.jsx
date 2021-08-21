@@ -16,7 +16,6 @@ function Home() {
       <Whatsapp></Whatsapp>
       <Cronograma></Cronograma>
       <Negativa></Negativa>
-      <Ryck></Ryck>
       <Bruna></Bruna>
     </div>
   )
