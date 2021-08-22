@@ -2,8 +2,8 @@ import Whatsapp from "../compontes/whatsapp";
 import Title from "../compontes/title";
 import Cronograma from '../compontes/cronograma'
 import Negativa from '../compontes/Negativa'
-import Ryck from "../compontes/ryck";
-import Bruna from "../compontes/bruna";
+import Jejum from "../compontes/jejum";
+
 
 function Home() {
   return(
@@ -16,7 +16,7 @@ function Home() {
       <Whatsapp></Whatsapp>
       <Cronograma></Cronograma>
       <Negativa></Negativa>
-      <Bruna></Bruna>
+      <Jejum></Jejum>
     </div>
   )
 }

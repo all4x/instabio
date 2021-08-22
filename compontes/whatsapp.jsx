@@ -7,7 +7,7 @@ export default function Whatsapp() {
             border-white  shadow-lg bg-opacity-25 bg-white
             text-black rounded-full	m-4
         `}>
-            <a href="http://www.instagram.com"> Whatsapp</a>
+            <a href="https://api.whatsapp.com/send?phone=5563992072188&"> Whatsapp</a>
             
         </div>
     )
