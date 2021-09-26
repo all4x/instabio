@@ -1,7 +1,7 @@
 import Head from "next/head";
 import Main from '../src/components/Main'
 import Quadro from '../src/components/Quadro'
-import Pixel from "../src/components/Pixel";
+
 import Botaozap from "../src/components/Botaozap";
 
 
@@ -27,7 +27,7 @@ export default function Home() {
         <Main></Main>
         <Quadro></Quadro>
         <Botaozap></Botaozap>  
-        <Pixel name='FACEBOOK_PIXEL_1' />
+      
 
 
 
