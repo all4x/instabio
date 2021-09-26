@@ -7,7 +7,7 @@ export default function Jejum () {
             border-white  shadow-lg bg-opacity-25 bg-white
             text-black rounded-full m-4
         `}>
-            <a href="https://app.monetizze.com.br/r/APS15532978"> Jejum Intermitente </a>
+            <a href="/liftdetox2"> Lift Detox Caps </a>
             
         </div>
     )
