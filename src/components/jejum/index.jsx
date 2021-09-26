@@ -7,7 +7,7 @@ export default function Jejum () {
             border-white  shadow-lg bg-opacity-25 bg-white
             text-black rounded-full m-4
         `}>
-            <a href="/liftdetox2"> Lift Detox Caps </a>
+            <a href="/liftdetox"> Lift Detox Caps </a>
             
         </div>
     )
