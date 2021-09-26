@@ -1,8 +1,8 @@
-import Whatsapp from "../compontes/whatsapp";
-import Title from "../compontes/title";
-import Cronograma from '../compontes/cronograma'
-import Negativa from '../compontes/Negativa'
-import Jejum from "../compontes/jejum";
+import Whatsapp from "../src/components/whatsapp";
+import Title from "../src/components/title";
+import Cronograma from '../src/components/cronograma'
+import Negativa from '../src/components/Negativa'
+import Jejum from "../src/components/jejum";
 
 
 function Home() {
