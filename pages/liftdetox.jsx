@@ -61,7 +61,12 @@ const Main = () => {
     <div className="h-screen">
           <Pixel name='FACEBOOK_PIXEL_1' />
          <iframe src="https://app.monetizze.com.br/r/AFY17713867" width="1" height="1"></iframe>
-        
+        <div>
+        <h1 className="text-center text-3xl font-sans p-7">Por que não consigo emagrecer: conheça algumas explicações para o problema</h1>
+        <div className="bg-gray-200 m-3 rounded-xl">
+        <hr/>
+       <p className="text-left p-2 m-2 py-5 font-sans text-lg text-gray-900">Essa grande dificuldade pode ter 3 explicações principais: expectativas irreais, fome emocional e encarar o emagrecimento como algo passageiro. Uma alternativa bastante eficiente é utilizar-se de uma maneira 100% Comprovada de Perder Peso Sem Fazer Dietas Malucas!</p> 
+        </div>
 
         </div>
         <div className=" xl:m-6 m-3 p-4 border-b-4 rounded-2xl shadow-xl 
