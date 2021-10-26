@@ -53,13 +53,16 @@ import Depois3 from '/public/dp-3.png'
 
 
 
-
+import Head from 'next/head'
 
 
 const Main = () => {
     return (
     <div className="h-screen">
           <Pixel name='FACEBOOK_PIXEL_1' />
+          <Head>
+            <meta name="description" content="Lift Detox Caps possui fórmula 100% natural que contém ingredientes potentes capazes de agilizar o processo de emagrecimento, sem precisar sair de casa para academia"/>
+          </Head>
          <iframe src="https://app.monetizze.com.br/r/AFY17713867" width="1" height="1"></iframe>
        
         <div className=" xl:m-6 m-3 p-4 border-b-4 rounded-2xl shadow-xl 
