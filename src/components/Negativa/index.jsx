@@ -1,5 +1,5 @@
-import Detox from '.../public/detox.png'
-
+import Detox from './detox.png'
+import Image from 'next/image'
 
 export default function Negativa() {
     return (
