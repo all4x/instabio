@@ -52,7 +52,7 @@ import Depois3 from '/public/dp-3.png'
 
 
 
-
+import Negativa from '../src/components/Negativa'
 import Head from 'next/head'
 
 
@@ -77,6 +77,9 @@ const Main = () => {
         <div className="flex justify-center">
         <Image src={Detox} width={250} height={250} ></Image>
         </div>  
+        </div>
+        <div className="hidden">
+            <Negativa></Negativa>
         </div>
         <div className="m-5">    
         <Botao></Botao>

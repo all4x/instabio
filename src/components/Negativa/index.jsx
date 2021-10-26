@@ -1,4 +1,5 @@
-import link from 'next/link'
+import Detox from '../public/detox.png'
+
 
 export default function Negativa() {
     return (
@@ -7,8 +8,9 @@ export default function Negativa() {
             border-white  shadow-lg bg-opacity-25 bg-white
             text-black rounded-full	m-4
         `}>
-            <a href="https://biabarriganegativa.com.br/barrigazerada?ref=Y44015979V"> Barriga Negativa</a>
-            
+            <div className="flex justify-center hidden">
+        <Image src={Detox} width={250} height={250} ></Image>
+        </div>  
         </div>
     )
 }
