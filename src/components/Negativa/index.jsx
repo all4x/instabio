@@ -1,4 +1,4 @@
-import Detox from '../public/detox.png'
+import Detox from '.../public/detox.png'
 
 
 export default function Negativa() {
