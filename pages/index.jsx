@@ -1,7 +1,6 @@
 import Whatsapp from "../src/components/whatsapp";
 import Title from "../src/components/title";
 import Cronograma from '../src/components/cronograma'
-import Negativa from '../src/components/Negativa'
 import Jejum from "../src/components/jejum";
 
 
@@ -15,7 +14,6 @@ function Home() {
       <Title></Title>
       <Whatsapp></Whatsapp>
       <Cronograma></Cronograma>
-      <Negativa></Negativa>
       <Jejum></Jejum>
     </div>
   )

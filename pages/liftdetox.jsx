@@ -61,7 +61,8 @@ const Main = () => {
     <div className="h-screen">
           <Pixel name='FACEBOOK_PIXEL_1' />
           <Head>
-            <meta name="description" content="Lift Detox Caps possui fórmula 100% natural que contém ingredientes potentes capazes de agilizar o processo de emagrecimento, sem precisar sair de casa para academia"/>
+          <link rel="icon" href="/detox.png" />
+          <meta name="description" content="Lift Detox Caps possui fórmula 100% natural que contém ingredientes potentes capazes de agilizar o processo de emagrecimento, sem precisar sair de casa para academia"/>
           </Head>
          <iframe src="https://app.monetizze.com.br/r/AFY17713867" width="1" height="1"></iframe>
        
