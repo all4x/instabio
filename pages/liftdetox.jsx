@@ -61,8 +61,7 @@ const Main = () => {
     <div className="h-screen">
           <Pixel name='FACEBOOK_PIXEL_1' />
           <Head>
-          <meta name="title" content="Nylde Cosmeticos | Lift Detox Caps"></meta>
-
+          <meta name="title" content="Nylde Cosmeticos | Lift Detox Caps"/>
           <link rel="icon" href="/detox.png" />
           <meta name="description" content="Lift Detox Caps possui fórmula 100% natural que contém ingredientes potentes capazes de agilizar o processo de emagrecimento, sem precisar sair de casa para academia"/>
           </Head>
