@@ -1,5 +1,5 @@
 import Image from 'next/image'
-import Pixel from '../src/components/Pixel'
+
 
 
 
@@ -58,8 +58,7 @@ import Head from 'next/head'
 
 const Main = () => {
     return (
-    <div className="h-screen">
-          <Pixel name='FACEBOOK_PIXEL_1' />
+    <div className="h-screen xl:hidden">
           <Head>
           <meta name="title" content="Nylde Cosmeticos | Lift Detox Caps"/>
           <link rel="icon" href="/detox.png" />
