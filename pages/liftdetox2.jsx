@@ -9,7 +9,7 @@ import Botaozap from "../src/components/Botaozap";
 
 export default function Home() {
     return(
-        <div>
+        <div className="bg-gray-300">
         <Head>
         <title>Nova Forma De Fazer Dieta</title>
         <meta property="og:title"           content="DietaVirtual" /> 
@@ -34,7 +34,7 @@ export default function Home() {
 
 
 
-        <footer className="felx justify-center text-center">
+        <footer className="flex justify-center text-center">
             <div className='text-base font-normal p-4 text-blue-700 space-x-3 '>  
                 <a href="/privacy-policy"> Política de Privacidade</a>
                 <a href="/privacy-policy">Termos de Uso</a>

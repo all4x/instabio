@@ -2,7 +2,7 @@
 
 const Home = () => {
     return(
-        <div className="flex justify-center text-left bg-gradient-to-b from-blue-200 to-indigo-300 text-white m-6 rounded-xl">
+        <div className="flex justify-center text-left bg-gradient-to-b from-blue-200 to-indigo-300 text-black m-6 rounded-xl">
         <div className=" text-xl p-4 font-medium">
             <div>
                 <li>Reeducação com Receitas</li>
