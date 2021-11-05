@@ -449,32 +449,11 @@ const Main = () => {
 
         
         <div className="m-5 ">
-        <a href="./compra1">
+        <a href="https://api.whatsapp.com/send?phone=5563992072188&text=Ol%C3%A1%2C%20Gostaria%20de%20fazer%20meu%20pedidio%20Lift%20Detox%20Caps%20%F0%9F%A5%B0">
         <Image src={Art1}></Image>
         </a>
+        <p>sem taxa de entrega em Araguaína-To</p>
         </div>
-
-
-        <div className="m-5 ">
-        <a href="/compra2">
-        <Image src={Art2}></Image>
-        </a>
-        </div>
-
-        <div className="m-5 ">
-        <a href="/compra3">
-        <Image src={Art3}></Image>
-        </a>
-        </div>
-
-
-        <div className="m-5 ">
-        <a href="/compra4">
-        <Image src={Art4}></Image>
-        </a>
-        </div>
-
-
         
         </div>
         </div>
