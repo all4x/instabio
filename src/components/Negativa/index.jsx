@@ -8,9 +8,8 @@ export default function Negativa() {
             border-white  shadow-lg bg-opacity-25 bg-white
             text-black rounded-full	m-4
         `}>
-            <div className="flex justify-center hidden">
-        <Image src={Detox} width={250} height={250} ></Image>
-        </div>  
+         <a href="https://www.instagram.com/nyldecosmeticos/">Instagram</a>
+     
         </div>
     )
 }

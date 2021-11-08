@@ -2,6 +2,7 @@ import Whatsapp from "../src/components/whatsapp";
 import Title from "../src/components/title";
 import Cronograma from '../src/components/cronograma'
 import Jejum from "../src/components/jejum";
+import Negativa from "../src/components/Negativa";
 
 
 function Home() {
@@ -15,6 +16,7 @@ function Home() {
       <Whatsapp></Whatsapp>
       <Cronograma></Cronograma>
       <Jejum></Jejum>
+      <Negativa></Negativa>
     </div>
   )
 }
