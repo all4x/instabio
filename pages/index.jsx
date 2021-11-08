@@ -8,7 +8,7 @@ function Home() {
   return(
     <div className={`
         h-screen 
-        bg-gradient-to-tr from-yellow-100 to-yellow-500 
+        bg-gradient-to-tr from-yellow-100 to-yellow-400 
     
     `}>
       <Title></Title>

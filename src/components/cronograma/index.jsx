@@ -7,7 +7,7 @@ export default function Cronograma() {
             border-white  shadow-lg bg-opacity-25 bg-white
             text-black rounded-full m-4
         `}>
-            <a href="https://valeapena.ga/cronograma-gratuito/"> Cronograma</a>
+            <a href="https://goo.gl/maps/XyfKMPcYKnTSJG959"> Localização</a>
             
         </div>
     )
