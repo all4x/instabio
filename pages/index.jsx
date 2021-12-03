@@ -1,25 +1,32 @@
-import Whatsapp from "../src/components/whatsapp";
-import Title from "../src/components/title";
-import Cronograma from '../src/components/cronograma'
-import Jejum from "../src/components/jejum";
-import Negativa from "../src/components/Negativa";
+import Head from 'next/head'
 
 
-function Home() {
-  return(
-    <div className={`
-        h-screen 
-        bg-gradient-to-tr from-yellow-100 to-yellow-400 
+
+import Social from '../components/Social/Social-xs'
+import Topbar from '../components/Topbar'
+
+
+export default function Home() {
+  return (
+    <div className="">
+      <Head>
+        <title>Nylde Cosmeticos</title>
+        <link rel="icon" href="/logo-1.png" />
+      </Head>
     
-    `}>
-      <Title></Title>
-      <Whatsapp></Whatsapp>
-      <Cronograma></Cronograma>
-      <Jejum></Jejum>
-      <Negativa></Negativa>
+     
+      <main className="">
+      <div className=""><Topbar /></div>
+      <Social />
+
+      
+     {/* FAZER SOCIAL RESPONSIVEL -MD E XL */}
+   
+    
+
+      </main>
+      <div>{/*Player */}</div>
+
     </div>
   )
 }
-
-
-export default Home;
