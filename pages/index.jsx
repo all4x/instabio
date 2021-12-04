@@ -17,7 +17,8 @@ export default function Home() {
      
       <main className="">
       <div className=""><Topbar /></div>
-      <Social />
+      <div className="bg-yellow-50"> <Social /></div>
+     
 
       
      {/* FAZER SOCIAL RESPONSIVEL -MD E XL */}

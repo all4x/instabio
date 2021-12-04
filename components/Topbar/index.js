@@ -6,9 +6,9 @@ import Logo from '/public/logo1.png'
 
 function Topbar() {
     return (
-        <div className="flex justify-between p-3 bg-gradient-to-t from-yellow-100 to-gray-50 w-screen border-b-2 rounded-b-2xl">
+        <div className="flex justify-between p-5 bg-gradient-to-t from-yellow-100 to-gray-50 ">
             <div className="flex justify-between bg-gradient-to-t w-screen">
-                <Image src={Logo} height={110} width={100}/>    
+                <Image src={Logo} height={100} width={90}/>    
             </div>
             
             <div className="">
