@@ -22,7 +22,7 @@ export default function Home() {
   
       </main>
      
-      <footer className="text-center">
+      <footer className="text-cente bg-yellow-50 h-40">
       <div>
           <Footer></Footer>
       </div>
