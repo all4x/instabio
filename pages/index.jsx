@@ -1,4 +1,5 @@
 import Head from 'next/head'
+import Footer from '../components/Footer'
 
 
 
@@ -15,19 +16,17 @@ export default function Home() {
       </Head>
     
      
-      <main className="bg-yellow-50 h-screen">
+      <main className="bg-yellow-50">
       <div className=""><Topbar /></div>
       <div className=""> <Social /></div>
-     
-
-      
-     {/* FAZER SOCIAL RESPONSIVEL -MD E XL */}
-   
-    
-
+  
       </main>
-      <div>{/*Player */}</div>
-
+     
+      <footer className="text-center">
+      <div>
+          <Footer></Footer>
+      </div>
+      </footer>
     </div>
   )
 }
