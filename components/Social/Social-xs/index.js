@@ -1,4 +1,7 @@
 
+import Link from "next/link"
+
+
 
 function Social() {
     return (
@@ -13,7 +16,9 @@ function Social() {
 
                 <div className=" text-4xl bg-opacity-25 bg-white text-black rounded-full p-2">
                 <div  className="text-center">
-                    <a href="https://www.nyldecosmeticos.ga/liftdetox"><button class="bg-yellow-200  hover:bg-gray-700 text-white font-bold py-2 px-4 rounded-full w-80">Lift Detox</button></a>
+                    <Link href="/liftdetox">
+                    <a><button class="bg-yellow-200  hover:bg-gray-700 text-white font-bold py-2 px-4 rounded-full w-80">Lift Detox</button></a>
+                    </Link>
             </div>
                 </div>
 
