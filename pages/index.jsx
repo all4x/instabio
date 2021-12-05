@@ -15,9 +15,9 @@ export default function Home() {
       </Head>
     
      
-      <main className="">
+      <main className="bg-yellow-50 h-screen">
       <div className=""><Topbar /></div>
-      <div className="bg-yellow-50"> <Social /></div>
+      <div className=""> <Social /></div>
      
 
       
