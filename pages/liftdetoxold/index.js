@@ -3,8 +3,8 @@ import Image from 'next/image'
 
 
 
-import Detox from '../public/detox.png'
-import Botao from './botao'
+import Detox from './detox.png'
+import Botao from '../botao'
 import Check from '/public/check.svg'
 import Peso1 from '/public/bn1.png'
 import Peso2 from '/public/bn2.png'
@@ -52,7 +52,7 @@ import Depois3 from '/public/dp-3.png'
 
 
 
-import Negativa from '../src/components/Negativa'
+import Negativa from '../../src/components/Negativa'
 import Head from 'next/head'
 
 
