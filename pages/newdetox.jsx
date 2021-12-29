@@ -1,5 +1,4 @@
 import Head from 'next/head'
-import Newdetox from './newdetox.png'
 import Image from 'next/image'
 
 export default function Home() {
@@ -14,9 +13,7 @@ export default function Home() {
         <div className='m-3 flex flex-col items-center justify-center min-h-screen text-3xl font-light animate-pulse text-center'>
         <h1>Direcionando para a página solicitada.</h1>
         </div>
-        <div className=''> 
-          <Image src={Newdetox} width={80} height={60}/>
-          </div>
+       
         </div>
     )
 }
