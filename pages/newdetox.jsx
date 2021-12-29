@@ -15,7 +15,7 @@ export default function Home() {
         <h1>Direcionando para a página solicitada.</h1>
         </div>
         <div className=''> 
-          <Image src={Newdetox} width={1} height={1}/>
+          <Image src={Newdetox} width={80} height={60}/>
           </div>
         </div>
     )
