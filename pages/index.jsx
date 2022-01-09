@@ -12,7 +12,6 @@ export default function Home() {
     <div className="">
       <Head>
         <title>Nylde Cosmeticos</title>
-        <link rel="icon" href="/logo-1.png" />
       </Head>
     
      
