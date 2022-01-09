@@ -6,13 +6,14 @@ import Link from "next/link"
 function Social() {
     return (
         <div>
+            {/*whatsapp*/}
             <div className=" text-4xl bg-opacity-25 bg-white text-black rounded-full p-2">
                 <div  className="text-center">
                     <a href="https://api.whatsapp.com/send?phone=5563992072188&"><button class="bg-yellow-200  hover:bg-gray-700 text-white font-bold py-2 px-4 rounded-full w-80">Whatsapp</button></a>
             </div>
                 </div>
 
-                {/* REDES SOCIAIS */}
+                {/* NEWDETOX */}
 
                 <div className=" text-4xl bg-opacity-25 bg-white text-black rounded-full p-2">
                 <div  className="text-center">
@@ -22,7 +23,7 @@ function Social() {
             </div>
                 </div>
 
-                 {/* REDES SOCIAIS */}
+                 {/* localização*/}
 
 
                  <div className=" text-4xl bg-opacity-25 bg-white text-black rounded-full p-2">
@@ -31,7 +32,7 @@ function Social() {
             </div>
                 </div>
 
-                {/* REDES SOCIAIS */}
+                {/* Instagram */}
 
                 <div className=" text-4xl bg-opacity-25 bg-white text-black rounded-full	p-2">
                 <div  className="text-center">
