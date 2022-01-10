@@ -6,7 +6,7 @@ function index() {
         <div className="xl:hidden">
           <Head>
           <meta name="title" content="Nylde Cosmeticos | Magnolia"/>
-         
+          <link rel="icon" href="/detox.png" />
           <meta name="description" content="New Detox possui fórmula 100% natural que contém ingredientes potentes capazes de agilizar o processo de emagrecimento, sem precisar sair de casa para academia"/>
           </Head>
                   <div class="bg-white">
