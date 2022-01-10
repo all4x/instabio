@@ -9,19 +9,21 @@ import Topbar from '../components/Topbar'
 
 export default function Home() {
   return (
-    <div className="">
+    <div className="" >
       <Head>
         <title>Nylde Cosmeticos</title>
+        
       </Head>
-    
+      
+      <div className='bg-yellow-50'>
+          <main  className="">
+            <div className=""><Topbar /></div>
+            <div className=""> <Social /></div>
+          </main>
      
-      <main className="bg-yellow-50">
-      <div className=""><Topbar /></div>
-      <div className=""> <Social /></div>
-  
-      </main>
-     
-      <footer className="text-cente bg-yellow-50 h-40">
+      
+      </div>
+      <footer className="text-cente h-40 bg-yellow-50">
       <div>
           <Footer></Footer>
       </div>
