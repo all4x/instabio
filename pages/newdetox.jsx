@@ -6,7 +6,7 @@ export default function Home() {
         <div>
         <Head>
           <meta name="title" content="Nylde Cosmeticos | New Detox"/>
-          <link rel="icon" href="/newdetox.png" />
+          <link rel="icon" href="/detox.png" />
           <meta name="description" content="New Detox possui fórmula 100% natural que contém ingredientes potentes capazes de agilizar o processo de emagrecimento, sem precisar sair de casa para academia"/>
           <meta http-equiv="refresh" content="0;https://app.monetizze.com.br/r/AFN18833790?src=PaginaDeVendasLouja" />
         </Head> 
