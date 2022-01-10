@@ -14,7 +14,7 @@ function index() {
           </Head>
                   <div class="bg-white">
         <div>
-            <div class="bg-purple-400 font-bold py-4 shadow-lg text-white flex justify-center">
+            <div class="bg-purple-400 font-bold py-6 shadow-lg text-white flex justify-center">
                 <h1 class="text-2xl text-center">⚡️ CORRE PARA APROVEITAR!⚡️ </h1>
             </div>
             <div class="text-center my-7">
