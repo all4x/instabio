@@ -23,7 +23,7 @@ export default function Home() {
      
       
       </div>
-      <footer className="text-cente  bg-yellow-50 ">
+      <footer className="text-center bg-yellow-50 h-screen">
       <div>
           <Footer></Footer>
       </div>
