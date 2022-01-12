@@ -15,7 +15,7 @@ function index() {
                   <div class="bg-white">
         <div>
             <div class="bg-purple-400 font-bold py-6 shadow-lg text-white flex justify-center">
-                <h1 class="text-2xl text-center">⚡️ CORRE PARA APROVEITAR!⚡️ </h1>
+                <h1 class="text-xl text-center">⚡️ CORRE PARA APROVEITAR!⚡️ </h1>
             </div>
             <div class="text-center my-7">
             </div>
@@ -32,8 +32,8 @@ function index() {
            
             {/* Button */}
             <a href='https://app.monetizze.com.br/r/AFN18833790?src=magnolia'>
-            <div class="mb-4 mx-4">
-                <button type="button" class='flex max-w-sm w-full bg-gradient-to-r from-indigo-500 via-pink-500 to-yellow-500 hover:from-indigo-600 hover:via-pink-600 hover:to-red-600 focus:outline-none text-white text-2xl uppercase font-bold shadow-md rounded-lg mx-auto p-5'>
+            <div class="mb-3 mx-3">
+                <button type="button" class='flex max-w-sm w-full bg-gradient-to-r from-indigo-500 via-pink-500 to-yellow-500 hover:from-indigo-600 hover:via-pink-600 hover:to-red-600 focus:outline-none text-white text-2xl uppercase font-bold shadow-md rounded-lg mx-auto p-4'>
                     <div class="flex sm:flex-cols-12 gap-6">
                         <div class="col-span-1">
                             <svg xmlns="http://www.w3.org/2000/svg" class="h-12 w-12" fill="none" viewBox="0 0 24 24" stroke="currentColor">
