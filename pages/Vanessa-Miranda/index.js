@@ -8,7 +8,7 @@ function index() {
 
         <div className="xl:hidden">
           <Head>
-          <meta name="title" content="Nylde Cosmeticos | Jussara Pereira"/>
+          <meta name="title" content="Nylde Cosmeticos | Vanessa Miranda"/>
           <link rel="icon" href="/detox.png" />
           <meta name="description" content="New Detox possui fórmula 100% natural que contém ingredientes potentes capazes de agilizar o processo de emagrecimento, sem precisar sair de casa para academia"/>
           </Head>
