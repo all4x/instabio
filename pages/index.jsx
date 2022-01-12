@@ -15,15 +15,15 @@ export default function Home() {
         
       </Head>
       
-      <div className='bg-yellow-50'>
-          <main  className="">
+      <div>
+          <main  className=" bg-yellow-50">
             <div className=""><Topbar /></div>
             <div className=""> <Social /></div>
           </main>
      
       
       </div>
-      <footer className="text-cente h-40 bg-yellow-50">
+      <footer className="text-cente  bg-yellow-50 ">
       <div>
           <Footer></Footer>
       </div>
