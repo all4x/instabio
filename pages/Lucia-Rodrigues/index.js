@@ -31,7 +31,7 @@ function index() {
             </div>
            
             {/* Button */}
-            <a href='https://app.monetizze.com.br/r/AFN18833790?src=vanessa-Lucia-Rodrigues'>
+            <a href='https://app.monetizze.com.br/r/AFN18833790?src=Lucia-Rodrigues'>
             <div class="mb-3 mx-3">
                 <button type="button" class='flex max-w-sm w-full bg-gradient-to-r from-indigo-500 via-pink-500 to-yellow-500 hover:from-indigo-600 hover:via-pink-600 hover:to-red-600 focus:outline-none text-white text-2xl uppercase font-bold shadow-md rounded-lg mx-auto p-4'>
                     <div class="flex sm:flex-cols-12 gap-6">
