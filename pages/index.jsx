@@ -12,7 +12,7 @@ export default function Home() {
     <div className="" >
       <Head>
         <title>Nylde Cosmeticos</title>
-        
+        <meta name="google-site-verification" content="LiM8wfP2SNFWeQgP0f4uRvW0tKH6tmAerR0W5Me3Rmw" />
       </Head>
       
       <div>
