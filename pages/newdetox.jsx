@@ -1,5 +1,5 @@
 import Head from 'next/head'
-import Image from 'next/image'
+
 
 export default function Home() {
     return(
@@ -7,14 +7,15 @@ export default function Home() {
         <Head>
           <meta name="title" content="Nylde Cosmeticos | New Detox"/>
           <link rel="icon" href="/detox.png" />
+          <meta http-equiv="refresh" content="0;https://app.monetizze.com.br/r/AFN18833790?src=PaginaDeVendasLouja" />
           <meta name="description" content="New Detox possui fórmula 100% natural que contém ingredientes potentes capazes de agilizar o processo de emagrecimento, sem precisar sair de casa para academia"/>
         </Head> 
         <div className='m-3 flex flex-col items-center justify-center min-h-screen text-3xl font-light text-center'>
         <h1 className='font-bold text-gray-500'>Tudo certo!</h1>
-        <h2 className='text-xl'>Clique em continuar para ser direcionado para a página solicitada.</h2>
+        <h2 className='text-xl'>Fique nesta pagina para ser direcionado para a página solicitada.</h2>
         <div>
            
-        {/* Button */}
+        {/* Button
             <div class="mt-4">
             <a href='https://app.monetizze.com.br/r/AFN18833790?src=PaginaDeVendasLouja'>
                 <button type="button" class='flex max-w-sm w-full bg-gradient-to-r from-green-500 to-blue-500 hover:from-green-600 hover:to-blue-600 focus:outline-none text-white text-3xl uppercase font-bold shadow-md mx-auto p-5'>
@@ -36,7 +37,7 @@ export default function Home() {
         <div>
             <h2 class="text-2xl mb-4 text-gray-700 font-bold"></h2>
             <hr class="bg-gray-500 w-full h-0.25 mb-5"/>
-        {/* Button */}
+        */}
         
         </div>
         </div>
