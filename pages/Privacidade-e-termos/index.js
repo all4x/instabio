@@ -3,7 +3,7 @@ import Topbar from "../../components/Topbar"
 function PrivacidadeTermos() {
     return (
         <div>
-            <div className="bg-indigo-300">
+            <div className="">
                 <Topbar/>
             </div>
             

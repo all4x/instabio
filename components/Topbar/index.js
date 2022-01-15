@@ -1,21 +1,17 @@
-
 import Image from 'next/image'
-import Logo from '/public/logo1.png'
+import Logo2 from '/public/logo2.png'
 
 
 
 function Topbar() {
     return (
-        <div className="flex justify-between p-5  ">
-            <div className="flex justify-between bg-gradient-to-t w-screen">
-                <Image src={Logo} height={100} width={90}/>    
+        <div className="mb-5 xl:flex xl:py-2 sm:px-3 md:flex  justify-between bg-white p-2 rounded-b-xl border-gray-300 shadow-lg">
+            <div className="flex justify-between  ">
+                <Image src={Logo2}  class=" cursor-pointer"/>    
             </div>
             
-            <div className="">
-                <div className="text-2xl font-bold text-gray-700">
-                    <h1>NyldeCosmeticos</h1>
-                </div>
-                    <p className="text-center text-base font-sans text-gray-500 xl:text-left ">A beleza e saúde do seu cabelo falam muito sobre você</p>     
+            <div className="flex px-4 items-center">
+                    <p className="text-center xl:text-2xl sm:text-base font-medium text-gray-900  ">A beleza e saúde do seu cabelo falam muito sobre você</p>     
             </div>
             
         </div>
@@ -23,4 +19,3 @@ function Topbar() {
 }
 
 export default Topbar
-
