@@ -63,7 +63,21 @@ function nugget() {
           </div>
           {/*Botão de baixar cronograma*/}
           <div className='text-center mt-5'>
-           <a href="https://api.whatsapp.com/send?phone=5563992072188&text=Ola%2C%20gostaria%20de%20baixar%20meu%20cronograma%20capilar%20%F0%9F%A5%B0%20"><button class="p-2 pl-16 pr-16 bg-yellow-500 text-gray-100 text-lg rounded-lg focus:border-4 border-green-300">Download</button></a>
+           
+           <a onClick={
+             function gtag_report_conversion(url) {
+               var callback = function () {
+                 if (typeof(url) != 'undefined') {
+                   window.location = url;
+                 }
+               };
+               gtag('event', 'conversion', {
+                   'send_to': 'AW-447631009/W55KCLWY25IDEKGdudUB',
+                   'event_callback': callback
+               });
+               return false;
+             }              
+           } href="https://api.whatsapp.com/send?phone=5563992072188&text=Ola%2C%20gostaria%20de%20baixar%20meu%20cronograma%20capilar%20%F0%9F%A5%B0%20"><button class="p-2 pl-16 pr-16 bg-yellow-500 text-gray-100 text-lg rounded-lg focus:border-4 border-green-300">Download</button></a>
            </div>
 
           <div className='text-left text-2xl ml-6 mt-6'>
