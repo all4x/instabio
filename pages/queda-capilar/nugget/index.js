@@ -59,7 +59,8 @@ function nugget() {
               <h1>Tudo bem? me chamo Erenilde e sou formada em <strong>Terapia Capilar</strong>  pela ABT|Intimus Cosméticos em <strong> Araguaína-To  </strong> </h1>
               <h1 className='text-center text-3xl font-extrabold pt-10'>Queda de cabelo em excesso</h1>
               <p className='px-5 py-2 text-xl text-left text-gray-900'>Atualmente, cerca de 30% dos homens e 10% das mulheres apresentam algum grau de alopecia durante a vida, podendo ser desencadeado por fatores genéticos, química, estresse e até mesmo lavagem incorreta da região.</p>
-              <h2>Pensando nisso, fiz um <strong>cronograma gratuito</strong>  para deixar seu cabelo mais saudável, voçê pode esta baixando direto pelo whatsapp no botão abaixo </h2>
+              <hr className='m-4'></hr>
+              <h2 className='mt-6 text-xl'>Pensando nisso, fiz um <strong>cronograma gratuito</strong>  para deixar seu cabelo mais saudável, voçê pode esta baixando direto pelo whatsapp no botão abaixo </h2>
           </div>
           {/*Botão de baixar cronograma*/}
           <div className='text-center mt-5'>
