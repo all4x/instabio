@@ -56,7 +56,7 @@ function nugget() {
           </div>
           {/*Descrição*/}
           <div className='text-center font-normal text-xl mt-12 px-2'>
-              <h1>Tudo bem? me chamo Erenilde e sou formada em <strong>Terapia Capilar</strong>  pela ABT|intimus cosméticos em <strong> Araguaína-To  </strong> </h1>
+              <h1>Tudo bem? me chamo Erenilde e sou formada em <strong>Terapia Capilar</strong>  pela ABT|Intimus Cosméticos em <strong> Araguaína-To  </strong> </h1>
               <h1 className='text-center text-3xl font-extrabold pt-10'>Queda de cabelo em excesso</h1>
               <p className='px-5 py-2 text-xl text-left text-gray-900'>Atualmente, cerca de 30% dos homens e 10% das mulheres apresentam algum grau de alopecia durante a vida, podendo ser desencadeado por fatores genéticos, química, estresse e até mesmo lavagem incorreta da região.</p>
               <h2>Pensando nisso, fiz um <strong>cronograma gratuito</strong>  para deixar seu cabelo saudável </h2>
