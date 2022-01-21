@@ -9,9 +9,9 @@ export default function Home() {
     return(
         <div>
            <Topbar/>
+           <Nugget/>
            <Hair/>
            <Cta/>
-           <Nugget/>
            <Footer/>
         </div>
     )
