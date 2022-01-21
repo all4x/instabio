@@ -10,7 +10,7 @@ function nugget() {
           <div class="hidden lg:block lg:w-1/12 px-4"></div>
           <div class="w-full lg:w-6/12 px-4">
             <div class="lg:text-right lg:ml-auto">
-              <div class="relative inline-block z-10 pt-11 lg:pt-0">
+              <div class="relative inline-block z-10 pt-2 lg:pt-0">
                 <Image
                   src={Nylde}
                   alt="Erenilde formada em terapia capilar."
