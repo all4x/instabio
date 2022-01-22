@@ -8,7 +8,7 @@ function cta() {
 
       <h1 className=' text-center text-2xl font-black animate-pulse p-4'>Peça o seu! direto no Whatsapp👇</h1>
       {/*whatsapp*/}
-      <div className=" text-4xl bg-opacity-25 bg-white text-black rounded-full p-2">
+      <div className=" text-4xl bg-opacity-25  text-black rounded-full p-2">
         
                 <div  className="text-center">
                     <a onClick={

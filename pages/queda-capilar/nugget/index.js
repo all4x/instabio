@@ -55,15 +55,16 @@ function nugget() {
             </div>
           </div>
           {/*Descrição*/}
-          <div className='text-center font-normal text-xl mt-12 px-2'>
+          <div className='text-center font-normal text-2xl mt-12 p-5'>
               <h1>Tudo bem? me chamo Erenilde e sou formada em <strong>Terapia Capilar</strong>  pela ABT|Intimus Cosméticos em <strong> Araguaína-To  </strong> </h1>
+              
+              
+              <div className='bg-gray-50 rounded-xl mt-3 mb-5'>
               <h1 className='text-center text-3xl font-extrabold pt-10'>Queda de cabelo em excesso</h1>
               <p className='px-5 py-2 text-xl text-left text-gray-900'>Atualmente, cerca de 30% dos homens e 10% das mulheres apresentam algum grau de alopecia durante a vida, podendo ser desencadeado por fatores genéticos, química, estresse e até mesmo lavagem incorreta da região.</p>
-              <hr className='m-4'></hr>
-              <h2 className='mt-6 text-xl'>Pensando nisso, fiz um <strong>cronograma gratuito</strong>  para deixar seu cabelo mais saudável, voçê pode esta baixando direto pelo whatsapp no botão abaixo </h2>
-          </div>
-          {/*Botão de baixar cronograma*/}
-          <div className='text-center mt-5'>
+              
+              <h2 className='mt-6 text-xl'>Pensando nisso, fiz um <strong>cronograma gratuito</strong> para deixar seu cabelo mais saudável, voçê pode esta baixando direto pelo whatsapp no botão abaixo </h2>
+              <div className='text-center mt-5 p-4'>
            
            <a onClick={
              function gtag_report_conversion(url) {
@@ -80,8 +81,14 @@ function nugget() {
              }              
            } href="https://api.whatsapp.com/send?phone=5563992072188&text=Ola%2C%20gostaria%20de%20baixar%20meu%20cronograma%20capilar%20%F0%9F%A5%B0%20"><button class="p-2 pl-16 pr-16 bg-yellow-500 text-gray-100 text-lg rounded-lg focus:border-4 border-green-300">Download</button></a>
            </div>
+              </div>
+              
+          
+          </div>
+          {/*Botão de baixar cronograma*/}
+        
 
-          <div className='text-left text-2xl ml-6 mt-6'>
+          <div className='text-left text-2xl ml-6 mt-6 mb-10'>
             <p>Digamos que mesmo assim seu cabelo continua caindo, </p>
             <p>nesse caso o recomendado é agendar uma consulta com um especialista em terapia capilar.</p>
             <p>Mas na maioria dos casos o uso de uma vitamina pode resolver seu problema.</p>
