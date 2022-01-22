@@ -28,7 +28,7 @@ function cta() {
             </div>
                 </div>
 
-                <p className='text-center text-gray-600 mb-5 mx-6'>frete gratis para toda Araguaína em até 1 dia útil</p>
+                <p className='text-center text-gray-600  mx-6'>frete gratis para toda Araguaína em até 1 dia útil</p>
   </div>;
 }
 
