@@ -2,7 +2,7 @@
 import React from 'react';
 import Head from 'next/head';
 import Script from 'next/script' 
-import event from '/lib/gtag'
+import { event } from '/lib/gtag'
 
 function index() {
   return (
