@@ -3,7 +3,6 @@
 
 import React from 'react';
 import Head from 'next/head';
-import Lead from './Lead'
 import Script from 'next/script';
 
 function cta() {

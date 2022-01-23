@@ -2,14 +2,12 @@
 import React from 'react';
 import Head from 'next/head';
 
-import Lead from '../lead/'
 
 
 function index() {
   return (
         <div>
             <Head>
-            <Lead/>
             <meta name="title" content="Nylde Cosmeticos | Whatsapp"/>     
             <meta http-equiv="refresh" content="2;https://api.whatsapp.com/send?phone=5563992072188&text=Ola%2C%20gostaria%20de%20realizar%20a%20compra%20do%20meu%20NEW%20HAIR!" />
             </Head> 
