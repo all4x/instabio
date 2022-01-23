@@ -12,9 +12,7 @@ function index() {
             <meta http-equiv="refresh" content="0;https://api.whatsapp.com/send?phone=5563992072188&text=Ola%2C%20gostaria%20de%20realizar%20a%20compra%20do%20meu%20NEW%20HAIR!" />
             <Script>
               {
-                  <Script>
-              gtag('event', 'conversion', {'send_to': 'AW-447631009/V2jUCP7T75IDEKGdudUB'});
-                  </Script>
+              gtag('event', 'conversion', {'send_to': 'AW-447631009/V2jUCP7T75IDEKGdudUB'})                
               }    
             </Script>
             </Head> 
