@@ -10,7 +10,7 @@ export default function Home() {
     return(
         <div>
            <Topbar/>
-           <div className='bg-gray-200 xl:mx-28 xl:px-24'>
+           <div className='bg-gray-50 xl:mx-28 xl:px-24'>
                 <Nugget/>
                 <Hair/>
                 <Cta/>
