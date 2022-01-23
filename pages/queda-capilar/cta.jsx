@@ -1,15 +1,14 @@
 
 
 
-import React from 'react';
 import Head from 'next/head';
 import Link from 'next/link'
+import { event } from '/lib/gtag'
 
 
 function cta() {
   return <div>
       <Head>
-      
       </Head>
       <h1 className=' text-center text-2xl font-black animate-pulse p-4'>Peça o seu! direto no Whatsapp👇</h1>
       {/*whatsapp*/}
@@ -17,7 +16,20 @@ function cta() {
         
                 <div  className="text-center">
                   
-                  <Link href="https://www.nyldecosmeticos.com.br/queda-capilar/whatsapp/button-1" >
+                  <Link href="https://www.nyldecosmeticos.com.br/queda-capilar/whatsapp/button-1" onClick={
+                 function gtag_report_conversion(url) {
+                  var callback = function () {
+                    if (typeof(url) != 'undefined') {
+                      window.location = url;
+                    }
+                  };
+                  gtag('event', 'conversion', {
+                      'send_to': 'AW-447631009/V2jUCP7T75IDEKGdudUB',
+                      'event_callback': callback
+                  });
+                  return false;
+                  }
+                  } >
                   
                   <button class="p-2 pl-16 pr-16 bg-green-500 text-gray-100 text-lg rounded-lg focus:border-4 border-green-300">Whatsapp</button>
                   </Link>
