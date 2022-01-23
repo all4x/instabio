@@ -3,6 +3,7 @@
 
 import React from 'react';
 import Head from 'next/head';
+import Link from 'next/link'
 import Script from 'next/script';
 
 function cta() {
@@ -34,14 +35,14 @@ function cta() {
         
                 <div  className="text-center">
                   
-                  <a href="https://www.nyldecosmeticos.com.br/queda-capilar/whatsapp/button-1" onClick={
+                  <Link href="https://www.nyldecosmeticos.com.br/queda-capilar/whatsapp/button-1" onClick={
                    function gtag_report_conversion(url) {
                      gtag_report_conversion(url)
                    }
                   }>
                   
                   <button class="p-2 pl-16 pr-16 bg-green-500 text-gray-100 text-lg rounded-lg focus:border-4 border-green-300">Whatsapp</button>
-                  </a>
+                  </Link>
                   
             </div>
                 </div>
