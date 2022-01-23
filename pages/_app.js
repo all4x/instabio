@@ -3,8 +3,8 @@ import 'tailwindcss/tailwind.css'
 import { useEffect } from 'react'
 import { useRouter } from 'next/router'
 
-import * as gtag from 'lib/gtag'
-import Analytics from 'components/Analytics'
+import * as gtag from '/lib/gtag'
+import Analytics from '/components/Analytics'
 
 
 
