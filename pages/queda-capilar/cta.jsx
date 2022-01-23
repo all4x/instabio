@@ -12,9 +12,7 @@ function cta() {
         
                 <div  className="text-center">
                     <a onClick={
-                      
                      function gtag_report_conversion(url) {
-                      var url = 'https://api.whatsapp.com/send?phone=5563992072188&text=Ola%2C%20gostaria%20de%20realizar%20a%20compra%20do%20meu%20NEW%20HAIR!'
                       var callback = function () {
                         if (typeof(url) != 'undefined') {
                           window.location = url;
@@ -26,7 +24,7 @@ function cta() {
                       });
                       return false;
                     }
-                    } href=""><button class="p-2 pl-16 pr-16 bg-green-500 text-gray-100 text-lg rounded-lg focus:border-4 border-green-300">Whatsapp</button></a>
+                    } href="https://api.whatsapp.com/send?phone=5563992072188&text=Ola%2C%20gostaria%20de%20realizar%20a%20compra%20do%20meu%20NEW%20HAIR!"><button class="p-2 pl-16 pr-16 bg-green-500 text-gray-100 text-lg rounded-lg focus:border-4 border-green-300">Whatsapp</button></a>
             </div>
                 </div>
 
