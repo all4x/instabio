@@ -18,14 +18,11 @@ function cta() {
                     }
                   };
                   gtag('event', 'conversion', {
-                      'send_to': 'AW-447631009/X5S5CLvg9pIDEKGdudUB',
-                      'value': 1.0,
-                      'currency': 'BRL',
+                      'send_to': 'AW-447631009/V2jUCP7T75IDEKGdudUB',
                       'event_callback': callback
                   });
                   return false;
-                }
-               
+                }  
                 }
         </Script>
       </Head>
