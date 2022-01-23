@@ -32,11 +32,18 @@ function cta() {
         
                 <div  className="text-center">
                   
-                  <Link href="https://www.nyldecosmeticos.com.br/queda-capilar/whatsapp/button-1" onClick={
-                   function gtag_report_conversion(url) {
-                     gtag_report_conversion(url)
-                   }
-                  }>
+                  <Link href="https://www.nyldecosmeticos.com.br/queda-capilar/whatsapp/button-1" onClick={function gtag_report_conversion(url) {
+                  var callback = function () {
+                    if (typeof(url) != 'undefined') {
+                      window.location = url;
+                    }
+                  };
+                  gtag('event', 'conversion', {
+                      'send_to': 'AW-447631009/V2jUCP7T75IDEKGdudUB',
+                      'event_callback': callback
+                  });
+                  return false;
+                }}>
                   
                   <button class="p-2 pl-16 pr-16 bg-green-500 text-gray-100 text-lg rounded-lg focus:border-4 border-green-300">Whatsapp</button>
                   </Link>
