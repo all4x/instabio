@@ -12,7 +12,7 @@ function cta() {
       <div className=" text-4xl bg-opacity-25  text-black rounded-full p-2">
         
                 <div  className="text-center">
-                  <a href="/queda-capilar/whatsapp/button-1" onClick= {
+                  <a  onClick= {
                     function gtag_report_conversion(url) {
                       var callback = function () {
                         if (typeof(url) != 'undefined') {
@@ -27,7 +27,7 @@ function cta() {
                       });
                       return false;
                     }
-                  }>
+                  } href="https://www.nyldecosmeticos.com.br/queda-capilar/whatsapp/button-1">
                   
                   <button class="p-2 pl-16 pr-16 bg-green-500 text-gray-100 text-lg rounded-lg focus:border-4 border-green-300">Whatsapp</button>
                   </a>
