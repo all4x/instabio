@@ -4,6 +4,7 @@ import Cta from './cta.js'
 
 import Nugget from './nugget/index.js'
 import Redes from '/components/Redes'
+import About from './about/index.js'
 
 
 export default function Home() {
@@ -14,6 +15,9 @@ export default function Home() {
                 <Nugget/>
                 <Hair/>
                 <Cta/>
+                <About/>
+                
+                
                 
            </div>
            <Redes/>
