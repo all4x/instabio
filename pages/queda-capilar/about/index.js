@@ -5,9 +5,9 @@ import React from 'react';
 
 export default function About() {
   return (
-  <div className=''>
+  <div className='m-2'>
       <section>
-            <h1 className='text-center font-extrabold text-3xl m-5 py-5'>Veja as 10 principais causas e o que fazer</h1>
+            <h1 className='text-center font-extrabold text-3xl m-5 py-5'>Veja as 10 principais causas</h1>
             <div className='space-y-9'>
           <div className=''>
                 <h1 className='text-3xl ml-5 mb-2'>1. Alimentação pobre em nutrientes e vitaminas</h1>
