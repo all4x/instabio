@@ -66,7 +66,7 @@ function nugget() {
               <h2 className='mt-6 text-xl'>Pensando nisso, fiz um <strong>cronograma gratuito</strong> para deixar seu cabelo mais saudável, voçê pode esta baixando direto pelo whatsapp no botão abaixo </h2>
               <div className='text-center mt-5 p-4'>
            
-           <a href="https://api.whatsapp.com/send?phone=5563992072188&text=Ola%2C%20gostaria%20de%20baixar%20meu%20cronograma%20capilar%20%F0%9F%A5%B0%20"><button class="p-2 pl-16 pr-16 bg-yellow-500 text-gray-100 text-lg rounded-lg focus:border-4 border-green-300">Download</button></a>
+           <a href="https://www.nyldecosmeticos.com.br/queda-capilar/whatsapp/button-1"><button class="p-2 pl-16 pr-16 bg-yellow-500 text-gray-100 text-lg rounded-lg focus:border-4 border-green-300">Download</button></a>
            </div>
               </div>
               

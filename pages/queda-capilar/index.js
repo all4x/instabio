@@ -9,7 +9,7 @@ import About from './about/index.js'
 
 export default function Home() {
     return(
-        <div>
+        <div className='xl:hidden'>
            <Topbar/>
            <div className='bg-gray-50 xl:mx-28 xl:px-24'>
                 <Nugget/>
