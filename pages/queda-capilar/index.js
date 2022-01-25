@@ -7,7 +7,6 @@ import Redes from '/components/Redes'
 import About from './about/index.js'
 
 
-
 export default function Home() {
     return(
         <div className=''>

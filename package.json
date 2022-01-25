@@ -7,6 +7,7 @@
   },
   "dependencies": {
     "@phntms/next-gtm": "^0.1.0",
+    "@phntms/react-gtm": "^0.1.1",
     "@types/react": "^17.0.38",
     "next": "latest",
     "react": "^17.0.2",
