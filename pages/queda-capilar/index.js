@@ -7,9 +7,10 @@ import Redes from '/components/Redes'
 import About from './about/index.js'
 
 
+
 export default function Home() {
     return(
-        <div className='xl:hidden'>
+        <div className=''>
            <Topbar/>
            <div className='bg-gray-50 xl:mx-28 xl:px-24'>
                 <Nugget/>

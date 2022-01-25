@@ -5,6 +5,9 @@ import Nylde from '/public/nylde.png'
 function nugget() {
   return (
       <div>
+        
+        
+      
      {/* <!-- ====== Hero Section End -->  */}
      
           <div class="hidden lg:block lg:w-1/12 px-4"></div>
