@@ -1,16 +1,7 @@
-import 'tailwindcss/tailwind.css'
-
-
-import * as gtag from '/lib/gtag'
-import Analytics from '/components/Analytics'
-
 import { useEffect } from 'react'
 import Script from 'next/script'
 import { useRouter } from 'next/router'
 import { GTM_ID, pageview } from '../lib/gtm'
-
-
-// OTHER CODE
 
 function MyApp({ Component, pageProps }) {
   const router = useRouter()
@@ -21,23 +12,8 @@ function MyApp({ Component, pageProps }) {
     }
   }, [router.events])
 
-  useEffect(() => {
-    const handleRouteChange = url => {
-      gtag.pageview(url)
-    }
-    router.events.on('routeChangeComplete', handleRouteChange)
-    return () => {
-      router.events.off('routeChangeComplete', handleRouteChange)
-    }
-  }, [router.events])
-
   return (
     <>
-      {/* ANYLITIC */}
-      <Component {...pageProps} />
-      <Analytics />
-
-
       {/* Google Tag Manager - Global base code */}
       <Script
         strategy="afterInteractive"
@@ -51,11 +27,9 @@ function MyApp({ Component, pageProps }) {
           `,
         }}
       />
-      
+      <Component {...pageProps} />
     </>
   )
 }
 
-
 export default MyApp
-
