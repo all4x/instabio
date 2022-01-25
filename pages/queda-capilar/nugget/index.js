@@ -11,7 +11,7 @@ function nugget() {
       <div>
         
         <Head>
-        <TrackingHeadScript />
+        <TrackingHeadScript id={GA_TRACKING_ID} />
         </Head>
       
      {/* <!-- ====== Hero Section End -->  */}
