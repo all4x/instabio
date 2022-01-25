@@ -6,10 +6,12 @@ import Nugget from './nugget/index.js'
 import Redes from '/components/Redes'
 import About from './about/index.js'
 
+import TrackingHeadScript from '/components/TrackingHeadScript.tsx'
 
 export default function Home() {
     return(
         <div className=''>
+             <TrackingHeadScript/>
            <Topbar/>
            <div className='bg-gray-50 xl:mx-28 xl:px-24'>
                 <Nugget/>
