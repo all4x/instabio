@@ -2,6 +2,9 @@ import Image from 'next/image'
 import Newhair from '/public/newhair.jpg'
 import Link from 'next/link'
 import React from 'react';
+import Cta from '../cta';
+
+
 
 export default function About() {
   return (
@@ -44,6 +47,11 @@ export default function About() {
                 </p>
           </div>
 
+          <div>
+            <Image src={Newhair}/>
+            <Cta/>
+          </div>
+          
           <div className=''>
                 <h1 className='text-3xl ml-5 mb-2'>6. Uso de produtos químicos no cabelo </h1>
                 <p className = 'font-sans text-left ml-4 mr-2 text-xl'>
