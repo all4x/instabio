@@ -90,10 +90,12 @@ export default function About() {
             </div>
             <div  className="text-center">
                   
-                  <Link href="https://www.nyldecosmeticos.com.br/queda-capilar/whatsapp/button-1">
+                  <Link href="/queda-capilar/whatsapp/button-2">
                   
                   <button class="p-2 pl-16 pr-16 bg-green-500 text-gray-100 text-lg rounded-lg focus:border-4 border-green-300">Whatsapp</button>
                   </Link>
+                  <p className='text-center'>Por apenas 57,90</p>
+
                   <p className='animate-pulse mb-3 mt-2'>Disponível em Araguaína-To com frete gratis</p>
             </div>
         </div>

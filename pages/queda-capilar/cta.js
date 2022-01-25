@@ -13,7 +13,7 @@ function cta() {
               
       </Head>
       <h1 className=' text-center text-2xl font-black animate-pulse p-4'>Peça o seu! direto no Whatsapp👇</h1>
-      
+      <p className='text-center'>Por apenas 57,90</p>
       {/* Script button convertion google ads */}
         
 
