@@ -2,11 +2,17 @@
 import Image from 'next/image'
 import Nylde from '/public/nylde.png'
 
+import Head from 'next/head';
+import TrackingHeadScript from '/components/TrackingHeadScript.tsx'
+
+
 function nugget() {
   return (
       <div>
         
-        
+        <Head>
+        <TrackingHeadScript />
+        </Head>
       
      {/* <!-- ====== Hero Section End -->  */}
      
