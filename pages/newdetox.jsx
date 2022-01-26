@@ -3,14 +3,14 @@ import Link from 'next/link'
 
 export default function Home() {
     return(
-        <div className='bg-gray-50'>
+        <div className='bg-gray-50 m-3 p-4 h-screen '>
         <Head>
           <meta name="title" content="Nylde Cosmeticos | New Detox"/>
           <link rel="icon" href="/detox.png" />
           <meta name="description" content="New Detox possui fórmula 100% natural que contém ingredientes potentes capazes de agilizar o processo de emagrecimento, sem precisar sair de casa para academia"/>
         </Head> 
         <div className='m-3 flex flex-col items-center justify-center min-h-screen text-3xl font-light text-center'>
-        <h1 className='font-bold text-gray-500'>Tudo certo!</h1>
+        <h1 className='font-bold text-gray-500 '>Tudo certo!</h1>
         <h2 className='text-xl'>Click em continuar para ser direcionado para a página solicitada.</h2>
         
         
@@ -19,10 +19,10 @@ export default function Home() {
            
            
         
-            <div class="mt-6">
+            <div class="m-2 p-4">
             <Link href="/convertion}">
-                <button type="button" class='flex max-w-sm w-full bg-gradient-to-r from-green-500 to-blue-500 hover:from-green-600 hover:to-blue-600 focus:outline-none text-white text-3xl uppercase font-bold shadow-md mx-auto p-4'>
-                    <div class="flex sm:flex-cols-12 gap-1">
+                <button type="button" class='flex max-w-sm w-full bg-gradient-to-r from-green-500 to-blue-500 hover:from-green-600 hover:to-blue-600 focus:outline-none text-white text-3xl uppercase font-bold shadow-md mx-auto p-3 rounded-2xl'>
+                    <div class="flex sm:flex-cols-12 ">
                         <div class="col-span-1">
                             <svg xmlns="http://www.w3.org/2000/svg" class="h-10 w-10 " fill="none" viewBox="0 0 24 24" stroke="currentColor">
                                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 13l-3 3m0 0l-3-3m3 3V8m0 13a9 9 0 110-18 9 9 0 010 18z" />
