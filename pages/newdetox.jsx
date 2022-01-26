@@ -9,7 +9,7 @@ export default function Home() {
           <link rel="icon" href="/detox.png" />
           <meta name="description" content="New Detox possui fórmula 100% natural que contém ingredientes potentes capazes de agilizar o processo de emagrecimento, sem precisar sair de casa para academia"/>
         </Head> 
-        <div className='m-3 flex flex-col items-center justify-center min-h-screen text-3xl font-light text-center'>
+        <div className='m-3 flex flex-col items-center justify-center h-screen text-3xl font-light text-center'>
         <h1 className='font-bold text-gray-500 '>Tudo certo!</h1>
         <h2 className='text-xl'>Click em continuar para ser direcionado para a página solicitada.</h2>
         
@@ -20,7 +20,7 @@ export default function Home() {
            
         
             <div class="m-2 p-4">
-            <Link href="/convertion}">
+            <Link href="/remarketing">
                 <button type="button" class='flex max-w-sm w-full bg-gradient-to-r from-green-500 to-blue-500 hover:from-green-600 hover:to-blue-600 focus:outline-none text-white text-3xl uppercase font-bold shadow-md mx-auto p-3 rounded-2xl'>
                     <div class="flex sm:flex-cols-12 ">
                         <div class="col-span-1">
