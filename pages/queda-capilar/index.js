@@ -3,7 +3,7 @@ import Hair from './newhair.jsx'
 import Cta from './cta.js'
 
 import Nugget from './nugget/index.js'
-import Redes from '/components/Redes'
+import Redes from '/components/Redes-footer'
 import About from './about/index.js'
 
 

@@ -5,7 +5,7 @@ import Link from "next/link"
 
 function Social() {
     return (
-        <div>
+        <div className="space-y-2 mt-5">
             {/*whatsapp*/}
             <div className=" text-4xl bg-opacity-25 bg-white text-black rounded-full p-2">
                 <div  className="text-center">

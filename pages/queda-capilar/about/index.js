@@ -8,105 +8,72 @@ import Cta from '../cta';
 
 export default function About() {
   return (
-  <div className='m-2'>
+  <div className='m-4'>
+        <div className=''>
+              
       <section>
             <h1 className='text-center font-extrabold text-3xl m-5 py-5'>Veja as 10 principais causas</h1>
             <div className='space-y-9'>
-          <div className=''>
-                <h1 className='text-3xl ml-5 mb-2'>1. Alimentação pobre em nutrientes e vitaminas</h1>
-                <p className='font-sans text-left ml-4 mr-2 text-xl'>
-                    Uma alimentação pobre em nutrientes, vitaminas e minerais, como proteínas, o zinco, o ferro e as vitaminas A e C, pode ser uma causa da do cabelo cair. Isto ocorre porque esses nutrientes ajudam no crescimento e fortalecimento capilar, por isso, uma dieta pobre nestes nutrientes favorece a queda dos cabelos.
-                </p>
+          <div className='space-y-9 py-3'>
+                <h1 className='text-3xl ml-5 mb-2'>1. Estresse, ansiedade e cansaço</h1>
+                <p className='font-sans text-left ml-4 mr-2 text-lg'>Seu estado emocional pode interferir, e muito, na saúde do seu cabelo: momentos de estresse, preocupação, ansiedade e cansaço podem enfraquecer os fios e causar queda além do normal, abrindo espaço até mesmo para doenças no couro cabeludo.</p>
+                <strong className=' ml-4'>A solução:</strong>
+                <p className='font-sans text-left ml-4 mr-2 text-lg'>tente separar momentos relaxantes no seu dia a dia, como criar uma rotina de exercícios que te tranquilizam! Aqui, a gente ensinou como melhorar sua rotina matinal e noturna!</p>
           </div>
 
-          <div className=''>
-                <h1 className='text-3xl ml-5 mb-2'>2. Excesso de estresse e ansiedade</h1>
-                <p className = 'font-sans text-left ml-4 mr-2 text-xl'>
-                O excesso de estresse e ansiedade podem causar um desequilíbrio hormonal do cortisol, um hormônio relacionado ao estresse, que quando está com os níveis aumentados pode provocar a queda excessiva do cabelo, com aumento do número de fios que caem por dia. Isto ocorre devido a uma condição chamada eflúvio telógeno caracterizado pela queda generalizada do cabelo no couro cabeludo e interrupção do crescimento do fio. 
-                </p>
+          <div className='space-y-9 py-3'>
+                <h1 className='text-3xl ml-5 mb-2'>2. Chapinha e secador em excesso</h1>
+                <p className = 'font-sans text-left ml-4 mr-2 text-lg'> O excesso de estresse e ansiedade podem causar um desequilíbrio hormonal do cortisol, um hormônio relacionado ao estresse, que quando está com os níveis aumentados pode provocar a queda excessiva do cabelo, com aumento do número de fios que caem por dia. Isto ocorre devido a uma condição chamada eflúvio telógeno caracterizado pela queda generalizada do cabelo no couro cabeludo e interrupção do crescimento do fio. </p>
+                <strong className=' ml-4'>A solução:</strong>
+                <p className='font-sans text-left ml-4 mr-2 text-lg'> tente deixar o secador e a chapinha só para ocasiões especiais ou quando você precisar secar o cabelo antes de dormir, por exemplo. Também vale aplicar, sempre, um protetor térmico em forma de óleo ou leave-in nas madeixas antes de alisar!</p>
           </div>
 
-          <div className=''>
-                <h1 className='text-3xl ml-5 mb-2'>3. Menopausa ou andropausa</h1>
-                <p className = 'font-sans text-left ml-4 mr-2 text-xl'>
-                A menopausa, que é a interrupção da menstruação por um processo natural de envelhecimento da mulher em que o ovário deixa de produzir estrógeno, ou a andropausa, que é a menopausa masculina em que os testículos diminuem a produção de testosterona, provocam uma alteração hormonal que pode fazer com que o cabelo caia de forma mais frequente.
-                </p>
+          <div className='space-y-9 py-3'>
+                <h1 className='text-3xl ml-5 mb-2'>3. Escovas de alisamento</h1>
+                <p className = 'font-sans text-left ml-4 mr-2 text-lg'>
+                Para quem faz escovas de alisamento e vê os fios caindo além do normal, o motivo pode, sim, ser a química. É que por mais que o cabelo pareça brilhoso, saudável e bonito depois de retocar a progressiva, por dentro, ele vai ficando cada vez mais sem nutrientes e muito mais fino e fraco.</p>
+                <strong className=' ml-4'>A solução:</strong>
+                <p className='font-sans text-left ml-4 mr-2 text-lg'> a dica é fazer um cronograma capilar para devolver os nutrientes ao fio com hidratação, nutrição e reconstrução. Usar shampoos e condicionadores à base de Arginina também pode ser uma boa ideia, porque a substância devolve massa ao interior do fio. </p>
+          
           </div>
 
-          <div className=''>
-                <h1 className='text-3xl ml-5 mb-2'>4. Período pós-parto</h1>
-                <p className = 'font-sans text-left ml-4 mr-2 text-xl'>
-                Durante a gravidez os hormônios estrógeno, progesterona, ocitocina, HCG e prolactina encontram-se elevados, o que deixa o cabelo com um aspecto bonito e brilhante. No entanto, imediatamente após o parto, os níveis hormonais diminuem rapidamente, principalmente de estrógeno e progesterona, voltando aos valores próximos do normal em 24 horas após o nascimento do bebê. Isto pode fazer com que o cabelo fique mais fraco e caia mais.
+          <div className='space-y-9 py-3'>
+                <h1 className='text-3xl ml-5 mb-2'>4. Dormir com o cabelo molhado</h1>
+                <p className = 'font-sans text-left ml-4 mr-2 text-lg'>
+                Durante a gravNão é mito que dormir de cabelo não é o recomendado, ok? É que o cabelo molhado no travesseiro pode abrir espaço para fungos que amam o calorzinho que fica dentro dos fios! idez os hormônios estrógeno, progesterona, ocitocina, HCG e prolactina encontram-se elevados, o que deixa o cabelo com um aspecto bonito e brilhante. No entanto, imediatamente após o parto, os níveis hormonais diminuem rapidamente, principalmente de estrógeno e progesterona, voltando aos valores próximos do normal em 24 horas após o nascimento do bebê. Isto pode fazer com que o cabelo fique mais fraco e caia mais.
                 </p>
+                <strong className=' ml-4'>A solução:</strong>
+                <p className='font-sans text-left ml-4 mr-2 text-lg'> sempre que der, lave os cabelos horas antes de dormir ou pela manhã. Se não conseguir, recorra ao secador para secar as madeixas, mas sempre aplicando o protetor térmico! </p>
           </div>
 
-          <div className=''>
-                <h1 className='text-3xl ml-5 mb-2'>5. Anemia</h1>
-                <p className = 'font-sans text-left ml-4 mr-2 text-xl'>
-                A anemia por carência de ferro pode causar queda excessiva do cabelo, pois o ferro é um mineral essencial para a produção que hemoglobina, uma proteína que carrega oxigênio nas células vermelhas do sangue para todos os tecidos do corpo, inclusive o couro cabeludo, que ao receber menos oxigênio e nutrientes, pode causar enfraquecimento e a queda dos fios
-                </p>
+          <div className='space-y-9 py-3'>
+                <h1 className='text-3xl ml-5 mb-2'>5. Aplicar creme e máscara na raiz do cabelo</h1>
+                <p className = 'font-sans text-left ml-4 mr-2 text-lg'>
+                Tem o hábito de aplicar creme de pentear, óleo e a máscara de hidratação na raiz, bem pertinho do couro cabeludo? Pois saiba que esse também pode ser um dos motivos que levam à queda: é que o acúmulo de produto cobre os folículos, levando à caspa – chamada de dermatite seborreica. A caspa enfraquece os folículos e os fios, facilitando a queda.                 </p>
+                <strong className=' ml-4'>A solução:</strong>
+                <p className='font-sans text-left ml-4 mr-2 text-lg'> a primeira mudança é deixar de aplicar produtos de cabelo na raiz! O certo é aplicar a uns dedinhos de distância, ou seja, só no comprimento e nas pontas. Depois, vale usar um pré-shampoo ou um shampoo anti-resíduo para fazer uma limpeza profunda na raiz dos cabelos.  </p>
           </div>
 
           <div>
-            <Image src={Newhair}/>
-            <Cta/>
+            
           </div>
           
-          <div className=''>
-                <h1 className='text-3xl ml-5 mb-2'>6. Uso de produtos químicos no cabelo </h1>
-                <p className = 'font-sans text-left ml-4 mr-2 text-xl'>
-                O uso de produtos químicos no cabelo como formol, alisantes ou tintura de cabelo podem causar enfraquecimento dos fios que podem se tornar mais secos e quebradiços, principalmente na raiz, além de danos na cutícula do fio, o que pode levar a queda de cabelo.
-                </p>
+          <div className='space-y-9 py-3'>
+                <h1 className='text-3xl ml-5 mb-2'>6. Prender o cabelo molhado </h1>
+                <p className = 'font-sans text-left ml-4 mr-2 text-lg'>
+                Da mesma forma que dormir com o cabelo molhado enfraquece o cabelo, prender os fios úmidos também não faz nada bem, viu? É que a umidade também pode causar fungos e deixar o cabelo mais fraco – sem contar os elásticos e presilhas, que podem quebrar o cabelo mais fácil quando os fios estão molhados.                 </p>
+                <strong className=' ml-4'>A solução:</strong>
+                <p className='font-sans text-left ml-4 mr-2 text-lg'> tente deixar os cabelos secarem antes de prendê-los, ok? Um simples rabo de cavalo já pode enfraquecer os fios! </p>
+
           </div>
 
-          <div className=''>
-                <h1 className='text-3xl ml-5 mb-2'>7. Uso de medicamentos</h1>
-                <p className = 'font-sans text-left ml-4 mr-2 text-xl'>
-                Alguns medicamentos como varfarina, heparina, carbimazol, isotretinoína, acitretina, lítio, betabloqueadores, colchicina, anfetaminas e medicamentos contra o câncer podem favorecer a queda de cabelo.
-                </p>
-          </div>
-
-          <div className=''>
-                <h1 className='text-3xl ml-5 mb-2'>8. Infecção por fungos</h1>
-                <p className = 'font-sans text-left ml-4 mr-2 text-xl'>
-                A infecção do couro cabeludo por fungos, chamada de tinea, tinha ou micose, pode favorecer a queda excessiva dos fios de cabelo, além de causar coceira intensa no couro cabeludo.
-                </p>
-          </div>
-
-          <div className=''>
-                <h1 className='text-3xl ml-5 mb-2'>9. Hipotireoidismo</h1>
-                <p className = 'font-sans text-left ml-4 mr-2 text-xl'>
-                O hipotireoidismo é um desequilíbrio dos hormônios produzidos pela tireóide que encontram-se diminuídos, principalmente T3 e T4, que são essenciais para o funcionamento de todas as células do corpo, e que pode deixar os cabelos mais finos, secos e sem brilho, causando a queda.
-                </p>
-          </div>
-
-          <div className=''>
-                <h1 className='text-3xl ml-5 mb-2'>10. Alopécia areata</h1>
-                <p className = 'font-sans text-left ml-4 mr-2 text-xl'>
-                A alopécia areata é uma condição causada por fatores genéticos ou doenças autoimunes como vitiligo ou lúpus, que fazem com que o cabelo caia de forma rápida na cabeça, e/ou em outras regiões do corpo que tenham pêlos, como sobrancelha, barba, pernas e braços.
-                </p>
-          </div>
+       
           </div>
       </section>
 
+         
+      </div>
 
-      {/* NEW CALL */}
-     
-      <div className='  md:flex justify-between'>
-            <div className='px-10 py-5 flex justify-center items-center '>
-                <Image src={Newhair}/>
-            </div>
-            <div  className="text-center">
-                  
-                  <Link href="/queda-capilar/whatsapp/button-2">
-                  
-                  <button class="p-2 pl-16 pr-16 bg-green-500 text-gray-100 text-lg rounded-lg focus:border-4 border-green-300">Whatsapp</button>
-                  </Link>
-                  <p className='text-center'>Por apenas 57,90</p>
-
-                  <p className='animate-pulse mb-3 mt-2'>Disponível em Araguaína-To com frete gratis</p>
-            </div>
-        </div>
   </div>
 
   )}
