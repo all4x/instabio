@@ -1,5 +1,5 @@
 
-import Pixel from './src/Pixel'
+import Pixel from '../src/Pixel'
 import Head from 'next/head';
 import React from 'react';
 
