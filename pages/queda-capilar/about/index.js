@@ -79,7 +79,7 @@ export default function About() {
       <h2 className='mt-6 text-xl'> <strong>cronograma gratuito,</strong> para deixar seu cabelo mais saudável, voçê pode esta baixando direto pelo whatsapp no botão abaixo </h2>
 
       <div className='flex justify-center pt-5'>
-                        <Link href="../whatsapp/button-1">  
+                        <Link href="/queda/whatsapp/button-1">  
                         <button class="p-2 pl-16 pr-16 bg-yellow-500 text-gray-100 text-lg rounded-lg focus:border-4 border-green-300">Eu quero!</button>
                         </Link>
                         </div> 
@@ -103,7 +103,7 @@ export default function About() {
       <h1 className=' text-center text-3xl font-black animate-pulse p-4'>Peça o seu!👇</h1>
       <p className='text-center '>Por apenas R$57,90</p>
       <div className='text-center mt-5 p-4'>
-      <Link href="../whatsapp/button-1">
+      <Link href="/queda/whatsapp/button-2">
           <button  className="p-2 pl-16 pr-16 bg-green-500 text-gray-100 text-lg rounded-lg focus:border-4 border-green-300">Whatsapp</button>
           </Link>
       </div> 
