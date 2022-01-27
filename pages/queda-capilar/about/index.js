@@ -40,7 +40,7 @@ export default function About() {
           <div className='space-y-9 py-3'>
                 <h1 className='text-3xl ml-5 mb-2'>4. Dormir com o cabelo molhado</h1>
                 <p className = 'font-sans text-left ml-4 mr-2 text-lg'>
-                Durante a gravNão é mito que dormir de cabelo não é o recomendado, ok? É que o cabelo molhado no travesseiro pode abrir espaço para fungos que amam o calorzinho que fica dentro dos fios! idez os hormônios estrógeno, progesterona, ocitocina, HCG e prolactina encontram-se elevados, o que deixa o cabelo com um aspecto bonito e brilhante. No entanto, imediatamente após o parto, os níveis hormonais diminuem rapidamente, principalmente de estrógeno e progesterona, voltando aos valores próximos do normal em 24 horas após o nascimento do bebê. Isto pode fazer com que o cabelo fique mais fraco e caia mais.
+                Não é mito que dormir de cabelo não é o recomendado, ok? É que o cabelo molhado no travesseiro pode abrir espaço para fungos que amam o calorzinho que fica dentro dos fios! 
                 </p>
                 <strong className=' ml-4'>A solução:</strong>
                 <p className='font-sans text-left ml-4 mr-2 text-lg'> sempre que der, lave os cabelos horas antes de dormir ou pela manhã. Se não conseguir, recorra ao secador para secar as madeixas, mas sempre aplicando o protetor térmico! </p>
@@ -73,7 +73,7 @@ export default function About() {
       {/* CHAMADA PRA AÇÃO CRONOGRAMA */}
       <div className='bg-yellow-300 m-4 p-4 shadow-2xl rounded-lg'>
       <p className='font-bold text-left ml-4 mr-2 text-2xl'> Dica extra:</p>
-      <h1 className='text-center text-2xl mt-5 font-mono'>Siga um cronograma capilar</h1> 
+      <h1 className='text-center text-2xl mt-2 font-mono'>Siga um cronograma capilar</h1> 
                   
                   
       <h2 className='mt-6 text-xl'> Aqui está seu <strong>cronograma gratuito,</strong> para deixar cabelo mais saudável, voçê pode esta baixando direto pelo whatsapp no botão abaixo </h2>
