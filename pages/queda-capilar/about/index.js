@@ -71,12 +71,12 @@ export default function About() {
           </div>
       </section>
       {/* CHAMADA PRA AÇÃO CRONOGRAMA */}
-      <div>
+      <div className='bg-yellow-300 m-4 p-4 shadow-2xl rounded-lg'>
       <p className='font-bold text-left ml-4 mr-2 text-2xl'> Dica extra:</p>
       <h1 className='text-center text-2xl mt-5 font-mono'>Siga um cronograma capilar</h1> 
                   
                   
-      <h2 className='mt-6 text-xl'> <strong>cronograma gratuito,</strong> para deixar seu cabelo mais saudável, voçê pode esta baixando direto pelo whatsapp no botão abaixo </h2>
+      <h2 className='mt-6 text-xl'> Aqui está seu <strong>cronograma gratuito,</strong> para deixar cabelo mais saudável, voçê pode esta baixando direto pelo whatsapp no botão abaixo </h2>
 
       <div className='flex justify-center pt-5'>
                         <Link href="/queda/whatsapp/button-1">  
@@ -100,13 +100,25 @@ export default function About() {
       
       
       </div>
-      <h1 className=' text-center text-3xl font-black animate-pulse p-4'>Peça o seu!👇</h1>
-      <p className='text-center '>Por apenas R$57,90</p>
-      <div className='text-center mt-5 p-4'>
-      <Link href="/queda/whatsapp/button-2">
+      
+     
+      <div className='mx-5 text-center font-sans text-xl text-black '>
+                
+                <h2 className='text-3xl p-2 text-gray-900'>O blend de vitaminas número 1º do Brasil.</h2>
+                <p className='px-5 py-2 text-xl text-left text-gray-900'>Composto por minerais, aminoácidos, vitaminas e antioxidantes, o New Hair combate a queda capilar em até 96%.
+                Além disso promove um crescimento acelerado dos fios em até 6x mais rápido e renova cabelo pele e unhas.
+                Com apenas uma cápsula ao dia, é possível notar resultados incríveis na hidratação, brilho e comprimento dos seus fios.</p>
+            </div>
+            
+      
+            <h1 className=' text-center text-3xl font-black animate-pulse p-4'>Peça o seu!👇</h1>
+            <p className='text-center '>Por apenas R$57,90</p>
+            <div className='text-center mt-5 p-4'>
+          <Link href="/queda/whatsapp/button-2">
           <button  className="p-2 pl-16 pr-16 bg-green-500 text-gray-100 text-lg rounded-lg focus:border-4 border-green-300">Whatsapp</button>
           </Link>
       </div> 
+      <p className='text-center text-gray-600  mx-6'>frete gratis para toda Araguaína em até 2 dia útil</p>
   </div>
 
   )}
