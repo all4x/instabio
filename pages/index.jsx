@@ -13,6 +13,7 @@ export default function Home() {
       <Head>
         <title>Nylde Cosmeticos</title>
         <meta name="google-site-verification" content="LiM8wfP2SNFWeQgP0f4uRvW0tKH6tmAerR0W5Me3Rmw" />
+        <meta name="facebook-domain-verification" content="ptuq1a2o11mb4ep6yvxhk5ir0kv234" />
       </Head>
       
       <div>

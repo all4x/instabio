@@ -80,7 +80,7 @@ export default function About() {
 
       <div className='flex justify-center pt-5'>
                         <Link href="/queda/whatsapp/button-1">  
-                        <button class="p-2 pl-16 pr-16 bg-yellow-500 text-gray-100 text-lg rounded-lg focus:border-4 border-green-300">Eu quero!</button>
+                        <button class="p-2 pl-16 pr-16 bg-yellow-400 text-gray-100 text-lg rounded-lg focus:border-4 border-green-300">Eu quero!</button>
                         </Link>
                         </div> 
 
