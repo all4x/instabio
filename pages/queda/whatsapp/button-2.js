@@ -1,5 +1,5 @@
 
-
+import Pixel from './src/Pixel'
 import Head from 'next/head';
 import React from 'react';
 
@@ -10,6 +10,7 @@ function index() {
             <meta name="title" content="Nylde Cosmeticos | Whatsapp"/>
             
             </Head>
+            <Pixel name='FACEBOOK_PIXEL_1' />
                 <div className='m-3 flex flex-col items-center justify-center min-h-screen text-3xl font-light text-center'>
                 <h1 className='font-bold text-gray-500'>Tudo certo!</h1>
                 <h2 className='text-xl'>Click no botao abaixo para ser direcionado para o whatsapp.</h2>
