@@ -71,7 +71,7 @@ export default function About() {
           </div>
       </section>
       {/* CHAMADA PRA AÇÃO CRONOGRAMA */}
-      <div className='bg-yellow-300 m-4 p-4 shadow-2xl rounded-lg'>
+      <div className='bg-yellow-200 m-4 p-4 shadow-2xl rounded-lg'>
       <p className='font-bold text-left ml-4 mr-2 text-2xl'> Dica extra:</p>
       <h1 className='text-center text-2xl mt-2 font-mono'>Siga um cronograma capilar</h1> 
                   
