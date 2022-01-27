@@ -2,7 +2,7 @@ import Image from 'next/image'
 import Newhair from '/public/newhair.jpg'
 import Link from 'next/link'
 import React from 'react';
-import Cta from '../cta';
+
 
 
 
@@ -12,7 +12,7 @@ export default function About() {
         <div className=''>
               
       <section>
-            <h1 className='text-center font-extrabold text-3xl m-5 py-5'>Veja as 10 principais causas</h1>
+            <h1 className='text-center font-extrabold text-3xl m-5 py-5'>Veja as 7 principais causas</h1>
             <div className='space-y-9'>
           <div className='space-y-9 py-3'>
                 <h1 className='text-3xl ml-5 mb-2'>1. Estresse, ansiedade e cansaço</h1>
@@ -70,10 +70,43 @@ export default function About() {
        
           </div>
       </section>
+      {/* CHAMADA PRA AÇÃO CRONOGRAMA */}
+      <div>
+      <p className='font-bold text-left ml-4 mr-2 text-2xl'> Dica extra:</p>
+      <h1 className='text-center text-2xl mt-5 font-mono'>Siga um cronograma capilar</h1> 
+                  
+                  
+      <h2 className='mt-6 text-xl'> <strong>cronograma gratuito,</strong> para deixar seu cabelo mais saudável, voçê pode esta baixando direto pelo whatsapp no botão abaixo </h2>
 
-         
+      <div className='flex justify-center pt-5'>
+                        <Link href="/queda-capilar/whatsapp/button-1">  
+                        <button class="p-2 pl-16 pr-16 bg-yellow-500 text-gray-100 text-lg rounded-lg focus:border-4 border-green-300">Eu quero!</button>
+                        </Link>
+                        </div> 
+
+
       </div>
+      <div className='text-left text-2xl ml-6 mt-6 mb-10 space-y-3'>
+            <p>Digamos que mesmo assim seu cabelo continua caindo, </p>
+            <hr></hr>
+            <p>nesse caso o recomendado dermatologista para identificar a causa. e orientar o tratamento que pode ser feito com alimentação adequada, remédios, suplementos nutricionais, shampoos.</p>
+            <p>Mas na maioria dos casos o uso de uma vitamina pode resolver seu problema.</p>
+          </div>
+         
 
+      </div>
+      <div className='m-6 max-w-full lg:ml-auto flex justify-center'>
+      <Image src={Newhair} height={400} width={400}/>
+      
+      
+      </div>
+      <h1 className=' text-center text-3xl font-black animate-pulse p-4'>Peça o seu!👇</h1>
+      <p className='text-center '>Por apenas R$57,90</p>
+      <div className='text-center mt-5 p-4'>
+      <Link href="/queda-capilar/whatsapp/button-2">
+          <button  className="p-2 pl-16 pr-16 bg-green-500 text-gray-100 text-lg rounded-lg focus:border-4 border-green-300">Whatsapp</button>
+          </Link>
+      </div> 
   </div>
 
   )}

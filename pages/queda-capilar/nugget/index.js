@@ -67,15 +67,9 @@ function nugget() {
               
               <div className='bg-gray-50 rounded-xl mt-3 mb-5'>
               <h1 className='text-center text-3xl font-extrabold pt-10'>Queda de cabelo em excesso</h1>
-              <p className='px-5 py-2 text-xl text-left text-gray-900'>Atualmente, cerca de 30% dos homens e 10% das mulheres apresentam algum grau de alopecia durante a vida, podendo ser desencadeado por fatores genéticos, química, estresse e até mesmo lavagem incorreta da região.</p>
+              <p className='px-5 py-2 text-xl text-left text-gray-900'>Atualmente, 30% das mulheres apresentam algum grau de alopecia (<strong className='font-thin'>alopecia é uma condição em que ocorre perda de cabelo ou de pelo em qualquer parte do corpo.</strong>) durante a vida, podendo ser desencadeado por fatores genéticos, química, estresse e até mesmo lavagem incorreta da região.</p>
               
-              <h2 className='mt-6 text-xl'>Pensando nisso, fiz um <strong>cronograma gratuito</strong> para deixar seu cabelo mais saudável, voçê pode esta baixando direto pelo whatsapp no botão abaixo </h2>
-              <div className='text-center mt-5 p-4'>
-           <Link href="/queda-capilar/whatsapp/button-1">
-           <button  className="p-2 pl-16 pr-16 bg-yellow-500 text-gray-100 text-lg rounded-lg focus:border-4 border-green-300">Download</button>
-
-           </Link>
-           </div>
+              
               </div>
               
           
@@ -83,11 +77,7 @@ function nugget() {
           {/*Botão de baixar cronograma*/}
         
 
-          <div className='text-left text-2xl ml-6 mt-6 mb-10'>
-            <p>Digamos que mesmo assim seu cabelo continua caindo, </p>
-            <p>nesse caso o recomendado é agendar uma consulta com um especialista em terapia capilar.</p>
-            <p>Mas na maioria dos casos o uso de uma vitamina pode resolver seu problema.</p>
-          </div>
+          
            
 
 
@@ -101,3 +91,12 @@ function nugget() {
 }
 
 export default nugget;
+
+
+
+//               <h2 className='mt-6 text-xl'>Pensando nisso, fiz um <strong>cronograma gratuito</strong> para deixar seu cabelo mais saudável, voçê pode esta baixando direto pelo whatsapp no botão abaixo </h2>
+//                <div className='text-center mt-5 p-4'>
+    //       <Link href="/queda-capilar/whatsapp/button-1">
+  //         <button  className="p-2 pl-16 pr-16 bg-yellow-500 text-gray-100 text-lg rounded-lg focus:border-4 border-green-300">Download</button>
+// </Link>
+     //      </div> 
