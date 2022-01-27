@@ -76,11 +76,11 @@ export default function About() {
       <h1 className='text-center text-2xl mt-2 font-mono'>Siga um cronograma capilar</h1> 
                   
                   
-      <h2 className='mt-6 text-xl'> Aqui está seu <strong>cronograma gratuito,</strong> para deixar cabelo mais saudável, voçê pode esta baixando direto pelo whatsapp no botão abaixo </h2>
+      <h2 className='mt-6 text-xl'> Aqui está seu <strong>cronograma gratuito,</strong> para deixar cabelo mais saudável, você pode esta baixando direto pelo whatsapp no botão abaixo </h2>
 
       <div className='flex justify-center pt-5'>
                         <Link href="/queda/whatsapp/button-1">  
-                        <button class="p-2 pl-16 pr-16 bg-yellow-400 text-gray-100 text-lg rounded-lg focus:border-4 border-green-300">Eu quero!</button>
+                        <button class="p-2 pl-16 pr-16 bg-yellow-300 text-gray-100 text-lg rounded-lg focus:border-4 border-green-300">Eu quero!</button>
                         </Link>
                         </div> 
 
