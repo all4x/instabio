@@ -1,6 +1,7 @@
 import Topbar from './src/Topbar'
 import Footer from  './src/Redes-footer'
 
+import Pixel from './src/Pixel'
 
 import Head from  'next/head'
 
@@ -18,7 +19,7 @@ export const queda = () => {
             <Topbar></Topbar>
             <Nugget></Nugget>
             <About></About>
-
+            <Pixel name='FACEBOOK_PIXEL_1' />
             <Footer></Footer>
     </div>
   );
