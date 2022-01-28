@@ -112,7 +112,11 @@ export default function About() {
             
       
             <h1 className=' text-center text-3xl font-black animate-pulse p-4'>Peça o seu!👇</h1>
-            <p className='text-center '>Por apenas R$57,90</p>
+            <div className='font-semibold'>
+                  <p className='text-center '>De <span className='line-through'>R$57,90</span> por R$46,32</p>
+                  <p className='text-center'>20% OFF se você pedir por esse link</p>
+            </div>
+          
             <div className='text-center mt-5 p-4'>
           <Link href="/queda/whatsapp/button-2">
           <button  className="p-2 pl-16 pr-16 bg-green-500 text-gray-100 text-lg rounded-lg focus:border-4 border-green-300">Whatsapp</button>
