@@ -62,7 +62,7 @@ function nugget() {
           </div>
           {/*Descrição*/}
           <div className='text-center font-normal text-2xl mt-12 p-5'>
-              <h1>Tudo bem? me chamo Erenilde e sou formada em <strong>Terapia Capilar</strong>  pela ABT|Intimus Cosméticos em <strong> Araguaína-To  </strong> </h1>
+              <h1>Tudo bem? me chamo Erenilde e sou formada em <strong>Terapia Capilar</strong></h1>
               
               
               <div className='bg-gray-50 rounded-xl mt-3 mb-5'>
