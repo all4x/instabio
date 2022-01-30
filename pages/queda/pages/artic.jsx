@@ -106,9 +106,9 @@ const artic = () => {
       {/* Cta New Hair */}
       
       <div className='text-left text-2xl ml-6 mt-6 mb-10 space-y-3'>
-            <p>Digamos que mesmo assim seu cabelo continua caindo, </p>
+            <p>Digamos que mesmo assim seu cabelo continua caindo.</p>
             <hr></hr>
-            <p>nesse caso o recomendado é consultar um dermatologista para identificar a causa. e orientar o tratamento que pode ser feito com alimentação adequada, remédios, suplementos nutricionais ou shampoos.</p>
+            <p>Nesse caso o recomendado é consultar um dermatologista para identificar a causa. e orientar o tratamento que pode ser feito com alimentação adequada, remédios, suplementos nutricionais ou shampoos.</p>
             <p>Mas na maioria dos casos o uso de uma vitamina suplemento pode resolver seu problema.</p>
           </div>
 

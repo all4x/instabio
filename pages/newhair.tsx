@@ -20,7 +20,7 @@ function newhair() {
       <div className='mx-5 text-center font-sans text-xl text-black '>
                 <div className='xl:mx-6 '>
                 <h2 className='text-3xl p-2 text-gray-900'>O blend de vitaminas número 1º do Brasil.</h2>
-                <p className='px-5 py-2 text-xl text-left text-gray-900'>Composto por minerais, aminoácidos, vitaminas e antioxidantes, o New Hair combate a queda capilar em até 96%.
+                <p className=' py-2 text-xl text-left text-gray-900'>Composto por minerais, aminoácidos, vitaminas e antioxidantes, o New Hair combate a queda capilar em até 96%.
                 Além disso promove um crescimento acelerado dos fios em até 6x mais rápido e renova cabelo pele e unhas.
                 Com apenas uma cápsula ao dia, é possível notar resultados incríveis na hidratação, brilho e comprimento dos seus fios.</p>
 
