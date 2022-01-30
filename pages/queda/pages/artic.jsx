@@ -1,22 +1,28 @@
 import Link from 'next/link'
-import React from 'react';
-import Newhair2 from '../../queda/src/Newhair';
+import Newhair from '../../newhair';
 
 
+const artic = () => {
+    return (
+        <div>
+          <main class="relative container mx-auto bg-white px-4">
+            <div class="relative -mx-4 top-0 pt-[17%] overflow-hidden">
+            </div>
 
-
-export default function About() {
-  return (
-  <div className='m-4'>
-        <div className=''>
-        <div className='bg-gray-50 rounded-xl mt-3 mb-5'>
-              <h1 className='text-center text-3xl font-extrabold pt-10'>Queda de cabelo em excesso</h1>
-              <p className='px-5 py-2 text-xl text-left text-gray-900'>Atualmente, 30% das mulheres apresentam algum grau de alopecia (<strong className='font-thin'>alopecia é uma condição em que ocorre perda de cabelo ou de pelo em qualquer parte do corpo.</strong>) durante a vida, podendo ser desencadeado por fatores genéticos, química, estresse e até mesmo lavagem incorreta da região.</p>
-              
-              
+            <div class="mt-[-10%] w-1/2 mx-auto">
+              <div class="relative pt-[56.25%] overflow-hidden rounded-2xl">
+                <img class="w-full h-full absolute inset-0 object-cover" src="https://images.pexels.com/photos/973401/pexels-photo-973401.jpeg?cs=srgb&dl=pexels-element-digital-973401.jpg&fm=jpg" alt="" />
               </div>
-              
-      <section>
+            </div>
+
+            <article class="max-w-prose mx-auto py-8">
+              <h1 class="text-2xl font-bold">Queda de cabelo em excesso</h1>
+              <p className='px-5 py-2 text-xl text-left text-gray-900'>Atualmente, 30% das mulheres apresentam algum grau de alopecia (<strong className='font-thin'>alopecia é uma condição em que ocorre perda de cabelo ou de pelo em qualquer parte do corpo.</strong>) durante a vida, podendo ser desencadeado por fatores genéticos, química, estresse e até mesmo lavagem incorreta da região.</p>
+              <h2 class="mt-2 text-sm text-gray-500">Nylde, 25 Janeiro  2022</h2>
+
+             
+
+              <section>
             <h1 className='text-center font-extrabold text-3xl m-5 py-5'>Veja as 7 principais causas</h1>
             <div className='space-y-9'>
           <div className='space-y-9 py-3'>
@@ -75,6 +81,7 @@ export default function About() {
        
           </div>
       </section>
+
       {/* CHAMADA PRA AÇÃO CRONOGRAMA */}
       <div className='bg-yellow-200 m-4 p-4 shadow-2xl rounded-lg'>
       <p className='font-bold text-left ml-4 mr-2 text-2xl'> Dica extra:</p>
@@ -91,18 +98,38 @@ export default function About() {
 
 
       </div>
+      {/* FINALIZANDO  */}
+
+      {/* Cta New Hair */}
+      
       <div className='text-left text-2xl ml-6 mt-6 mb-10 space-y-3'>
             <p>Digamos que mesmo assim seu cabelo continua caindo, </p>
             <hr></hr>
             <p>nesse caso o recomendado é consultar um dermatologista para identificar a causa. e orientar o tratamento que pode ser feito com alimentação adequada, remédios, suplementos nutricionais ou shampoos.</p>
             <p>Mas na maioria dos casos o uso de uma vitamina suplemento pode resolver seu problema.</p>
           </div>
-         
+          <Newhair/>
+            </article>
+          </main>
+        </div>
+    );
+}
 
-      </div>
-      <Newhair2/>
-  </div>
-
-  )}
+export default artic;
 
 
+
+
+/* 
+<style>
+  .pt-\[17\%\] {
+    padding-top: 17%;
+  }
+  .mt-\[-10\%\] {
+    margin-top: -10%;
+  }
+  .pt-\[56\.25\%\] {
+    padding-top: 56.25%;
+  }
+</style>
+ */
