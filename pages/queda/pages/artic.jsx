@@ -32,7 +32,7 @@ const artic = () => {
                 <h1 className='text-3xl ml-5 mb-2'>1. Estresse, ansiedade e cansaço</h1>
                 <p className='font-sans text-left ml-4 mr-2 text-lg'>Seu estado emocional pode interferir, e muito, na saúde do seu cabelo: momentos de estresse, preocupação, ansiedade e cansaço podem enfraquecer os fios e causar queda além do normal, abrindo espaço até mesmo para doenças no couro cabeludo.</p>
                 <strong className=' ml-4'>A solução:</strong>
-                <p className='font-sans text-left ml-4 mr-2 text-lg'>tente separar momentos relaxantes no seu dia a dia, como criar uma rotina de exercícios que te tranquilizam! Aqui, a gente ensinou como melhorar sua rotina matinal e noturna!</p>
+                <p className='font-sans text-left ml-4 mr-2 text-lg'>tente separar momentos relaxantes no seu dia a dia, como criar uma rotina de exercícios que te tranquilizam!</p>
           </div>
 
           <div className='space-y-9 py-3'>
