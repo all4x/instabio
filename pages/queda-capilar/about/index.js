@@ -100,7 +100,7 @@ export default function About() {
          
 
       </div>
-      <Newhair2/>
+      
   </div>
 
   )}

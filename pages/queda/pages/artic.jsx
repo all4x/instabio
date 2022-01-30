@@ -1,6 +1,9 @@
 import Link from 'next/link'
 import Newhair from '../../newhair';
 
+import Image from 'next/image'
+import Woman from '../../../public/woman-hair.jpg'
+
 
 const artic = () => {
     return (
@@ -9,15 +12,15 @@ const artic = () => {
             <div class="relative -mx-4 top-0 pt-[17%] overflow-hidden">
             </div>
 
-            <div class="mt-[-10%] w-1/2 mx-auto">
-              <div class="relative pt-[56.25%] overflow-hidden rounded-2xl">
-                <img class="w-full h-full absolute inset-0 object-cover" src="https://images.pexels.com/photos/973401/pexels-photo-973401.jpeg?cs=srgb&dl=pexels-element-digital-973401.jpg&fm=jpg" alt="" />
+            <div class="mt-[-10%] xl:w-1/2 mx-auto">
+              <div class="relative overflow-hidden rounded-2xl">
+                <Image class="w-full h-full absolute inset-0 object-cover"  src={Woman} alt="" />
               </div>
             </div>
 
             <article class="max-w-prose mx-auto py-8">
-              <h1 class="text-2xl font-bold">Queda de cabelo em excesso</h1>
-              <p className='px-5 py-2 text-xl text-left text-gray-900'>Atualmente, 30% das mulheres apresentam algum grau de alopecia (<strong className='font-thin'>alopecia é uma condição em que ocorre perda de cabelo ou de pelo em qualquer parte do corpo.</strong>) durante a vida, podendo ser desencadeado por fatores genéticos, química, estresse e até mesmo lavagem incorreta da região.</p>
+              <h1 class="text-2xl font-bold mb-5">Queda de cabelo em excesso</h1>
+              <p className='text-lg text-left text-gray-900'>Atualmente, 30% das mulheres apresentam algum grau de alopecia (<strong className='font-thin'>alopecia é uma condição em que ocorre perda de cabelo ou de pelo em qualquer parte do corpo.</strong>) durante a vida, podendo ser desencadeado por fatores genéticos, química, estresse e até mesmo lavagem incorreta da região.</p>
               <h2 class="mt-2 text-sm text-gray-500">Nylde, 25 Janeiro  2022</h2>
 
              
@@ -108,7 +111,9 @@ const artic = () => {
             <p>nesse caso o recomendado é consultar um dermatologista para identificar a causa. e orientar o tratamento que pode ser feito com alimentação adequada, remédios, suplementos nutricionais ou shampoos.</p>
             <p>Mas na maioria dos casos o uso de uma vitamina suplemento pode resolver seu problema.</p>
           </div>
+
           <Newhair/>
+
             </article>
           </main>
         </div>
