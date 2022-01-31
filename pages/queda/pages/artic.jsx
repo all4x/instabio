@@ -2,7 +2,7 @@ import Link from 'next/link'
 import Newhair from '../../newhair';
 
 import Image from 'next/image'
-import Woman from '../../../public/woman-hair.jpg'
+import Nylde from '../../../public/nylde.png'
 
 
 const artic = () => {
@@ -13,17 +13,16 @@ const artic = () => {
             </div>
 
             <div class="mt-[-10%] xl:w-1/2 mx-auto">
-              <div class="relative overflow-hidden rounded-2xl">
-                <Image class="w-full h-full absolute inset-0 object-cover"  src={Woman} alt="" />
+              <div class="flex justify-center overflow-hidden rounded-2xl">
+                <Image class="w-full h-full absolute inset-0 object-cover"  src={Nylde} alt="" />
               </div>
+              <h1 className='text-center mt-5 '>Tudo bem? me chamo Erenilde e sou formada em <strong>Terapia Capilar</strong> e vou te dar algumas dicas matadoras para amenizar a queda capilar.</h1>
             </div>
 
             <article class="max-w-prose mx-auto py-8">
               <h1 class="text-2xl font-bold mb-5">Queda de cabelo em excesso</h1>
               <p className='text-lg text-left text-black'>Atualmente, 30% das mulheres apresentam algum grau de alopecia (<strong className='font-thin'>alopecia é uma condição em que ocorre perda de cabelo ou de pelo em qualquer parte do corpo.</strong>) durante a vida, podendo ser desencadeado por fatores genéticos, química, estresse e até mesmo lavagem incorreta da região.</p>
               <h2 class="mt-2 text-sm text-gray-500">Nylde, 25 Janeiro  2022</h2>
-
-             
 
               <section>
             <h1 className='text-center font-extrabold text-3xl m-5 py-5'>Veja as 7 principais causas</h1>
