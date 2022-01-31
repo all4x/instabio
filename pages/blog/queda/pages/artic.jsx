@@ -1,8 +1,8 @@
 import Link from 'next/link'
-import Newhair from '../../newhair';
+import Newhair from '../pages/newhair';
 
 import Image from 'next/image'
-import Nylde from '../../../public/nylde.png'
+import Nylde from '../../../../public/nylde.png'
 
 
 const artic = () => {
