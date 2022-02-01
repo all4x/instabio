@@ -16,7 +16,7 @@ const artic = () => {
               <div class="flex justify-center overflow-hidden rounded-2xl">
                 <Image class="w-full h-full absolute inset-0 object-cover"  src={Nylde} alt="" />
               </div>
-              <h1 className='text-center mt-5 '>Oi Tudo bem? me chamo Erenilde sou formada em <strong>Terapia Capilar</strong> e estou aqui para te dar algumas dicas matadoras para se livrar da queda capilar.</h1>
+              <h1 className='mt-5 ml-8 '>Oi Tudo bem? me chamo Erenilde sou formada em <strong>Terapia Capilar</strong> e estou aqui para te dar algumas dicas matadoras para se livrar da queda capilar.</h1>
             </div>
 
             <article class="max-w-prose mx-auto py-8">
