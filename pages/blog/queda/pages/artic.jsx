@@ -93,7 +93,7 @@ const artic = () => {
       <h2 className='mt-6 text-xl'> Aqui está seu <strong>cronograma gratuito,</strong> para deixar cabelo mais saudável, você pode esta baixando direto pelo whatsapp no botão abaixo </h2>
 
       <div className='flex justify-center pt-5'>
-                        <Link href="/queda/whatsapp/button-1">  
+                        <Link href="/blog/queda/whatsapp/button-1">  
                         <button class="p-2 pl-16 pr-16 bg-white text-gray-900 text-lg rounded-lg focus:border-4 border-green-300">Eu quero!</button>
                         </Link>
                         </div> 
