@@ -120,20 +120,3 @@ const artic = () => {
 }
 
 export default artic;
-
-
-
-
-/* 
-<style>
-  .pt-\[17\%\] {
-    padding-top: 17%;
-  }
-  .mt-\[-10\%\] {
-    margin-top: -10%;
-  }
-  .pt-\[56\.25\%\] {
-    padding-top: 56.25%;
-  }
-</style>
- */

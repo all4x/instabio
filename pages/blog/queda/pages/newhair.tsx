@@ -31,8 +31,8 @@ function newhair() {
             
       
             <h1 className=' text-center text-3xl font-black animate-pulse p-4'>Peça o seu!👇</h1>
-            <div className='font-semibold'>
-                 
+            <div className='font-semibold text-center'>
+                 <p>Por apenas R$57,90 somente por esse link</p>
             </div>
           
             <div className='text-center mt-5 p-4'>
