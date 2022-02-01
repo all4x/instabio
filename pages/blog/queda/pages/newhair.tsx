@@ -36,7 +36,7 @@ function newhair() {
             </div>
           
             <div className='text-center mt-5 p-4'>
-          <Link href="/blog/queda/whatsapp/button-1">
+          <Link href="/blog/queda/whatsapp/button-2">
           <button  className="p-2 pl-16 pr-16 bg-green-500 text-gray-100 text-lg rounded-lg focus:border-4 border-green-300">Whatsapp</button>
           </Link>
       </div> 
