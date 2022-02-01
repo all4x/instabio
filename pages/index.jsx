@@ -18,7 +18,7 @@ export default function Home() {
       
       <div>
           <div className=""><Topbar /></div>
-          <main  className=" bg-yellow-50 p-5">
+          <main  className=" bg-yellow-50">
             
             <div className=""> <Social /></div>
           </main>
