@@ -12,13 +12,14 @@ export default function Home() {
     <div className="" >
       <Head>
         <title>Nylde Cosmeticos</title>
-        <meta name="google-site-verification" content="LiM8wfP2SNFWeQgP0f4uRvW0tKH6tmAerR0W5Me3Rmw" />
-        <meta name="facebook-domain-verification" content="ptuq1a2o11mb4ep6yvxhk5ir0kv234" />
+        <link rel="icon" href="/public/artlouja.png" />
+        <meta name="description" content="A beleza e saúde do seu cabelo falam muito sobre você"/>
       </Head>
       
       <div>
-          <main  className=" bg-yellow-50">
-            <div className=""><Topbar /></div>
+          <div className=""><Topbar /></div>
+          <main  className=" bg-yellow-50 p-5">
+            
             <div className=""> <Social /></div>
           </main>
      
