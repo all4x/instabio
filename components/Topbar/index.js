@@ -11,7 +11,7 @@ function Topbar() {
             </div>
             
             <div className="flex px-4 items-center">
-                    <p className="text-center xl:text-2xl sm:text-base font-medium text-gray-900  ">A beleza e saúde do seu cabelo falam muito sobre você</p>     
+                    <p className="text-center xl:text-2xl sm:text-base font-thin text-gray-900  ">A beleza e saúde do seu cabelo falam muito sobre você</p>     
             </div>
             
         </div>

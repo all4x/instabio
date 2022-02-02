@@ -1,15 +1,22 @@
 import Head from 'next/head'
 import Link from 'next/link'
+import Topbar from '../components/Topbar'
+import Footer from '../components/Footer'
+
+
+
 
 export default function Home() {
     return(
-        <div className='bg-gray-50 m-3 p-4 h-screen '>
+        <div className=''>
+        <Topbar/>
         <Head>
+          
           <meta name="title" content="Nylde Cosmeticos | New Detox"/>
           <link rel="icon" href="/detox.png" />
           <meta name="description" content="New Detox possui fórmula 100% natural que contém ingredientes potentes capazes de agilizar o processo de emagrecimento, sem precisar sair de casa para academia"/>
         </Head> 
-        <div className='m-3 flex flex-col items-center justify-center h-screen text-3xl font-light text-center'>
+        <div className='mt-[-10%] p-4  flex flex-col items-center justify-center h-screen text-3xl font-light text-center'>
         <h1 className='font-bold text-gray-500 '>Tudo certo!</h1>
         <h2 className='text-xl'>Click em continuar para ser direcionado para a página solicitada.</h2>
         
@@ -44,7 +51,7 @@ export default function Home() {
         
         </div>
         </div>
-       
+        <Footer/>
         </div>
     )
 }
