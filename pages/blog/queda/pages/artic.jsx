@@ -25,7 +25,7 @@ const artic = () => {
               <h2 class="mt-2 text-sm text-gray-500">Nylde, 25 Janeiro  2022</h2>
 
               <section>
-            <h1 className='text-center font-extrabold text-3xl m-5 py-5'>Veja as 7 principais causas</h1>
+            <h1 className='text-center font-extrabold text-3xl m-5 py-5'>Veja as 6 principais causas</h1>
             <div className='space-y-9'>
           <div className='space-y-9 py-3'>
                 <h1 className='text-3xl ml-5 mb-2'>1. Estresse, ansiedade e cansaço</h1>
