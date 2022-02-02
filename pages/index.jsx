@@ -11,7 +11,7 @@ export default function Home() {
   return (
     <div className="" >
       <Head>
-        <title>Nylde Cosmeticos</title>
+        <title>Nylde Cosmeticos © </title>
         <link rel="icon" href="/public/artlouja.png" />
         <meta name="description" content="A beleza e saúde do seu cabelo falam muito sobre você"/>
       </Head>
