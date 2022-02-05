@@ -90,32 +90,29 @@ const artic = () => {
           </div>
       </section>
 
-      {/* CHAMADA PRA AÇÃO CRONOGRAMA */}
-      <div className='bg-yellow-200 m-4 p-4 shadow-2xl rounded-lg'>
-      <p className='font-bold text-left ml-4 mr-2 text-2xl'> Dica extra:</p>
-      <h1 className='text-center text-2xl mt-2 font-mono'>Siga um cronograma capilar</h1>
-      <h2 className='mt-6 text-xl'> Aqui está seu <strong>cronograma gratuito,</strong> para deixar cabelo mais saudável, você pode esta baixando direto pelo whatsapp no botão abaixo </h2>
-
-      <div className='flex justify-center pt-5'>
-                        <Link href="/blog/queda/whatsapp/button-1">
-                        <button class="p-2 pl-16 pr-16 bg-white text-gray-900 text-lg rounded-lg focus:border-4 border-green-300">Eu quero!</button>
-                        </Link>
-                        </div>
+      
 
 
-      </div>
+    
       {/* FINALIZANDO  */}
-      <div>
+      <div className='mt-10'>
           <div className='flex justify-center'>
-              <Image src={newhair}/>
+            <Image src={newhair}/>
           </div>
           <div>
             <div>Depoimentos</div>
           </div>
 
-
-
+          {/* CTA 2 */}
+          <div className='text-center mt-5 p-4'>
+            <Link href="/blog/queda/whatsapp/button-2">
+            <button  className="p-2 pl-16 pr-16 bg-green-500 text-gray-100 text-lg rounded-lg focus:border-4 border-green-300">Whatsapp</button>
+            </Link>
+          </div>
+      <p className='text-center text-gray-600  mx-6'>frete gratis para toda Araguaína em até 2 dia útil</p>
       </div>
+
+
 
             </article>
           </main>
