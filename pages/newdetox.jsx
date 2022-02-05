@@ -1,6 +1,5 @@
 import Head from 'next/head'
 import Link from 'next/link'
-import Topbar from '../components/Topbar'
 import Footer from '../components/Footer'
 
 

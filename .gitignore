@@ -38,8 +38,5 @@ yarn-error.log*
 .vscode
 
 
-# google ads
-
-.env.local
 
 

@@ -15,8 +15,10 @@
   },
   "devDependencies": {
     "autoprefixer": "^10.2.6",
-    "eslint": "^8.7.0",
+    "eslint": "^8.8.0",
+    "mongodb": "^4.3.1",
     "postcss": "^8.3.5",
+    "prettier": "^2.5.1",
     "tailwindcss": "^2.2.4"
   }
 }
