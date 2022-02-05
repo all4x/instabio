@@ -109,7 +109,6 @@ const artic = () => {
             <hr></hr>
             <p>Nesse caso o recomendado é consultar um dermatologista para identificar a causa.
             Mas na maioria dos casos o uso de uma vitamina suplemento pode resolver seu problema.</p>
-            
           </div>
 
           <Newhair/>
