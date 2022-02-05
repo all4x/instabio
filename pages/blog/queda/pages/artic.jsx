@@ -3,6 +3,7 @@ import Newhair from '../pages/newhair';
 
 import Image from 'next/image'
 import Nylde from '../../../../public/nylde.png'
+import newhair from '../../../../public/new-2.jpg';
 
 
 const artic = () => {
@@ -46,18 +47,25 @@ const artic = () => {
                 <p className = 'font-sans text-left ml-4 mr-2 text-lg'>
                 Para quem faz escovas de alisamento e vê os fios caindo além do normal, o motivo pode, sim, ser a química. É que por mais que o cabelo pareça brilhoso, saudável e bonito depois de retocar a progressiva, por dentro, ele vai ficando cada vez mais sem nutrientes e muito mais fino e fraco.</p>
                 <strong className=' ml-4'>A solução:</strong>
-                <p className='font-sans text-left ml-4 mr-2 text-lg'> a dica é fazer um cronograma capilar para devolver os nutrientes ao fio com hidratação, nutrição e reconstrução. Usar shampoos e condicionadores à base de Arginina também pode ser uma boa ideia, porque a substância devolve massa ao interior do fio. </p>
-          
+                <p className='font-sans text-left ml-4 mr-2 text-lg'> a dica é fazer um cronograma capilar para devolver os nutrientes ao fio com hidratação, nutrição e reconstrução. Usar shampoos e condicionadores à base de Arginina também pode ser uma boa ideia, porque a substância devolve massa ao interior do fio. </p> 
           </div>
 
+          {/*  CTA 1 */}
+
           <div className='space-y-9 py-3'>
-                <h1 className='text-3xl ml-5 mb-2'>4. Dormir com o cabelo molhado</h1>
+                <h1 className='text-3xl ml-5 mb-2'>4. Utilizar um suplemento especifico para os cabelos</h1>
                 <p className = 'font-sans text-left ml-4 mr-2 text-lg'>
-                Não é mito que dormir de cabelo não é o recomendado, ok? É que o cabelo molhado no travesseiro pode abrir espaço para fungos que amam o calorzinho que fica dentro dos fios! 
+                O papel do suplemento fica claro quando o assunto é <strong> queda capilar </strong>pós sua função é repor os minerais e vitaminas gerando resultados de dentro para fora
+
                 </p>
-                <strong className=' ml-4'>A solução:</strong>
-                <p className='font-sans text-left ml-4 mr-2 text-lg'> sempre que der, lave os cabelos horas antes de dormir ou pela manhã. Se não conseguir, recorra ao secador para secar as madeixas, mas sempre aplicando o protetor térmico! </p>
+                <strong className=' ml-4'>A solução:</strong> 
+                <p className='font-sans text-left ml-4 mr-2 text-lg'> O que eu indico essencialmente para você que sofre com queda, é o encapsulado da linha New Hair que combate a queda capilar em até 96%.</p>
           </div>
+          <div>
+          <Newhair/>
+          </div>
+
+          {/* FIM DO CTA 1 */}
 
           <div className='space-y-9 py-3'>
                 <h1 className='text-3xl ml-5 mb-2'>5. Aplicar creme e máscara na raiz do cabelo</h1>
@@ -68,9 +76,8 @@ const artic = () => {
           </div>
 
           <div>
-            
           </div>
-          
+
           <div className='space-y-9 py-3'>
                 <h1 className='text-3xl ml-5 mb-2'>6. Prender o cabelo molhado </h1>
                 <p className = 'font-sans text-left ml-4 mr-2 text-lg'>
@@ -80,38 +87,35 @@ const artic = () => {
 
           </div>
 
-       
           </div>
       </section>
 
       {/* CHAMADA PRA AÇÃO CRONOGRAMA */}
       <div className='bg-yellow-200 m-4 p-4 shadow-2xl rounded-lg'>
       <p className='font-bold text-left ml-4 mr-2 text-2xl'> Dica extra:</p>
-      <h1 className='text-center text-2xl mt-2 font-mono'>Siga um cronograma capilar</h1> 
-                  
-                  
+      <h1 className='text-center text-2xl mt-2 font-mono'>Siga um cronograma capilar</h1>
       <h2 className='mt-6 text-xl'> Aqui está seu <strong>cronograma gratuito,</strong> para deixar cabelo mais saudável, você pode esta baixando direto pelo whatsapp no botão abaixo </h2>
 
       <div className='flex justify-center pt-5'>
-                        <Link href="/blog/queda/whatsapp/button-1">  
+                        <Link href="/blog/queda/whatsapp/button-1">
                         <button class="p-2 pl-16 pr-16 bg-white text-gray-900 text-lg rounded-lg focus:border-4 border-green-300">Eu quero!</button>
                         </Link>
-                        </div> 
+                        </div>
 
 
       </div>
       {/* FINALIZANDO  */}
-
-      {/* Cta New Hair */}
-      
-      <div className='text-left text-2xl ml-6 mt-6 mb-10 space-y-3'>
-            <p>Digamos que você ja tem todo cuidado com seu cabelo mas ele não está como vc gostaria.</p>
-            <hr></hr>
-            <p>Nesse caso o recomendado é consultar um dermatologista para identificar a causa.
-            Mas na maioria dos casos o uso de uma vitamina suplemento pode resolver seu problema.</p>
+      <div>
+          <div className='flex justify-center'>
+              <Image src={newhair}/>
+          </div>
+          <div>
+            <div>Depoimentos</div>
           </div>
 
-          <Newhair/>
+
+
+      </div>
 
             </article>
           </main>
