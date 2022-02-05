@@ -16,7 +16,7 @@ const artic = () => {
               <div class="flex justify-center overflow-hidden rounded-2xl">
                 <Image class="w-full h-full absolute inset-0 object-cover"  src={Nylde} alt="" />
               </div>
-              <h1 className='mt-5 ml-8 '>Oi Tudo bem? me chamo Erenilde sou formada em <strong>Terapia Capilar</strong> e estou aqui para te dar algumas dicas matadoras para se livrar da queda capilar.</h1>
+              <h1 className='mt-5 ml-2 '>Oi Tudo bem? me chamo Erenilde sou formada em <strong>Terapia Capilar</strong> e estou aqui para te dar algumas dicas matadoras para se livrar da queda capilar.</h1>
             </div>
 
             <article class="max-w-prose mx-auto py-8">
@@ -107,8 +107,9 @@ const artic = () => {
       <div className='text-left text-2xl ml-6 mt-6 mb-10 space-y-3'>
             <p>Digamos que você ja tem todo cuidado com seu cabelo mas ele não está como vc gostaria.</p>
             <hr></hr>
-            <p>Nesse caso o recomendado é consultar um dermatologista para identificar a causa. e orientar o tratamento que pode ser feito com alimentação adequada, remédios, suplementos nutricionais ou shampoos.</p>
-            <p>Mas na maioria dos casos o uso de uma vitamina suplemento pode resolver seu problema.</p>
+            <p>Nesse caso o recomendado é consultar um dermatologista para identificar a causa.
+            Mas na maioria dos casos o uso de uma vitamina suplemento pode resolver seu problema.</p>
+            
           </div>
 
           <Newhair/>

@@ -1,5 +1,5 @@
 import Topbar from './src/Topbar'
-import Footer from  './src/Redes-footer'
+import Footer from  '../../../components/Footer'
 import Head from  'next/head'
 
 import React from 'react';

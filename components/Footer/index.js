@@ -19,10 +19,7 @@ function Redes() {
               <span class="px-2">Sobre</span>
               <a href="https://api.whatsapp.com/send?phone=5563992072188"><span class="px-2 border-l">Contato</span></a>
               
-              <Link href="../../pages/Privacidade-e-termos">
-              <span class="px-2 border-l">Políticas e Termos de Uso</span>
-
-              </Link>
+              <Link href="../../../Privacidade-e-termos"><span class="px-2 border-l">Políticas e Termos de Uso</span></Link>
           </div>
       </div>
   </div>
