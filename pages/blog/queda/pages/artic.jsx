@@ -95,6 +95,8 @@ const artic = () => {
 
     
       {/* FINALIZANDO  */}
+      <h1 className=' text-center text-3xl font-black animate-pulse p-4'>Peça o seu aqui!👇</h1>
+
       <div className='mt-10'>
           <div className='flex justify-center'>
             <Image src={newhair}/>

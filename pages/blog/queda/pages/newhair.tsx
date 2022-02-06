@@ -3,8 +3,6 @@ import Link from 'next/link';
 
 
 import Newhair from '../../../../public/newhair.jpg'
-
-
 import React from 'react';
 
 function newhair() {
