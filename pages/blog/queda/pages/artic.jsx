@@ -1,9 +1,10 @@
 import Link from 'next/link'
 import Newhair from '../pages/newhair';
-
+import Feedback1 from '../../../../public/D_NQ_NP_637796-MLB32708033593_102019-O.jpg'
 import Image from 'next/image'
 import Nylde from '../../../../public/nylde.png'
 import newhair from '../../../../public/new-2.jpg';
+import Feedback2 from '../../../../public/photo4904871619063819029.jpg'
 
 
 const artic = () => {
@@ -53,7 +54,7 @@ const artic = () => {
           {/*  CTA 1 */}
 
           <div className='space-y-9 py-3'>
-                <h1 className='text-3xl ml-5 mb-2'>4. Utilizar um suplemento especifico para os cabelos</h1>
+                <h1 className='text-3xl ml-5 mb-2'>4. Não Utilizar um suplemento especifico para os cabelos</h1>
                 <p className = 'font-sans text-left ml-4 mr-2 text-lg'>
                 O papel do suplemento fica claro quando o assunto é <strong> queda capilar </strong>pós sua função é repor os minerais e vitaminas gerando resultados de dentro para fora
 
@@ -62,6 +63,12 @@ const artic = () => {
                 <p className='font-sans text-left ml-4 mr-2 text-lg'> O que eu indico essencialmente para você que sofre com queda, é o encapsulado da linha New Hair que combate a queda capilar em até 96%.</p>
           </div>
           <div>
+             {/* CTA 1.1 */}
+       <div className='text-center mt-2 p-2'>
+            <Link href="/blog/queda/whatsapp/button-2">
+            <button  className="  font-black text-xl p-2 pl-24 pr-24 bg-green-500 text-gray-100  rounded-lg focus:border-4 border-green-300">Comprar</button>
+            </Link>
+          </div>
           <Newhair/>
           </div>
 
@@ -96,26 +103,34 @@ const artic = () => {
     
       {/* FINALIZANDO  */}
       <h1 className=' text-center text-3xl font-black animate-pulse p-4'>Peça o seu aqui!👇</h1>
-
+       {/* CTA 2 */}
+       <div className='text-center mt-2 p-2'>
+            <Link href="/blog/queda/whatsapp/button-2">
+            <button  className="  font-black text-xl p-2 pl-24 pr-24 bg-green-500 text-gray-100  rounded-lg focus:border-4 border-green-300">Whatsapp</button>
+            </Link>
+          </div>
       <div className='mt-10'>
           <div className='flex justify-center'>
             <Image src={newhair}/>
           </div>
           <div>
-            <div>Depoimentos</div>
+            <div className='m-5 '>            
+              <div><Image src={Feedback2}/></div>
+              <div>
+              <Image src={Feedback1} height={320}/>
+              </div>
+
+            </div>
           </div>
 
-          {/* CTA 2 */}
-          <div className='text-center mt-5 p-4'>
+          {/* CTA 3 */}
+          <div className='text-center mt-2 p-2'>
             <Link href="/blog/queda/whatsapp/button-2">
-            <button  className="p-2 pl-16 pr-16 bg-green-500 text-gray-100 text-lg rounded-lg focus:border-4 border-green-300">Whatsapp</button>
+            <button  className="  font-black text-xl p-2 pl-24 pr-24 bg-green-500 text-gray-100  rounded-lg focus:border-4 border-green-300">EU QUERO</button>
             </Link>
           </div>
       <p className='text-center text-gray-600  mx-6'>frete gratis para toda Araguaína em até 2 dia útil</p>
       </div>
-
-
-
             </article>
           </main>
         </div>
