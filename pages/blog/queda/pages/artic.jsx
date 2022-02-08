@@ -23,7 +23,7 @@ const artic = () => {
 
             <article class="max-w-prose mx-auto py-8">
               <h1 class="text-2xl font-bold mb-5">Queda de cabelo em excesso</h1>
-              <p className='text-lg text-left text-black'>Atualmente, 30% das mulheres apresentam algum grau de alopecia (<strong className='font-thin'>alopecia é uma condição em que ocorre perda de cabelo ou de pelo em qualquer parte do corpo.</strong>) Podendo ser desencadeado por fatores genéticos, química, estresse e até mesmo lavagem incorreta da região.</p>
+              <p className='text-lg text-left text-black'>Atualmente, 30% das mulheres apresentam algum grau de alopecia (<strong className='font-thin'>alopecia é uma condição em que ocorre perda de cabelo ou de pelo em qualquer parte do corpo.</strong>) </p>
               <h2 class="mt-2 text-sm text-gray-500">Nylde, 25 Janeiro  2022</h2>
 
               <section>
@@ -63,7 +63,7 @@ const artic = () => {
                 <p className='font-sans text-left ml-4 mr-2 text-lg'> O que eu indico essencialmente para você que sofre com queda, é o encapsulado da linha New Hair que combate a queda capilar em até 96%.</p>
           </div>
           <div>
-            
+
           <Newhair/>
           </div>
 
