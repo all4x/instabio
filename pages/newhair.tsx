@@ -7,7 +7,7 @@ import Fios from  '../public/quedacabelo.jpg.webp'
 import Image from 'next/image';
 
 function newhair() {
-  return <div>
+  return <div className='bg-pink-100'>
 
     <Topbar/> 
     {/* ALOPACIA TITLE */}
@@ -16,7 +16,7 @@ function newhair() {
                     <Image src={Fios} height={360} width={360}/>
                 </div>
                 <div className="mr-5 mb-10 flex justify-center">
-                    <div className="text-left text-3xl px-2 ml-6 bg-green-300 text-blue-900 shadow-xl xl:w-1/2 ">
+                    <div className="font-bold text-left text-3xl px-2 ml-6 bg-pink-500 text-gray-50 shadow-xl xl:w-1/2 ">
                         <h1>Cabelo por toda a casa? Conheca o melhor suplemento para o seus fios...</h1>
                     </div>
                 </div>
@@ -47,7 +47,7 @@ function newhair() {
             
       
             <h1 className=' text-center text-3xl font-black animate-pulse p-4'>Peça o seu!👇</h1>
-            <div className='text-center font-thin '>
+            <div className='text-center font-thin text-lg'>
                  por apenas R$47,90
             </div>
           
