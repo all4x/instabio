@@ -30,8 +30,8 @@ function newhair() {
             
       
             <h1 className=' text-center text-3xl font-black animate-pulse p-4'>Peça o seu!👇</h1>
-            <div className='font-semibold'>
-                 
+            <div className='text-center font-thin '>
+                 por apenas R$47,90
             </div>
           
             <div className='text-center mt-5 p-4'>
@@ -39,7 +39,7 @@ function newhair() {
           <button  className="p-2 pl-16 pr-16 bg-green-500 text-gray-100 text-lg rounded-lg focus:border-4 border-green-300">Whatsapp</button>
           </Link>
       </div> 
-      <p className='text-center text-gray-600  mx-6'>frete gratis para toda Araguaína em até 2 dia útil</p>
+      <p className='text-center text-gray-600 my-5  mx-6'>frete gratis para toda Araguaína em até 2 dia útil</p>
    <Footer/>
   </div>;
 }
