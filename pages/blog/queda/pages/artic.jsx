@@ -99,6 +99,7 @@ const artic = () => {
       {/* FINALIZANDO  */}
       <h1 className=' text-center text-3xl font-black animate-pulse p-4'>Peça o seu aqui!👇</h1>
        {/* CTA 2 */}
+       <p className='text-center font-thin'> por apenas R$47,90</p>
        <div className='text-center mt-2 p-2'>
             <Link href="/blog/queda/whatsapp/button-2">
             <button  className="  font-black text-xl p-2 pl-24 pr-24 bg-green-500 text-gray-100  rounded-lg focus:border-4 border-green-300">Whatsapp</button>
