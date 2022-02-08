@@ -1,17 +1,32 @@
-import Image from 'next/image';
 import Link from 'next/link';
 import Newhair from '../public/newhair.jpg'
 import React from 'react';
 import Footer from '../components/Footer'
 import Topbar from '../components/Topbar'
-
-
+import Fios from  '../public/quedacabelo.jpg.webp'
+import Image from 'next/image';
 
 function newhair() {
   return <div>
-      <Topbar/>
+
+    <Topbar/> 
+    {/* ALOPACIA TITLE */}
+  
+                <div className="mt-[5%] flex justify-center scale-90">
+                    <Image src={Fios} height={360} width={360}/>
+                </div>
+                <div className="mr-5 mb-10 flex justify-center">
+                    <div className="text-left text-3xl px-2 ml-6 bg-green-300 text-blue-900 shadow-xl xl:w-1/2 ">
+                        <h1>Cabelo por toda a casa? Conheca o melhor suplemento para o seus fios...</h1>
+                    </div>
+                </div>
+               
+                   
+
+           
+
       <div className='m-6 max-w-full lg:ml-auto flex justify-center'>
-      <Image src={Newhair} height={400} width={400}/>
+      
       
       
       </div>
@@ -19,6 +34,8 @@ function newhair() {
      
       <div className='mx-5 text-center font-sans text-xl text-black '>
                 <div className='xl:mx-6 '>
+               
+                <Image src={Newhair} height={400} width={400}/>
                 <h2 className='text-3xl pb-4 text-gray-900'>O blend de vitaminas número 1º do Brasil.</h2>
                 <p className=' py-2 text-xl text-left text-gray-900'> Diminui a queda em 96%, Promove um crescimento acelerado dos fios em até 6x mais rápido e renova cabelo pele e unhas.
                 Com apenas uma cápsula ao dia, é possível notar resultados incríveis na hidratação, brilho e comprimento dos seus fios.</p>

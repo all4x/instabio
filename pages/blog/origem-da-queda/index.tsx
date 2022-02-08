@@ -32,7 +32,7 @@ const index = () => {
             <article className="max-w-prose mx-auto py-8 text-lg font-sans text-left px-6">
                 <div className="flex justify-center">
                     <div className="ml-4">
-                        <p>Fios de cabelo pela casa, no travesseiro, no ralo do banheiro e na escova. Essa é a situação vivida por muitas pessoas que sofrem com a queda capilar. Quando o volume chega a cem fios perdidos por dia, é preciso ficar atento e investigar se há alguma doença por trás.</p>
+                        <p>Fios de cabelo pela casa, no travesseiro, no ralo do banheiro e na escova. Essa é a situação vivida por muitas pessoas que sofrem com a queda capilar.<hr className="mb-8"></hr> Quando o volume chega a cem fios perdidos por dia, é preciso ficar atento e investigar se há alguma doença por trás.</p>
                         <p>Como é quase impossível contar cada fio perdido "Se não ocorre uma reposição adequada, pode ser um sinal de doenças relacionadas ao couro cabeludo" As principais condições que acentuam a perda são eflúvio telógeno, alopecia androgenética e alopecia areata. Saiba mais a seguir.</p>
                     </div>
 
