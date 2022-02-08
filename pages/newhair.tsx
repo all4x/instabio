@@ -7,7 +7,7 @@ import Fios from  '../public/quedacabelo.jpg.webp'
 import Image from 'next/image';
 
 function newhair() {
-  return <div className='bg-pink-100'>
+  return <div className='bg-gray-50'>
 
     <Topbar/> 
     {/* ALOPACIA TITLE */}
