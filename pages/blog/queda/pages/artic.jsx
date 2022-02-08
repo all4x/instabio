@@ -63,12 +63,7 @@ const artic = () => {
                 <p className='font-sans text-left ml-4 mr-2 text-lg'> O que eu indico essencialmente para você que sofre com queda, é o encapsulado da linha New Hair que combate a queda capilar em até 96%.</p>
           </div>
           <div>
-             {/* CTA 1.1 */}
-       <div className='text-center mt-2 p-2'>
-            <Link href="/blog/queda/whatsapp/button-2">
-            <button  className="  font-black text-xl p-2 pl-24 pr-24 bg-green-500 text-gray-100  rounded-lg focus:border-4 border-green-300">Comprar</button>
-            </Link>
-          </div>
+            
           <Newhair/>
           </div>
 
