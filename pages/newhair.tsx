@@ -48,7 +48,7 @@ function newhair() {
       
             <h1 className=' text-center text-3xl font-black animate-pulse p-4'>Peça o seu!👇</h1>
             <div className='text-center font-thin text-lg'>
-                 por apenas R$47,90
+                 por apenas R$57,90
             </div>
           
             <div className='text-center mt-5 p-4'>
