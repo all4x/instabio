@@ -19,25 +19,26 @@ const index = () => {
                         <h1>Cabelo por toda a casa? Saiba o que provoca a queda dos fios...</h1>
                     </div>
                 </div>
+                    
                 <div className="ml-5 xl:flex xl:justify-center">
                     <div>
                     <p className="font-bold text-left ">Nylde Cosmeticos</p>
                     <p className="font-thin">08/02/2022 09h:00</p>
-
                     </div>
 
                 </div>
+                
 
             </div>
-            <article className="max-w-prose mx-auto py-8 text-lg font-sans text-left px-6">
+            <article className="max-w-prose mx-auto py-8 text-lg font-sans px-6">
                 <div className="flex justify-center">
-                    <div className="ml-4">
-                        <p>Fios de cabelo pela casa, no travesseiro, no ralo do banheiro e na escova. Essa é a situação vivida por muitas pessoas que sofrem com a queda capilar.<hr className=""></hr> Quando o volume chega a cem fios perdidos por dia, é preciso ficar atento e investigar se há alguma doença por trás.</p>
-                        <p>Como é quase impossível contar cada fio perdido "Se não ocorre uma reposição adequada, pode ser um sinal de doenças relacionadas ao couro cabeludo" As principais condições que acentuam a perda são eflúvio telógeno, alopecia androgenética e alopecia areata. Saiba mais a seguir.</p>
+                    <div className="ml-4 text-lg">
+                        <p>Fios de cabelo pela casa, no travesseiro, no ralo do banheiro e na escova. Essa é a situação vivida por muitas pessoas que sofrem com a queda capilar.<hr className="mb-10"></hr> Quando o volume chega a cem fios perdidos por dia, é preciso ficar atento e investigar se há alguma doença por trás.</p>
+                        <p>Como é quase impossível contar cada fio perdido "Se não ocorre uma reposição adequada, pode ser um sinal de doenças relacionadas ao couro cabeludo" <span className="font-sans"> As principais condições que acentuam a perda são eflúvio telógeno, alopecia androgenética e alopecia areata. Saiba mais a seguir.</span></p>
                     </div>
 
                 </div>
-
+            
                 <div className="">
                     <div>
                         <h1 className="font-bold m-4 text-left">Eflúvio telógeno</h1>
@@ -65,7 +66,9 @@ const index = () => {
                         </p>
                     </div>
                     </div>
-
+                   
+                   
+                    <div className="space-y-4">
                     <div className="">
                     <div>
                         <h1 className="font-bold m-4 text-left">Outras causas que provocam a queda capilar</h1>            
@@ -89,6 +92,8 @@ const index = () => {
                         <p className="ml-4"> de acordo com os especialistas, também tem sido comum pessoas se queixando de queda capilar após contraírem o coronavírus. Mesmo com poucos estudos relacionados ao tema, os dermatologistas indicam que os fios podem cair depois da doença. O tratamento é individualizado.</p>
                     </div>
                     </div>
+                    </div>
+                   
             </article>
             
 
