@@ -9,9 +9,10 @@ import Feedback1 from '../../../../public/D_NQ_NP_637796-MLB32708033593_102019-O
 
 function newhair() {
   return <div>
-      <div>
+      <div className='m-6 max-w-full lg:ml-auto flex justify-center'>
             <div className='m-5 '>
-              <div><Image src={Feedback2}/></div>
+              <div>
+              <Image src={Feedback2}/></div>
               <div>
               <Image src={Feedback1} height={320}/>
               </div>
