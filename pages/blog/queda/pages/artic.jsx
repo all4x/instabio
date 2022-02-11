@@ -129,7 +129,7 @@ const artic = () => {
           <div className=''>
           <h1 className='text-center font-normal text-3xl'>Postes relacionados</h1>
           <Image src={Fios} height={360} width={360}/>
-          <p className='text-center text-lg font-mono'>Saiba o que provoca a queda dos fios...</p>
+          <p className='text-center text-lg font-mono'>Saiba o que provoca Alopecia...</p>
           </div>
           </section>
           <div className='text-center mt-2 p-2'>
