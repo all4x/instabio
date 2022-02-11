@@ -7,6 +7,7 @@ import Social from '../components/Social/Social-xs'
 import Topbar from '../components/Topbar'
 
 
+
 export default function Home() {
   return (
     <div className="" >
@@ -21,6 +22,7 @@ export default function Home() {
           <main  className=" bg-yellow-50">
             
             <div className=""> <Social /></div>
+          
           </main>
      
       

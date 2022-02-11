@@ -1,4 +1,5 @@
 
+
 import Head from 'next/head';
 import React from 'react';
 
@@ -11,7 +12,7 @@ function index() {
         <div>
             <Head>
             <meta name="title" content="Nylde Cosmeticos | Whatsapp"/>
-            <meta http-equiv="refresh" content="0;https://nyldecosmeticos.lojaintegrada.com.br/new-hair" />
+            <meta http-equiv="refresh" content="0;https://nyldecosmeticos.lojaintegrada.com.br/" />
             </Head>
                 <div class="h-screen bg-white">
         <div class="flex justify-center items-center h-full">

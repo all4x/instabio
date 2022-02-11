@@ -1,14 +1,21 @@
-import link from 'next/link'
+import * as React from 'react';
+import Zap from '../../../public/whatsapp.png'
+import { Fab, } from '@mui/material';
+import Image from 'next/image'
 
-export default function Whatsapp() {
-    return (
-        <div className={`
-            font-extralight text-4xl flex justify-center p-3 border-2 h-18 
-            border-white  shadow-lg bg-opacity-25 bg-white
-            text-black rounded-full	m-4
-        `}>
-            <a href="https://api.whatsapp.com/send?phone=5563992072188&"> Whatsapp</a>
-            
-        </div>
-    )
-}
+function App() {
+  return (
+    <div className=''>
+      <a href='https://api.whatsapp.com/send?phone=5563992072188'>
+      <Fab disabled aria-label="like" size='small'>
+      <Image src={Zap}/>
+      </Fab>
+      </a>
+      
+    </div>
+    
+  )
+};
+
+
+export default App;
