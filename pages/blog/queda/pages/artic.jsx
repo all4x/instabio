@@ -110,7 +110,7 @@ const artic = () => {
             <Image src={newhair}/>
           </div>
           <div>
-            <div className='m-5 '>
+            <div className='m-5 xl:hidden '>
               <div><Image src={Feedback2}/></div>
               <div>
               <Image src={Feedback1} height={320}/>
