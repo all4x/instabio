@@ -4,12 +4,13 @@ import Image from 'next/image'
 import Fios from '../../../public/quedacabelo.jpg.webp'
 import Newhair from "../queda/pages/newhair";
 import Link from "next/link";
-
+import Zap from '../../../src/components/whatsapp'
 
 const index = () => {
     return (
         <div>
             <Topbar/>
+          
             <div>
                 <div className="mt-[5%] flex justify-center scale-90">
                     <Image src={Fios} height={360} width={360}/>
@@ -20,12 +21,14 @@ const index = () => {
                     </div>
                 </div>
                     
-                <div className="ml-5 xl:flex xl:justify-center">
+                <div className="ml-5 mr-5 xl:flex xl:justify-center flex justify-between">
                     <div>
                     <p className="font-bold text-left ">Nylde Cosmeticos</p>
                     <p className="font-thin">08/02/2022 09h:00</p>
                     </div>
-
+                    <div className="mx-2">
+                    <Zap/> 
+                    </div>
                 </div>
                 
 
@@ -94,7 +97,7 @@ const index = () => {
                     </div>
                     </div>
                    
-            </article>
+            </article>  
             
 
             <div>
@@ -104,7 +107,7 @@ const index = () => {
             <p className='text-center font-thin'> por apenas R$57,90</p>
             <div className='text-center mt-2 p-2'>
             <Link href="/blog/queda/whatsapp/button-2">
-            <button  className="  font-black text-xl p-2 pl-24 pr-24 bg-green-500 text-gray-100  rounded-lg focus:border-4 border-green-300">Whatsapp</button>
+            <button  className="  font-black text-xl p-2 pl-24 pr-24 bg-green-500 text-gray-100  rounded-lg focus:border-4 border-green-300">Eu Quero</button>
             </Link>
           </div>
             </div>
