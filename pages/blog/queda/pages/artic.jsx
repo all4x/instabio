@@ -26,12 +26,8 @@ const artic = () => {
               <h1 className='mt-5 ml-2 '>Oi Tudo bem? me chamo Erenilde sou formada em <strong>Terapia Capilar</strong> e estou aqui para te dar algumas dicas matadoras para se livrar da queda capilar.</h1>
             </div>
 
-            <article class="max-w-prose mx-auto py-8">
-              <h1 class="text-2xl font-bold mb-5">Queda de cabelo em excesso</h1>
-              <p className='text-lg text-left text-black'>Atualmente, 30% das mulheres apresentam algum grau de alopecia (<strong className='font-thin'>alopecia é uma condição em que ocorre perda de cabelo ou de pelo em qualquer parte do corpo.</strong>) </p>
-            
-            {/* BOTÃO DO ZAP */}
-            <div className="ml-5 mr-5 xl:flex xl:justify-center flex justify-between mt-2">
+    {/* BOTÃO DO ZAP */}
+                  <div className="ml-5 mr-5 xl:flex xl:justify-center flex justify-between mt-2">
                     <div>
                     <p className="font-bold text-left ">Nylde Cosmeticos</p>
                     <p className="font-thin">11/02/2022 09h:00</p>
@@ -41,6 +37,9 @@ const artic = () => {
                     </div>
                 </div>
 
+            <article class="max-w-prose mx-auto py-8">
+              <h1 class="text-2xl font-bold mb-5">Queda de cabelo em excesso</h1>
+              <p className='text-lg text-left text-black'>Atualmente, 30% das mulheres apresentam algum grau de alopecia (<strong className='font-thin'>alopecia é uma condição em que ocorre perda de cabelo ou de pelo em qualquer parte do corpo.</strong>) </p>
               <section>
             <h1 className='text-center font-extrabold text-3xl m-5 py-5'>Veja as 6 principais causas</h1>
             <div className='space-y-9'>
