@@ -26,12 +26,8 @@ const index = () => {
                     <p className="font-bold text-left ">Nylde Cosmeticos</p>
                     <p className="font-thin">08/02/2022 09h:00</p>
                     </div>
-                    <div className="mx-2">
-                    <Zap/> 
-                    </div>
                 </div>
-                
-
+                <Zap/>
             </div>
             <article className="max-w-prose mx-auto py-8 text-lg font-sans px-6">
                 <div className="">
