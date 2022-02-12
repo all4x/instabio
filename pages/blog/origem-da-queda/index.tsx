@@ -34,10 +34,13 @@ const index = () => {
 
             </div>
             <article className="max-w-prose mx-auto py-8 text-lg font-sans px-6">
-                <div className="flex justify-center">
+                <div className="">
                     <div className="ml-4 text-lg">
-                        <p>Fios de cabelo pela casa, no travesseiro, no ralo do banheiro e na escova. Essa é a situação vivida por muitas pessoas que sofrem com a queda capilar.<hr className="mb-10"></hr> Quando o volume chega a cem fios perdidos por dia, é preciso ficar atento e investigar se há alguma doença por trás.</p>
-                        <p>Como é quase impossível contar cada fio perdido "Se não ocorre uma reposição adequada, pode ser um sinal de doenças relacionadas ao couro cabeludo" <span className="font-sans"> As principais condições que acentuam a perda são eflúvio telógeno, alopecia androgenética e alopecia areata. Saiba mais a seguir.</span></p>
+                        <p>Fios de cabelo pela casa, no travesseiro, no ralo do banheiro e na escova. Essa é a situação vivida por muitas pessoas que sofrem com a queda capilar.<hr className="mb-10"></hr> </p>
+                        <p className="">Quando o volume chega a cem fios perdidos por dia, é preciso ficar atento e investigar se há alguma doença por trás. Como é quase impossível contar cada fio perdido</p>
+                        <p> <strong>"Se não ocorre uma reposição adequada, pode ser um sinal de doenças relacionadas ao couro cabeludo".</strong> <span className="font-sans"> </span></p>
+
+                        <p className="mt-5">As principais condições que acentuam a perda são eflúvio telógeno, alopecia androgenética e alopecia areata. Saiba mais a seguir.</p>
                     </div>
 
                 </div>
@@ -88,7 +91,7 @@ const index = () => {
                         </p>
                     </div>
                     </div>
-                    
+
                     <div className="">
                     <div>
                         <li className="font-bold ml-4">Covid-19: </li>
@@ -96,23 +99,20 @@ const index = () => {
                     </div>
                     </div>
                     </div>
-                   
-            </article>  
-            
+
+            </article>
 
             {/* CHAMADA PRA AÇÃO CRONOGRAMA */}
       <div className='bg-yellow-100 m-4 p-4 shadow-2xl rounded-lg'>
-      
-      <h1 className='text-center text-3xl mt-2 font-mono'>cronograma capilar</h1> 
-                  
-                  
+      <h1 className='text-center text-3xl mt-2 font-mono'>cronograma capilar</h1>
+
       <h2 className='mt-6 text-xl'> Aqui está seu <strong>cronograma gratuito,</strong> para deixar cabelo mais saudável, você pode esta baixando direto pelo whatsapp no botão abaixo </h2>
 
       <div className='flex justify-center pt-5'>
-                        <Link href="/blog/queda/whatsapp/button-1">  
+                        <Link href="/blog/queda/whatsapp/button-1">
                         <button className="p-2 pl-16 pr-16 bg-white text-gray-900 text-lg rounded-lg focus:border-4 border-green-300">Eu quero!</button>
                         </Link>
-                        </div> 
+                        </div>
 
 
       </div>
