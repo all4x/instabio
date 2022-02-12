@@ -3,7 +3,7 @@ import Footer from  '../../../components/Footer'
 import Head from  'next/head'
 
 import React from 'react';
-
+import Zap from '../../../src/components/whatsapp'
 import Artic from './pages/artic'
 
 
@@ -15,7 +15,7 @@ export const queda = () => {
       </Head>
             <Topbar></Topbar>
             <Artic/>
-            
+            <Zap/>
             <Footer></Footer>
     </div>
   );
