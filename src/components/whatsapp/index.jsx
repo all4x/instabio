@@ -1,7 +1,7 @@
 import * as React from 'react';
 import { Fab, } from '@mui/material';
 import WhatsAppIcon from '@mui/icons-material/WhatsApp';
-import { brown, green } from '@mui/material/colors';
+import { green } from '@mui/material/colors';
 import { Box } from '@mui/material';
 
 
@@ -25,7 +25,7 @@ function App() {
 
       <a href='https://api.whatsapp.com/send?phone=5563992072188'>
       <Fab className='bg-green-500' aria-label="edit" size='large'>
-      <WhatsAppIcon sx={{ color: green[50] }} fontSize='large' />
+      <WhatsAppIcon sx={{ color: green[500] }} fontSize='large' />
       </Fab>
       </a>
       </Box>
