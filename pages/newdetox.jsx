@@ -33,7 +33,7 @@ export default function Home() {
         <div className='flex justify-center mb-5'>
             <Link href="https://nyldecosmeticos.lojaintegrada.com.br/new-detox">
                 <Button variant="contained" disableElevation color="success" >
-                Conheça o New detox
+                Eu Quero
                 </Button>
             </Link>
         </div>
