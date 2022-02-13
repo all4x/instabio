@@ -31,11 +31,12 @@ export default function Home() {
             <Image src={Potes} width={341} height={341} />
         </div>
         <div className='flex justify-center mb-5'>
-            <a href='https://app.monetizze.com.br/r/AFN18833790'>
+            <Link href="/conversion">
                 <Button variant="contained" disableElevation color="success" >
                 Conheça o New detox
                 </Button>
-            </a>
+            </Link>
+
            
         </div>
 
