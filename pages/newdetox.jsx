@@ -1,6 +1,14 @@
 import Head from 'next/head'
 import Link from 'next/link'
 import Footer from '../components/Footer'
+import Image from 'next/image'
+import Logo from '../public/logo-detox.png'
+import Potes from '../public/newdetox.png'
+import Button from '@mui/material/Button';
+import Um from '../public/1.png'
+import Dois from '../public/2.png'
+import Treis from '../public/3.png'
+import Zap from '../src/components/whatsapp'
 
 
 
@@ -9,40 +17,68 @@ export default function Home() {
     return(
         <div className=''>
         <Head>
-          <meta name="title" content="Nylde Cosmeticos | New Detox"/>
-          <link rel="icon" href="/detox.png" />
-          <meta name="description" content="New Detox possui fórmula 100% natural que contém ingredientes potentes capazes de agilizar o processo de emagrecimento, sem precisar sair de casa para academia"/>
+        <meta name="title" content="Nylde Cosmeticos | New Detox"/>
+        <link rel="icon" href="/detox.png" />
+        <meta name="description" content="New Detox possui fórmula 100% natural que contém ingredientes potentes capazes de agilizar o processo de emagrecimento, sem precisar sair de casa para academia"/>
         </Head>
-        <div className='mt-[-10%]  flex flex-col items-center justify-center h-screen  text-3xl font-light text-center'>
-        <h1 className='font-bold text-gray-500 '>Tudo certo!</h1>
-        <h2 className='text-xl mx-5'>Click em continuar para ser direcionado para a página solicitada.</h2>
+        
+        <Zap/>
+        <div className='flex justify-center m-5'>
+            <Image src={Logo} width={317} height={45} />
+        </div>
 
-        <div>
-            <div class="m-2 p-4">
-            <Link href="/remarketing">
-                <button type="button" class='flex max-w-sm w-full bg-gradient-to-r from-green-500 to-blue-500 hover:from-green-600 hover:to-blue-600 focus:outline-none text-white text-3xl uppercase font-bold shadow-md mx-auto p-3 rounded-2xl'>
-                    <div class="flex sm:flex-cols-12 ">
-                        <div class="col-span-1">
-                            <svg xmlns="http://www.w3.org/2000/svg" class="h-10 w-10 " fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 13l-3 3m0 0l-3-3m3 3V8m0 13a9 9 0 110-18 9 9 0 010 18z" />
-                            </svg>
-                        </div>
-                        <h1>Continuar</h1>
-                        <div class="col-span-2 pt-3"></div>
-                    </div>    
-                </button>
-                </Link>
+        <div className='flex justify-center'>
+            <Image src={Potes} width={341} height={341} />
+        </div>
+        <div className='flex justify-center mb-5'>
+            <a href='https://app.monetizze.com.br/r/AFN18833790'>
+                <Button variant="contained" disableElevation color="success" >
+                Conheça o New detox
+                </Button>
+            </a>
+           
+        </div>
+
+        <div className='bg-green-700'>
+
+        <div className=''>
+            <h1 className='text-3xl font-light text-gray-50 text-center p-5'>VOCÊ MAIS MAGRA E DISPOSTA EM POUCAS SEMANAS</h1>
+            <div className='flex justify-center '>
+                <div>
+                    <Image src={Um}/>
+                </div>
             </div>
+            <h1 className='text-center text-gray-50 p-4'>
+                <strong className=''>SEM</strong> Precisar Parar de Comer o que Você Gosta
+                </h1>
         </div>
-    </div>
-    <div>
-        <div>
-            <h2 class="text-2xl mb-4 text-gray-700 font-bold"></h2>
-            <hr class="bg-gray-500 w-full h-0.25 mb-5"/>
+
+        <div className=''>
+            
+            <div className='flex justify-center '>
+                <div>
+                    <Image src={Dois}/>
+                </div>
+            </div>
+            <h1 className='text-center text-gray-50 p-4'>
+                <strong className=''>SEM</strong>  Precisar se Matar com Exercícios Chatos e Cansativos...
+                </h1>
+        </div>
+
+        <div className=''>
+            
+            <div className='flex justify-center '>
+                <div>
+                    <Image src={Treis}/>
+                </div>
+            </div>
+            <h1 className='text-center text-gray-50 p-4'>
+                <strong className=''>SEM</strong>  Resultados Satisfatórios já nas Primeiras Semanas de Uso
+                </h1>
+        </div>
+        </div>
+
         
-        
-        </div>
-        </div>
         <Footer/>
         </div>
     )
