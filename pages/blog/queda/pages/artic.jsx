@@ -5,6 +5,10 @@ import Image from 'next/image'
 import Nylde from '../../../../public/nylde.png'
 import newhair from '../../../../public/new-2.jpg';
 import Feedback2 from '../../../../public/photo4904871619063819029.jpg'
+import Fios from '../../../../public/quedacabelo.jpg.webp'
+
+
+
 
 
 const artic = () => {
@@ -21,12 +25,13 @@ const artic = () => {
               <h1 className='mt-5 ml-2 '>Oi Tudo bem? me chamo Erenilde sou formada em <strong>Terapia Capilar</strong> e estou aqui para te dar algumas dicas matadoras para se livrar da queda capilar.</h1>
             </div>
 
+                 
+
             <article class="max-w-prose mx-auto py-8">
               <h1 class="text-2xl font-bold mb-5">Queda de cabelo em excesso</h1>
               <p className='text-lg text-left text-black'>Atualmente, 30% das mulheres apresentam algum grau de alopecia (<strong className='font-thin'>alopecia é uma condição em que ocorre perda de cabelo ou de pelo em qualquer parte do corpo.</strong>) </p>
-              <h2 class="mt-2 text-sm text-gray-500">Nylde, 25 Janeiro  2022</h2>
-
               <section>
+                
             <h1 className='text-center font-extrabold text-3xl m-5 py-5'>Veja as 6 principais causas</h1>
             <div className='space-y-9'>
           <div className='space-y-9 py-3'>
@@ -97,38 +102,32 @@ const artic = () => {
 
     
       {/* FINALIZANDO  */}
-      <h1 className=' text-center text-3xl font-black animate-pulse p-4'>Peça o seu aqui!👇</h1>
+      <h1 className=' text-center text-xl font-black animate-pulse p-4'>Peça o seu New Hair aqui!👇</h1>
        {/* CTA 2 */}
-       <p className='text-center font-thin'> por apenas R$57,90</p>
+       <Image src={newhair}/>
+       <p className='text-center font-thin'> por apenas R$59,90</p>
        <div className='text-center mt-2 p-2'>
             <Link href="/blog/queda/whatsapp/button-2">
-            <button  className="  font-black text-xl p-2 pl-24 pr-24 bg-green-500 text-gray-100  rounded-lg focus:border-4 border-green-300">Whatsapp</button>
+            <button  className="  font-black text-xl p-2 pl-24 pr-24 bg-pink-700 text-gray-100  rounded-lg focus:border-4 border-green-300">Eu Quero</button>
             </Link>
           </div>
-      <div className='mt-10'>
-          <div className='flex justify-center'>
-            <Image src={newhair}/>
-          </div>
-          <div>
-            <div className='m-5 xl:hidden '>
-              <div><Image src={Feedback2}/></div>
-              <div>
-              <Image src={Feedback1} height={320}/>
-              </div>
+          <p className='text-center text-gray-600 font-extralight mx-6'>Frete para toda Araguaína em até 1 dia</p>
 
-            </div>
-          </div>
-
-          {/* CTA 3 */}
-          <div className='text-center mt-2 p-2 '>
-            <Link href="/blog/queda/whatsapp/button-2">
-            <button  className="  font-black text-xl p-2 pl-24 pr-24 bg-green-500 text-gray-100  rounded-lg focus:border-4 border-green-300">EU QUERO</button>
-            </Link>
-          </div>
-      <p className='text-center text-gray-600  mx-6'>frete gratis para toda Araguaína em até 2 dia útil</p>
-      </div>
             </article>
           </main>
+
+          <section className='flex justify-center p-5'>
+          <div className=''>
+          <h1 className='text-center font-normal text-3xl'>Postes relacionados</h1>
+          <Image src={Fios} height={360} width={360}/>
+          <p className='text-center text-lg font-mono'>Saiba o que provoca Alopecia...</p>
+          </div>
+          </section>
+          <div className='text-center mt-2 p-2'>
+            <Link href="/blog/origem-da-queda">
+            <button  className="  font-black text-xl p-2 pl-24 pr-24 bg-yellow-500 text-gray-100  rounded-lg focus:border-4 border-green-300">Ver Mais</button>
+            </Link>
+          </div>
         </div>
     );
 }
