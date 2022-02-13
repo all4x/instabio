@@ -16,13 +16,8 @@ export default function Home() {
         <div className='mt-[-10%]  flex flex-col items-center justify-center h-screen  text-3xl font-light text-center'>
         <h1 className='font-bold text-gray-500 '>Tudo certo!</h1>
         <h2 className='text-xl mx-5'>Click em continuar para ser direcionado para a página solicitada.</h2>
-        
-        
-        
+
         <div>
-           
-           
-        
             <div class="m-2 p-4">
             <Link href="/remarketing">
                 <button type="button" class='flex max-w-sm w-full bg-gradient-to-r from-green-500 to-blue-500 hover:from-green-600 hover:to-blue-600 focus:outline-none text-white text-3xl uppercase font-bold shadow-md mx-auto p-3 rounded-2xl'>
