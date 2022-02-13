@@ -9,7 +9,7 @@ import Um from '../public/1.png'
 import Dois from '../public/2.png'
 import Treis from '../public/3.png'
 import Zap from '../src/components/whatsapp'
-
+import Topbar from '../src/components/Topbar'
 
 
 
@@ -21,7 +21,7 @@ export default function Home() {
         <link rel="icon" href="/detox.png" />
         <meta name="description" content="New Detox possui fórmula 100% natural que contém ingredientes potentes capazes de agilizar o processo de emagrecimento, sem precisar sair de casa para academia"/>
         </Head>
-        
+        <Topbar/>
         <Zap/>
         <div className='flex justify-center m-5'>
             <Image src={Logo} width={317} height={45} />
@@ -31,15 +31,13 @@ export default function Home() {
             <Image src={Potes} width={341} height={341} />
         </div>
         <div className='flex justify-center mb-5'>
-            <Link href="/conversion">
+            <Link href="https://nyldecosmeticos.lojaintegrada.com.br/new-detox">
                 <Button variant="contained" disableElevation color="success" >
                 Conheça o New detox
                 </Button>
             </Link>
-
-           
         </div>
-
+        <p className='text-center font-light p-3'> utilize o cupom : <strong>Detox20</strong> para ter -R$ 20 de desconto! </p>
         <div className='bg-green-700'>
 
         <div className=''>
