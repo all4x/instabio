@@ -38,6 +38,7 @@ export default function Home() {
             </Link>
         </div>
         <div className='bg-green-700'>
+        <p className='text-center font-light p-3'> utilize o cupom : <strong>Detox20</strong> para ter -R$ 20 de desconto! </p>
 
         <div className=''>
             <h1 className='text-3xl font-light text-gray-50 text-center p-5'>VOCÊ MAIS MAGRA E DISPOSTA EM POUCAS SEMANAS</h1>
