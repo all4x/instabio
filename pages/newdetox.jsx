@@ -37,7 +37,6 @@ export default function Home() {
                 </Button>
             </Link>
         </div>
-        <p className='text-center font-light p-3'> utilize o cupom : <strong>Detox20</strong> para ter -R$ 20 de desconto! </p>
         <div className='bg-green-700'>
 
         <div className=''>
