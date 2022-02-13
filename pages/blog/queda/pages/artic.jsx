@@ -1,12 +1,10 @@
 import Link from 'next/link'
 import Newhair from '../pages/newhair';
-import Feedback1 from '../../../../public/D_NQ_NP_637796-MLB32708033593_102019-O.jpg'
 import Image from 'next/image'
 import Nylde from '../../../../public/nylde.png'
 import newhair from '../../../../public/new-2.jpg';
-import Feedback2 from '../../../../public/photo4904871619063819029.jpg'
 import Fios from '../../../../public/quedacabelo.jpg.webp'
-
+import Cronograma from '../../cronograma-gratuito'
 
 
 
@@ -93,7 +91,10 @@ const artic = () => {
                 <p className='font-sans text-left ml-4 mr-2 text-lg'> tente deixar os cabelos secarem antes de prendê-los, ok? Um simples rabo de cavalo já pode enfraquecer os fios! </p>
 
           </div>
+          </div>
 
+          <div>
+              <Cronograma/>
           </div>
       </section>
 
