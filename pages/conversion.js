@@ -1,19 +1,25 @@
-import Head from 'next/head'
 
+import Head from 'next/head';
+import React from 'react';
 
-export default function Home() {
-    return(
+import Iphone from '/public/Iphone-spinner-2.gif'
+
+import Image from 'next/image';
+
+function index() {
+  return (
         <div>
-        <Head>
-            <meta http-equiv="refresh" content="2;https://app.monetizze.com.br/r/AFN18833790" />
-        </Head>
-       
-        <div className=' flex flex-col items-center justify-center min-h-screen text-4xl font-light animate-pulse'>
-        <h1>Carregando</h1>
-        <p>não vai demorar muito...</p>
-       
+            <Head>
+            <meta name="title" content="Nylde Cosmeticos | Whatsapp"/>
+            <meta http-equiv="refresh" content="0;https://app.monetizze.com.br/r/AFN18833790" />
+            </Head>
+                <div class="h-screen bg-white">
+        <div class="flex justify-center items-center h-full">
+        <Image className='h-16 w-16' src={Iphone}></Image>
         </div>
 
         </div>
-    )
+        </div>
+  )
 }
+export default index;

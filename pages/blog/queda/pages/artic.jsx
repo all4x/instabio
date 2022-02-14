@@ -6,7 +6,7 @@ import newhair from '../../../../public/new-2.jpg';
 import Fios from '../../../../public/quedacabelo.jpg.webp'
 import Cronograma from '../../cronograma-gratuito'
 
-
+import Checkout from '../src/checkout'
 
 
 const artic = () => {
@@ -104,16 +104,7 @@ const artic = () => {
     
       {/* FINALIZANDO  */}
       <h1 className=' text-center text-xl font-black animate-pulse p-4'>Peça o seu New Hair aqui!👇</h1>
-       {/* CTA 2 */}
-       <Image src={newhair}/>
-       <p className='text-center font-thin'> por apenas R$59,90</p>
-       <div className='text-center mt-2 p-2'>
-            <Link href="/blog/queda/whatsapp/button-2">
-            <button  className="  font-black text-xl p-2 pl-24 pr-24 bg-pink-700 text-gray-100  rounded-lg focus:border-4 border-green-300">Eu Quero</button>
-            </Link>
-          </div>
-          <p className='text-center text-gray-600 font-extralight mx-6'>Frete para toda Araguaína em até 1 dia</p>
-
+          <Checkout/>
             </article>
           </main>
 
