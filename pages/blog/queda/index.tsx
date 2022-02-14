@@ -11,7 +11,6 @@ export const queda = () => {
   return (
     <div>
       <Head>
-          
       </Head>
             <Topbar></Topbar>
             <Artic/>

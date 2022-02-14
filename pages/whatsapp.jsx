@@ -1,19 +1,24 @@
+
 import Head from 'next/head'
+import Image from 'next/image'
+import React from 'react';
+
+import Iphone from '/public/Iphone-spinner-2.gif'
 
 
-export default function Home() {
-    return(
-        <div>
+
+const convertion = () => {
+return <div>
         <Head>
-            <meta http-equiv="refresh" content="2;https://bit.ly/3ER7CNP" />
+            <meta http-equiv="refresh" content="0;https://api.whatsapp.com/send?phone=5563992072188" />
         </Head>
-        <iframe src="https://app.monetizze.com.br/r/AFY17713867" width="1" height="1"></iframe> 
-        <div className=' flex flex-col items-center justify-center min-h-screen text-4xl font-light animate-pulse'>
-        <h1>Carregando</h1>
-        <p>não vai demorar muito...</p>
-       
+                <div class="h-screen bg-white">
+        <div class="flex justify-center items-center h-full">
+        <Image className='h-16 w-16' src={Iphone}></Image>
         </div>
 
         </div>
-    )
-}
+        </div>;
+};
+
+export default convertion;

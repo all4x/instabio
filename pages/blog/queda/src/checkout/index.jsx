@@ -41,7 +41,7 @@ const index = () => {
           
         </div>
         <div className="flex justify-center mb-5">
-        <Link href="/blog/queda/whatsapp/button-2">
+        <Link href="/whatsapp">
           <Button
             variant="contained"
             disableElevation
