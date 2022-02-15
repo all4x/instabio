@@ -27,7 +27,7 @@ const index = () => {
             <div className='flex justify-items-start'>
               <div> <Image src={Kit1}/></div>
               <div className='text-center flex-col justify-center'>
-                <h1 className='m-2 font-semibold text-gray-600 '>De <strong className='line-through'>De R$137</strong></h1>
+                <h1 className='m-2 font-semibold text-gray-600 '> <strong className='line-through'>De R$137</strong></h1>
                 <h2 className='text-gray-600'>Por 6x <strong className=' text-black text-3xl font-black'>18,33</strong> sem juros</h2>
                 <p className='text-gray-600 font-extrabold'>ou R$110,00 à vista</p>
               </div>

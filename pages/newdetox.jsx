@@ -12,6 +12,13 @@ import Zap from '../src/components/whatsapp'
 import Topbar from '../src/components/Topbar'
 import Checkout from '../src/components/checkout'
 
+import Frete from '/public/Frete-gratis.png'
+import Kit1 from '/public/kit1.png'
+import Kit2 from '/public/mockup-2.png'
+import Kit3 from '/public/mockup-3.png'
+import Kit5 from '/public/mockup-5.png'
+
+
 
 
 
@@ -78,6 +85,141 @@ export default function Home() {
         </div>
         </div>
         <Checkout/>
+
+          {/* CHECKOUT 2 potes */}
+      <div>
+        <div className="mt-10 mb-5 ml-8 mr-8 flex justify-center bg-gray-100 rounded-xl ">
+          <div className="m-4 p-2 rounded-xl">
+            <div className="text-center">
+              <h1 className="text-2xl font-semibold">Compre 2 Pote</h1>
+              <h2 className="text-xl font bg-gray-500 text-white px-4 rounded-md">
+                Tratamento para 2 Mês
+              </h2>
+            </div>
+            <hr className="bg-yellow-700 m-3 p-[0.2%]" />
+
+            <div className='flex justify-items-start'>
+              <div> <Image src={Kit2}/></div>
+              <div className='text-center flex-col justify-center'>
+                <h1 className='m-2 font-semibold text-gray-600 '> <strong className='line-through'>De R$194</strong></h1>
+                <h2 className='text-gray-600'>Por 12x <strong className=' text-black text-3xl font-black'>15,76</strong></h2>
+                <p className='text-gray-600 font-extrabold'>ou R$157,00 à vista</p>
+              </div>
+            </div>
+            <hr className="bg-yellow-700 m-3 p-[0.2%]" />
+            <div className='flex justify-center '>
+            <a href='https://app.monetizze.com.br/r/AFN18833790?u=c&pl=HM142996'>
+            <Button variant="contained" color="success">
+            Comprar
+            </Button>
+            </a>
+            </div>
+          </div>
+          
+        </div>
+        <div className="flex justify-center mb-5">
+        <Link href="/whatsapp">
+          <Button
+            variant="contained"
+            disableElevation
+            color="success"
+            className="animate-pulse"
+          >
+            Comprar Pelo Whatsapp
+          </Button>
+        </Link>
+      </div>
+      </div>
+
+        {/* CHECKOUT 3 potes */}
+      <div>
+        <div className="mt-10 mb-5 ml-8 mr-8 flex justify-center bg-gray-100 rounded-xl ">
+          <div className="m-4 p-2 rounded-xl">
+            <div className="text-center">
+              <h1 className="text-2xl font-semibold">Compre 3 Pote</h1>
+              <h2 className="text-xl font bg-gray-500 text-white px-4 rounded-md">
+                Tratamento para 3 Mês
+              </h2>
+            </div>
+            <hr className="bg-yellow-700 m-3 p-[0.2%]" />
+
+            <div className='flex justify-items-start'>
+              <div> <Image src={Kit3}/></div>
+              <div className='text-center flex-col justify-center'>
+                <h1 className='m-2 font-semibold text-gray-600 '> <strong className='line-through'>De R$297,00</strong></h1>
+                <h2 className='text-gray-600'>Por 12x <strong className=' text-black text-3xl font-black'>22,79</strong></h2>
+                <p className='text-gray-600 font-extrabold'>ou R$227,00 à vista</p>
+              </div>
+            </div>
+            <hr className="bg-yellow-700 m-3 p-[0.2%]" />
+            <div className='flex justify-center '>
+            <a href='https://app.monetizze.com.br/r/AFN18833790?u=c&pl=VW142997'>
+            <Button variant="contained" color="success">
+            Comprar
+            </Button>
+            </a>
+            </div>
+          </div>
+          
+        </div>
+        <div className="flex justify-center mb-5">
+        <Link href="/whatsapp">
+          <Button
+            variant="contained"
+            disableElevation
+            color="success"
+            className="animate-pulse"
+          >
+            Comprar Pelo Whatsapp
+          </Button>
+        </Link>
+      </div>
+      </div>
+
+      {/* CHECKOUT 5 potes */}
+      <div>
+        <div className="mt-10 mb-5 ml-8 mr-8 flex justify-center bg-gray-100 rounded-xl ">
+          <div className="m-4 p-2 rounded-xl">
+            <div className="text-center">
+              <h1 className="text-2xl font-semibold">Compre 5 Pote</h1>
+              <h2 className="text-xl font bg-gray-500 text-white px-4 rounded-md">
+                Tratamento para 5 Mês
+              </h2>
+            </div>
+            <hr className="bg-yellow-700 m-3 p-[0.2%]" />
+
+            <div className='flex justify-items-start'>
+              <div> <Image src={Kit5}/></div>
+              <div className='text-center flex-col justify-center'>
+                <h1 className='m-2 font-semibold text-gray-600 '> <strong className='line-through'>De R$497,00</strong></h1>
+                <h2 className='text-gray-600'>Por 12x <strong className=' text-black text-3xl font-black'>34,84</strong></h2>
+                <p className='text-gray-600 font-extrabold'>ou R$347,00 à vista</p>
+              </div>
+            </div>
+            <hr className="bg-yellow-700 m-3 p-[0.2%]" />
+            <div className='flex justify-center '>
+            <a href='https://app.monetizze.com.br/r/AFN18833790?u=c&pl=AJ142998'>
+            <Button variant="contained" color="success">
+            Comprar
+            </Button>
+            </a>
+            </div>
+          </div>
+          
+        </div>
+        <div className="flex justify-center mb-5">
+        <Link href="/whatsapp">
+          <Button
+            variant="contained"
+            disableElevation
+            color="success"
+            className="animate-pulse"
+          >
+            Comprar Pelo Whatsapp
+          </Button>
+        </Link>
+      </div>
+      </div>
 
         
         <Footer/>
