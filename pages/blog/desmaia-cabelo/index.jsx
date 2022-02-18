@@ -8,7 +8,7 @@ import Fios from '../../../public/quedacabelo.jpg.webp'
 import Link from 'next/link'
 import Newhair from '../../../pages/blog/queda/pages/newhair'
 import { Button } from "@mui/material";
-import Zap from '../../../src/components/whatsappd'
+import Zap from '../../../src/components/whatsapp'
 
 
 const index = () => {
