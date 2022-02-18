@@ -16,7 +16,7 @@ const index = () => {
                     <h1 className="text-center font-bold text-white text-2xl mt-5 bg-yellow-400 mx-5">Como fazer desmaia cabelo com Maizena</h1>
               
                 </div>
-                <article className="max-w-prose mx-auto py-8">
+                <article className="max-w-prose mx-auto py-7">
                     <div className="m-4">
                     <Image src={Maisena} className="m-1/2"/>
                     </div>
@@ -42,7 +42,7 @@ const index = () => {
                 </div>
                 </section>
                 <div className='text-center mt-2 p-2'>
-                    <Link href="/blog/queda">
+                    <Link href="/blog/origem-da-queda">
                     <button  className="  font-black text-xl p-2 pl-24 pr-24 bg-yellow-500 text-gray-100  rounded-lg focus:border-4 border-green-300">Ver Mais</button>
                     </Link>
                 </div>
