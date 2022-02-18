@@ -6,12 +6,16 @@ import Image from 'next/image'
 import Maisena from '../../../public/maisena.jpg'
 import Fios from '../../../public/quedacabelo.jpg.webp'
 import Link from 'next/link'
+import Newhair from '../../../pages/blog/queda/pages/newhair'
+import { Button } from "@mui/material";
+import Zap from '../../../src/components/whatsapp'
 
 
 const index = () => {
     return (
         <div>
             <Topbar/>
+            <Zap/>
                 <div className=''>
                     <h1 className="text-center font-bold text-white text-2xl mt-5 bg-yellow-400 mx-5">Como fazer desmaia cabelo com Maizena</h1>
               
@@ -32,6 +36,21 @@ const index = () => {
                 <p> 8. Lave bem, e pronto!</p>
                 <p> 9.Repita a cada 15 dias, os resultados são imediatos.</p>  
                 </div>
+
+                {/* cta - for new hair  */}
+                <div className="text-center m-5 text-lg font-medium bg-green-500"> Conheça o melhor suplemento capilar anti queda</div>
+                <section>
+                    <Newhair/>
+                    <div className="flex justify-center">
+                    <Link href='/whatsapp'>
+                    <Button variant="contained" color="success">
+                    Comprar pelo Whatsapp
+                    </Button>
+                    </Link>
+                    </div>
+                </section>
+
+
                 </article>
                 <div className="">
                 <section className='flex justify-center p-5'>
@@ -42,7 +61,7 @@ const index = () => {
                 </div>
                 </section>
                 <div className='text-center mt-2 p-2'>
-                    <Link href="/blog/origem-da-queda">
+                    <Link href="/blog/queda">
                     <button  className="  font-black text-xl p-2 pl-24 pr-24 bg-yellow-500 text-gray-100  rounded-lg focus:border-4 border-green-300">Ver Mais</button>
                     </Link>
                 </div>
