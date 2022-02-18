@@ -80,7 +80,7 @@ export default function Home() {
                 </div>
             </div>
             <h1 className='text-center text-gray-50 p-4'>
-                <strong className=''>SEM</strong>  Resultados Satisfatórios já nas Primeiras Semanas de Uso
+                <strong className=''></strong>  Resultados Satisfatórios já nas Primeiras Semanas de Uso
                 </h1>
         </div>
         </div>
