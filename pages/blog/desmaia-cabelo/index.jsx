@@ -8,7 +8,7 @@ import Fios from '../../../public/quedacabelo.jpg.webp'
 import Link from 'next/link'
 import Newhair from '../../../pages/blog/queda/pages/newhair'
 import { Button } from "@mui/material";
-import Zap from '../../../src/components/whatsapp'
+import Zap from '../../../src/components/whatsappd'
 
 
 const index = () => {
@@ -29,7 +29,7 @@ const index = () => {
                 <p> 1. Lave os cabelos com shampoo para sair a sujeira do cabelo, seque bem.</p>
                 <p> 2. Coloque a água dentro de uma panela, adicione a maizena.</p>
                 <p> 3. Leve para o fogo baixo, misture até engrossar.</p>
-                <p> 4. Despgue o fogo, deixe esfriar.</p>
+                <p> 4. Desligue o fogo, deixe esfriar.</p>
                 <p> 5. Adicione o óleo de coco e o condicionador, misture bem.</p>
                 <p> 6. Passe nos cabelos, mecha por mecha, não passe na raiz.</p>
                 <p> 7. Deixe por 30 minutos.</p>
