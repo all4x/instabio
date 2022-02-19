@@ -9,7 +9,6 @@ import Um from '../public/1.png'
 import Dois from '../public/2.png'
 import Treis from '../public/3.png'
 import Zap from '../src/components/whatsapp'
-import Topbar from '../src/components/Topbar'
 import Checkout from '../src/components/checkout'
 
 import Frete from '/public/Frete-gratis.png'
@@ -30,7 +29,6 @@ export default function Home() {
         <link rel="icon" href="/detox.png" />
         <meta name="description" content="New Detox possui fórmula 100% natural que contém ingredientes potentes capazes de agilizar o processo de emagrecimento, sem precisar sair de casa para academia"/>
         </Head>
-        <Topbar/>
         <Zap/>
         <div className='flex justify-center m-5'>
             <Image src={Logo} width={317} height={45} />
