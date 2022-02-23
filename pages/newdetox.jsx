@@ -84,6 +84,13 @@ export default function Home() {
                 </h1>
         </div>
         </div>
+      {/* CHECKOUT INTEIRO */}
+      <div className="bg-gray-50 p-5">
+      <h1 className='text-center text-4xl font-bold '>Escolha a Melhor Oferta Para Você</h1>
+      <h2 className='text-center font-sans text-3xl'> Catálogo sem cupom de desconto </h2>
+      </div>
+
+
         <Checkout/>
 
           {/* CHECKOUT 2 potes */}
