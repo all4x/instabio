@@ -16,15 +16,6 @@ const artic = () => {
             <div class="relative -mx-4 top-0 pt-[17%] overflow-hidden">
             </div>
 
-            <div class="mt-[-10%] xl:w-1/2 mx-auto">
-              <div class="flex justify-center overflow-hidden rounded-2xl">
-                <Image class="w-full h-full absolute inset-0 object-cover"  src={Nylde} alt="" />
-              </div>
-              <h1 className='mt-5 ml-2 '>Oi Tudo bem? me chamo Erenilde sou formada em <strong>Terapia Capilar</strong> e estou aqui para te dar algumas dicas matadoras para se livrar da queda capilar.</h1>
-            </div>
-
-                 
-
             <article class="max-w-prose mx-auto py-8">
               <h1 class="text-2xl font-bold mb-5">Queda de cabelo em excesso</h1>
               <p className='text-lg text-left text-black'>Atualmente, 30% das mulheres apresentam algum grau de alopecia (<strong className='font-thin'>alopecia é uma condição em que ocorre perda de cabelo ou de pelo em qualquer parte do corpo.</strong>) </p>
