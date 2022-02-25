@@ -9,7 +9,7 @@ function Redes() {
   <div class="max-w-2xl mx-auto text-white py-10">
       <div class="text-center">
           <h3 class="text-3xl mb-3"> NyldeCosmeticos  </h3>
-          <p> Araguaína-To </p>
+          
           </div>
       </div>
 
