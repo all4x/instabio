@@ -18,6 +18,10 @@ import Kit2 from '/public/mockup-2.png'
 import Kit3 from '/public/mockup-3.png'
 import Kit5 from '/public/mockup-5.png'
 
+import Prova from '../public/1.jpg'
+import Prova2 from '../public/2.jpg'
+import Prova3 from '../public/3.jpg'
+import Prova4 from '../public/4.jpg'
 
 
 
@@ -89,8 +93,6 @@ export default function Home() {
       <h1 className='text-center text-4xl font-bold '>Escolha a Melhor Oferta Para Você</h1>
       <h2 className='text-center font-sans text-3xl'> Catálogo sem cupom de desconto </h2>
       </div>
-
-
         <Checkout/>
 
           {/* CHECKOUT 2 potes */}
@@ -228,7 +230,20 @@ export default function Home() {
       </div>
       </div>
 
-        
+      {/* Provas sociais [ Varias provas ] */}
+
+      <div className='text-center font-sans text-3xl m-4'>
+        <p> Veja os resultados de algumas das minhas clientes😍 </p> 
+
+      </div>
+      <div className='xl:hidden m-5'>
+        <Image src={Prova}/>
+        <Image src={Prova2}/>
+        <Image src={Prova3}/>
+        <Image src={Prova4}/>
+
+      </div>
+      
         <Footer/>
         </div>
     )
