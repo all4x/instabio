@@ -82,6 +82,11 @@ export default function Home() {
                 </h1>
         </div>
         </div>
+         {/* CHECKOUT INTEIRO */}
+      <div className="bg-gray-50 p-5">
+      <h1 className='text-center text-4xl font-bold '>Escolha a Melhor Oferta Para Você</h1>
+      <h2 className='text-center font-sans text-3xl'> Catálogo sem cupom de desconto </h2>
+      </div>
 
               {/* CHECKOUT 1 pote */}
       <div>
@@ -261,6 +266,19 @@ export default function Home() {
           </Button>
         </Link>
       </div>
+      </div>
+       {/* Provas sociais [ Varias provas ] */}
+
+       <div className='text-center font-sans text-3xl m-4'>
+        <p> Veja os resultados de algumas das minhas clientes😍 </p> 
+
+      </div>
+      <div className='xl:hidden m-5'>
+        <Image src={Prova}/>
+        <Image src={Prova2}/>
+        <Image src={Prova3}/>
+        <Image src={Prova4}/>
+
       </div>
 
         
