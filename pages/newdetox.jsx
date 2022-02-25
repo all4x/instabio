@@ -111,7 +111,7 @@ export default function Home() {
               <div> <Image src={Kit2}/></div>
               <div className='text-center flex-col justify-center'>
                 <h1 className='m-2 font-semibold text-gray-600 '> <strong className='line-through'>De R$194</strong></h1>
-                <h2 className='text-gray-600'>Por 12x <strong className=' text-black text-3xl font-black'>15,76</strong></h2>
+                <h2 className='text-gray-600'>Por 12x <strong className=' text-black text-3xl font-black'>15,76</strong>com juros</h2>
                 <p className='text-gray-600 font-extrabold'>ou R$157,00 à vista</p>
               </div>
             </div>
@@ -156,7 +156,7 @@ export default function Home() {
               <div> <Image src={Kit3}/></div>
               <div className='text-center flex-col justify-center'>
                 <h1 className='m-2 font-semibold text-gray-600 '> <strong className='line-through'>De R$297,00</strong></h1>
-                <h2 className='text-gray-600'>Por 12x <strong className=' text-black text-3xl font-black'>22,79</strong></h2>
+                <h2 className='text-gray-600'>Por 12x <strong className=' text-black text-3xl font-black'>22,79</strong>com juros</h2>
                 <p className='text-gray-600 font-extrabold'>ou R$227,00 à vista</p>
               </div>
             </div>
@@ -201,7 +201,7 @@ export default function Home() {
               <div> <Image src={Kit5}/></div>
               <div className='text-center flex-col justify-center'>
                 <h1 className='m-2 font-semibold text-gray-600 '> <strong className='line-through'>De R$497,00</strong></h1>
-                <h2 className='text-gray-600'>Por 12x <strong className=' text-black text-3xl font-black'>34,84</strong></h2>
+                <h2 className='text-gray-600'>Por 12x <strong className=' text-black text-3xl font-black'>34,84</strong>com juros</h2>
                 <p className='text-gray-600 font-extrabold'>ou R$347,00 à vista</p>
               </div>
             </div>
