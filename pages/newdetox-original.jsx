@@ -90,7 +90,8 @@ export default function Home() {
          {/* CHECKOUT INTEIRO */}
       <div className="bg-gray-50 p-5">
       <h1 className='text-center text-4xl font-bold '>Escolha a Melhor Oferta Para Você</h1>
-      <h2 className='text-center font-sans text-3xl'> Catálogo sem cupom de desconto </h2>
+      <h2 className='text-center font-sans text-3xl'> Perda de 6 a 14kgs com 1 mês de tratamento</h2>
+      
       </div>
 
               {/* CHECKOUT 1 pote */}
