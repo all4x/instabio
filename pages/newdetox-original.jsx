@@ -17,6 +17,11 @@ import Kit2 from '/public/mockup-2.png'
 import Kit3 from '/public/mockup-3.png'
 import Kit5 from '/public/mockup-5.png'
 
+import Prova from '../public/1.jpg'
+import Prova2 from '../public/2.jpg'
+import Prova3 from '../public/3.jpg'
+import Prova4 from '../public/4.jpg'
+
 
 
 
