@@ -286,7 +286,13 @@ export default function Home() {
         <Image src={Prova4}/>
 
       </div>
-
+      <div className='flex justify-center mb-5'>
+            <a href="https://app.monetizze.com.br/r/AFN18833790">
+                <Button variant="contained" disableElevation color="success" className='animate-pulse' >
+                Conheça o New detox
+                </Button>
+            </a>
+        </div>
         
         <Footer/>
         </div>
