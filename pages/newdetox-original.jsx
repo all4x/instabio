@@ -126,7 +126,7 @@ export default function Home() {
           
         </div>
         <div className="flex justify-center mb-5">
-        <Link href="/whatsapp">
+        <Link href="https://bit.ly/3JUFeMs">
           <Button
             variant="contained"
             disableElevation
@@ -171,7 +171,7 @@ export default function Home() {
           
         </div>
         <div className="flex justify-center mb-5">
-        <Link href="/whatsapp">
+        <Link href="https://bit.ly/3JUFeMs">
           <Button
             variant="contained"
             disableElevation
@@ -216,7 +216,7 @@ export default function Home() {
           
         </div>
         <div className="flex justify-center mb-5">
-        <Link href="/whatsapp">
+        <Link href="https://bit.ly/3JUFeMs">
           <Button
             variant="contained"
             disableElevation
@@ -261,7 +261,7 @@ export default function Home() {
           
         </div>
         <div className="flex justify-center mb-5">
-        <Link href="/whatsapp">
+        <Link href="https://bit.ly/3JUFeMs">
           <Button
             variant="contained"
             disableElevation
