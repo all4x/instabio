@@ -137,18 +137,7 @@ export default function Home() {
           </div>
           
         </div>
-        <div className="flex justify-center mb-5">
-        <Link href="https://bit.ly/3JUFeMs">
-          <Button
-            variant="contained"
-            disableElevation
-            color="success"
-            className="animate-pulse"
-          >
-            Comprar Pelo Whatsapp
-          </Button>
-        </Link>
-      </div>
+        
       </div>
 
           {/* CHECKOUT 2 potes */}
@@ -182,18 +171,7 @@ export default function Home() {
           </div>
           
         </div>
-        <div className="flex justify-center mb-5">
-        <Link href="https://bit.ly/3JUFeMs">
-          <Button
-            variant="contained"
-            disableElevation
-            color="success"
-            className="animate-pulse"
-          >
-            Comprar Pelo Whatsapp
-          </Button>
-        </Link>
-      </div>
+       
       </div>
 
         {/* CHECKOUT 3 potes */}
@@ -227,18 +205,7 @@ export default function Home() {
           </div>
           
         </div>
-        <div className="flex justify-center mb-5">
-        <Link href="https://bit.ly/3JUFeMs">
-          <Button
-            variant="contained"
-            disableElevation
-            color="success"
-            className="animate-pulse"
-          >
-            Comprar Pelo Whatsapp
-          </Button>
-        </Link>
-      </div>
+      
       </div>
 
       {/* CHECKOUT 5 potes */}
@@ -272,18 +239,7 @@ export default function Home() {
           </div>
           
         </div>
-        <div className="flex justify-center mb-5">
-        <Link href="https://bit.ly/3JUFeMs">
-          <Button
-            variant="contained"
-            disableElevation
-            color="success"
-            className="animate-pulse"
-          >
-            Comprar Pelo Whatsapp
-          </Button>
-        </Link>
-      </div>
+       
       </div>
        {/* Provas sociais [ Varias provas ] */}
 
