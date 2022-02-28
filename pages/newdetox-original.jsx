@@ -263,6 +263,38 @@ export default function Home() {
             </a>
         </div>
         
+        <div>
+          <h1 className='text-center font-semibold text-3xl'>Ainda com dúvidas?</h1>
+          <div className='space-y-2'>
+            <div>
+              <h1 className='text-center font-light text-lg m-5 p-2 bg-gray-200 shadow-2xl rounded-lg'> Quais os efeitos do New Detox?</h1>
+              <p className='text-left m-2 p-3 text-base font-normal text-gray-600 '>New Detox possui uma ação emagrecedora, atuando na queima de gordura, desintoxicação do corpo, auxiliando na redução do inchaço do seu corpo, aumentando sua disposição e fazendo você emagrecer de forma rápida e definitiva.</p>
+            </div>
+            
+            <div>
+            <h1 className='text-center font-light text-lg m-5 p-2 bg-gray-200 shadow-2xl rounded-lg'>Quantos quilos consigo emagrecer com New Detox?</h1>
+            <p className='text-left m-2 p-3 text-base font-normal text-gray-600 '>Os resultados variam de pessoa para pessoa, mas com New Detox você já consegue obter e ver diferença já nas primeiras semanas de uso.</p>
+            </div>
+
+            <div>
+            <h1 className='text-center font-light text-lg m-5 p-2 bg-gray-200 shadow-2xl rounded-lg'>Qual o prazo da entrega?</h1>
+            <p className='text-left m-2 p-3 text-base font-normal text-gray-600 '>O prazo médio de entrega para o Brasil é de 1 a 10 dias úteis. O produto só é enviado após a confirmação do seu pagamento pela administradora do seu cartão de crédito ou após a confirmação do pagamento do boleto.</p>
+            </div>
+
+            <div>
+            <h1 className='text-center font-light text-lg m-5 p-2 bg-gray-200 shadow-2xl rounded-lg'>Existem efeitos colaterais? Qualquer um pode tomar?</h1>
+            <p className='text-left m-2 p-3 text-base font-normal text-gray-600 '>Não existe nenhum efeito colateral com o consumo do produto, e qualquer pessoa pode tomar e aproveitar seus benefícios.Porém, gestantes, crianças e pessoas enfermas ou que fazem uso contínuo de algum medicamento devem consultar um médico antes de iniciar o consumo.</p>
+            </div>
+
+            <div>
+            <h1 className='text-center font-light text-lg m-5 p-2 bg-gray-200 shadow-2xl rounded-lg'>Como devo usar New Detox?</h1>
+            <p className='text-left m-2 p-3 text-base font-normal text-gray-600 '>New Detox deve ser tomado diariamente, 2 cápsulas por dia, preferencialmente antes das refeições.</p>
+            </div>
+
+          </div>
+        </div>
+
+
         <Footer/>
         </div>
     )
