@@ -37,25 +37,25 @@ export default function Home() {
         <Zap/>
 
         {/* TOPBAR HEADLINE*/}
+        <div className='flex justify-center m-5 pt-5'>
+            <Image src={Logo} width={317} height={45} />
+        </div>
         <div className='xl:hidden'>
-          <h1 className='text-center font-light text-2xl text-green-800 mt-5 p-2'>Emagreça muito mais rapido</h1>
+          <h1 className='text-center font-light text-2xl text-green-800 mt-2 px-2'>Emagreça muito mais rapido</h1>
           <h2 className='text-center font-extrabold text-3xl text-green-800 my-5'>SEM DIETAS MALUCAS OU EXERCÍCIOS FÍSICOS</h2>
-          <h1 className='text-center font-light text-2xl text-green-800 mt-5 p-2'> CHEGA DE PASSAR FOME E FAZER DIETAS QUE NO FINAL SÓ TE FAZEM ENGORDAR AINDA MAIS!</h1>
         <div className='m-4 bg-gradient-to-l from-green-800 to-yellow-600 px-2 rounded-lg'>
         <p className='text-center bg-gray-50 shadow-2xl m-3 px-2 font-sans text-2xl text-gray-800'> New Detox é um poderoso suplemento que acelera o seu metabolismo, diminui o inchaço e a retenção dos líquidos do seu corpo, elimina as substâncias inflamatórias e te faz emagrecer de forma rápida, saudável e definitiva.</p>
 
         </div>
         </div>
 
-        <div className='flex justify-center m-5 pt-5'>
-            <Image src={Logo} width={317} height={45} />
-        </div>
+      
 
         <div className='flex justify-center'>
             <Image src={Potes} width={341} height={341} />
         </div>
         <div className='flex justify-center mb-5'>
-            <a href="https://app.monetizze.com.br/r/AFN18833790">
+            <a href="https://app.monetizze.com.br/r/AFN18833790?src=Facebookads">
                 <Button variant="contained" disableElevation color="success" className='animate-pulse' >
                 Conheça o New detox
                 </Button>
@@ -99,6 +99,19 @@ export default function Home() {
                 </h1>
         </div>
         </div>
+         {/* Provas sociais [ Varias provas ] */}
+
+       <div className='text-center font-sans text-3xl m-4'>
+        <p> Veja os resultados de algumas das minhas clientes😍 </p> 
+
+      </div>
+      <div className='xl:hidden m-5'>
+        <Image src={Prova}/>
+        <Image src={Prova2}/>
+        <Image src={Prova3}/>
+        <Image src={Prova4}/>
+
+      </div>
          {/* CHECKOUT INTEIRO */}
       <div className="bg-gray-50 p-5">
       <h1 className='text-center text-4xl font-bold '>Escolha a Melhor Oferta Para Você</h1>
@@ -128,7 +141,7 @@ export default function Home() {
             </div>
             <hr className="bg-yellow-700 m-3 p-[0.2%]" />
             <div className='flex justify-center '>
-            <a href='https://app.monetizze.com.br/r/BGM1438897'>
+            <a href='https://app.monetizze.com.br/r/BGM1438897?src=Facebookads-1'>
             <Button variant="contained" color="success">
             Comprar
             </Button>
@@ -162,7 +175,7 @@ export default function Home() {
             </div>
             <hr className="bg-yellow-700 m-3 p-[0.2%]" />
             <div className='flex justify-center '>
-            <a href='https://app.monetizze.com.br/r/BTU1443218'>
+            <a href='https://app.monetizze.com.br/r/BTU1443218?src=Facebook-ads-2'>
             <Button variant="contained" color="success">
             Comprar
             </Button>
@@ -196,7 +209,7 @@ export default function Home() {
             </div>
             <hr className="bg-yellow-700 m-3 p-[0.2%]" />
             <div className='flex justify-center '>
-            <a href='https://app.monetizze.com.br/r/BLD1443220'>
+            <a href='https://app.monetizze.com.br/r/BLD1443220?src=Facebookads-3'>
             <Button variant="contained" color="success">
             Comprar
             </Button>
@@ -230,7 +243,7 @@ export default function Home() {
             </div>
             <hr className="bg-yellow-700 m-3 p-[0.2%]" />
             <div className='flex justify-center '>
-            <a href='https://app.monetizze.com.br/r/BLA1443221'>
+            <a href='https://app.monetizze.com.br/r/BLA1443221?src=Facebookads-5'>
             <Button variant="contained" color="success">
             Comprar
             </Button>
@@ -241,23 +254,11 @@ export default function Home() {
         </div>
        
       </div>
-       {/* Provas sociais [ Varias provas ] */}
-
-       <div className='text-center font-sans text-3xl m-4'>
-        <p> Veja os resultados de algumas das minhas clientes😍 </p> 
-
-      </div>
-      <div className='xl:hidden m-5'>
-        <Image src={Prova}/>
-        <Image src={Prova2}/>
-        <Image src={Prova3}/>
-        <Image src={Prova4}/>
-
-      </div>
+      
       <div className='flex justify-center mb-5'>
-            <a href="https://app.monetizze.com.br/r/AFN18833790">
+            <a href="https://app.monetizze.com.br/r/AFN18833790?src=Formulação">
                 <Button variant="contained" disableElevation color="success" className='animate-pulse' >
-                Conheça o New detox
+                CONHEÇA A FORMULAÇÃO DO NEW DETOX
                 </Button>
             </a>
         </div>
