@@ -263,7 +263,7 @@ export default function Home() {
             </a>
         </div>
         
-        <div>
+        <div className='xl:hidden'>
           <h1 className='text-center font-semibold text-3xl'>Ainda com dúvidas?</h1>
           <div className='space-y-2'>
             <div>
