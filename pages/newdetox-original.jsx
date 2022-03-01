@@ -147,6 +147,7 @@ export default function Home() {
             </Button>
             </a>
             </div>
+            <div className="text-center mt-5 font-medium">30 Dias De Garantia!</div>
           </div>
           
         </div>
@@ -181,10 +182,12 @@ export default function Home() {
             </Button>
             </a>
             </div>
-          </div>
-          
+            <div className="text-center mt-5 font-medium">30 Dias De Garantia!</div>
+
+          </div>  
+                  
         </div>
-       
+
       </div>
 
         {/* CHECKOUT 3 potes */}
@@ -215,6 +218,8 @@ export default function Home() {
             </Button>
             </a>
             </div>
+            <div className="text-center mt-5 font-medium">30 Dias De Garantia!</div>
+
           </div>
           
         </div>
@@ -249,6 +254,8 @@ export default function Home() {
             </Button>
             </a>
             </div>
+            <div className="text-center mt-5 font-medium">30 Dias De Garantia!</div>
+
           </div>
           
         </div>
