@@ -105,7 +105,7 @@ export default function Home() {
         <p> Veja os resultados de algumas das minhas clientes😍 </p> 
 
       </div>
-      <div className='xl:hidden m-5'>
+      <div className='xl:hidden m-5 2xl:hidden lg:hidden'>
         <Image src={Prova}/>
         <Image src={Prova2}/>
         <Image src={Prova3}/>
