@@ -1,6 +1,8 @@
 import Head from 'next/head'
 import Link from 'next/link'
 import Footer from '../components/Footer'
+import Toopbar from '../components/Topbar'
+
 import Image from 'next/image'
 import Logo from '../public/logo-detox.png'
 import Potes from '../public/newdetox.png'
@@ -35,6 +37,7 @@ export default function Home() {
         <meta name="description" content="New Detox possui fórmula 100% natural que contém ingredientes potentes capazes de agilizar o processo de emagrecimento, sem precisar sair de casa para academia"/>
         </Head>
         <Zap/>
+        <Toopbar/>
 
         {/* TOPBAR HEADLINE*/}
         <div className='flex justify-center m-5 pt-5'>
