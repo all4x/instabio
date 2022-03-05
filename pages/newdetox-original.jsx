@@ -42,7 +42,7 @@ export default function Home() {
         </div>
         <div className='xl:hidden'>
           <h1 className='text-center font-light text-2xl text-green-800 mt-2 px-2'>Emagreça muito mais rapido</h1>
-          <h2 className='text-center font-extrabold text-3xl text-green-800 my-5'>SEM DIETAS MALUCAS OU EXERCÍCIOS FÍSICOS</h2>
+          <h2 className='text-center font-extrabold text-3xl text-green-800 my-5'>CONQUISTE SUA AUTO ESTIMA DE VOLTA EM POUCAS SEMANAS</h2>
         <div className='m-4 bg-gradient-to-l from-green-800 to-yellow-600 px-2 rounded-lg'>
         <p className='text-center bg-gray-50 shadow-2xl m-3 p-2 font-sans text-2xl text-gray-800'> New Detox é um poderoso suplemento que acelera o seu metabolismo, diminui o inchaço e a retenção dos líquidos do seu corpo, elimina as substâncias inflamatórias e te faz emagrecer de forma rápida, saudável e definitiva.</p>
 
