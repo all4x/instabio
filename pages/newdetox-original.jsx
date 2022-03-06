@@ -21,6 +21,8 @@ import Prova from '../public/1.jpg'
 import Prova2 from '../public/2.jpg'
 import Prova3 from '../public/3.jpg'
 import Prova4 from '../public/4.jpg'
+import Prova5 from '../public/print1.png'
+import Prova6 from '../public/print2.png'
 
 
 
@@ -105,11 +107,14 @@ export default function Home() {
         <p> Veja os resultados de algumas das minhas clientes😍 </p> 
 
       </div>
-      <div className='xl:hidden m-5 2xl:hidden lg:hidden'>
+      <div className='xl:hidden m-5 2xl:hidden lg:hidden p-2'>
         <Image src={Prova}/>
         <Image src={Prova2}/>
         <Image src={Prova3}/>
         <Image src={Prova4}/>
+        <Image src={Prova5}/>
+        <Image src={Prova6}/>
+
 
       </div>
          {/* CHECKOUT INTEIRO */}
