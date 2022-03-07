@@ -272,18 +272,19 @@ export default function Home() {
         </div>
         {/* MOTIVOS */}
       <div>
-      <div className="xl:hidden  2xl:hidden lg:hidden md:hidden mb-10">
-        <h1 className="text-center font-semibold text-2xl">COMO NEW DETOX TE FAZ EMAGRECER?</h1>
+
+      <div className="xl:hidden  2xl:hidden lg:hidden md:hidden mb-10 bg-gray-200 p-4 rounded-xl mx-3 border-b-2 border-gray-300 ">
+        <h1 className="text-center font-extrabold text-2xl">COMO NEW DETOX TE FAZ EMAGRECER?</h1>
         <p className="text-center font-sans m-2 text-lg">New Detox reúne todos os ingredientes de uma receita na medida certa. Tudo isso feito com tecnologia avançada, que te fará <span className="underline">emagrecer muito mais rápido.</span> Você não precisará ter o trabalho de preparar receitas complicadas, nem comprar ingredientes e chás caros e difíceis de encontrar. Você terá tudo pronto. Basta apenas tomar 2 cápsulas por dia e, em poucas semanas, verá o resultado.</p>
-        <div className="text-center font-medium text-2xl">
-        <div className="bg-green-100 p-2 font-sans rounded-lg">
+        </div>
+
+        <div className="text-center font-medium text-2xl bg-green-100">
+        <div className="p-2 font-sans rounded-lg ">
           <h1>NEW DETOX É PARA VOCÊ QUE...</h1>
           <div className="flex justify-center m-5">
           <img src="https://newdetox.com.br/wp-content/uploads/elementor/thumbs/b2-pgxmibzec498p2umnueqqx16l9i4p056qg7gxh0l4w.png"/>
           </div>
           <p>Já tentou de tudo mas Não consegue Emagrecer</p>
-        </div>
-
         <div className="bg-green-100 p-2 font-sans">
           <div className="flex justify-center m-5">
           <img src="https://newdetox.com.br/wp-content/uploads/elementor/thumbs/b4-pgxmidv2psbtcarwcv7zvwk3s18v4ecnepifw0xssg.png"/>
