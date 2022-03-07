@@ -25,6 +25,7 @@ import Prova5 from '../public/print1.png'
 import Prova6 from '../public/print2.png'
 
 
+//<Zap/>
 
 
 export default function Home() {
@@ -35,7 +36,6 @@ export default function Home() {
         <link rel="icon" href="/detox.png" />
         <meta name="description" content="New Detox possui fórmula 100% natural que contém ingredientes potentes capazes de agilizar o processo de emagrecimento, sem precisar sair de casa para academia"/>
         </Head>
-        <Zap/>
 
 
         {/* TOPBAR HEADLINE*/}
