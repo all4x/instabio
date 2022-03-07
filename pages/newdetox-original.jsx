@@ -148,7 +148,7 @@ export default function Home() {
             <div className='flex justify-center '>
             <a href='https://app.monetizze.com.br/r/BGM1438897?src=Facebookads-1'>
             <Button variant="contained" color="success">
-            Comprar
+            Comprar Agora
             </Button>
             </a>
             </div>
@@ -183,14 +183,13 @@ export default function Home() {
             <div className='flex justify-center '>
             <a href='https://app.monetizze.com.br/r/BTU1443218?src=Facebook-ads-2'>
             <Button variant="contained" color="success">
-            Comprar
+            Comprar Agora
             </Button>
             </a>
             </div>
             <div className="text-center mt-5 font-medium">30 Dias De Garantia!</div>
 
-          </div>  
-                  
+          </div>
         </div>
 
       </div>
@@ -219,16 +218,14 @@ export default function Home() {
             <div className='flex justify-center '>
             <a href='https://app.monetizze.com.br/r/BLD1443220?src=Facebookads-3'>
             <Button variant="contained" color="success">
-            Comprar
+            Comprar Agora
             </Button>
             </a>
             </div>
             <div className="text-center mt-5 font-medium">30 Dias De Garantia!</div>
 
           </div>
-          
         </div>
-      
       </div>
 
       {/* CHECKOUT 5 potes */}
@@ -255,18 +252,17 @@ export default function Home() {
             <div className='flex justify-center '>
             <a href='https://app.monetizze.com.br/r/BLA1443221?src=Facebookads-5'>
             <Button variant="contained" color="success">
-            Comprar
+            Comprar Agora
             </Button>
             </a>
             </div>
             <div className="text-center mt-5 font-medium">30 Dias De Garantia!</div>
 
           </div>
-          
         </div>
-       
+
       </div>
-      
+
       <div className='flex justify-center mb-5'>
             <a href="https://app.monetizze.com.br/r/AFN18833790?src=Formulação">
                 <Button variant="contained" disableElevation color="success" className='animate-pulse' >
@@ -274,7 +270,58 @@ export default function Home() {
                 </Button>
             </a>
         </div>
+        {/* MOTIVOS */}
+      <div>
+      <div className="xl:hidden  2xl:hidden lg:hidden md:hidden mb-10">
+        <h1 className="text-center font-semibold text-2xl">COMO NEW DETOX TE FAZ EMAGRECER?</h1>
+        <p className="text-center font-sans m-2 text-lg">New Detox reúne todos os ingredientes de uma receita na medida certa. Tudo isso feito com tecnologia avançada, que te fará <span className="underline">emagrecer muito mais rápido.</span> Você não precisará ter o trabalho de preparar receitas complicadas, nem comprar ingredientes e chás caros e difíceis de encontrar. Você terá tudo pronto. Basta apenas tomar 2 cápsulas por dia e, em poucas semanas, verá o resultado.</p>
+        <div className="text-center font-medium text-2xl">
         
+        <div className="bg-green-100 p-2 font-sans rounded-lg">
+          <h1>NEW DETOX É PARA VOCÊ QUE...</h1>
+          <div className="flex justify-center m-5">
+          <img src="https://newdetox.com.br/wp-content/uploads/elementor/thumbs/b2-pgxmibzec498p2umnueqqx16l9i4p056qg7gxh0l4w.png"/>
+          </div>
+          <p>Já tentou de tudo mas Não consegue Emagrecer</p>
+        </div>
+
+        <div className="bg-green-100 p-2 font-sans">
+          <div className="flex justify-center m-5">
+          <img src="https://newdetox.com.br/wp-content/uploads/elementor/thumbs/b4-pgxmidv2psbtcarwcv7zvwk3s18v4ecnepifw0xssg.png"/>
+          </div>
+          <p>Vive Cansada(o) e sem Disposição para Nada</p>
+        </div>
+
+        <div className="bg-green-100 p-2 font-sans">
+          <div className="flex justify-center m-5">
+          <img src="https://newdetox.com.br/wp-content/uploads/elementor/thumbs/b5-pgxmifqr3gedzip61w190w30yszljsk42yteukv0g0.png"/>
+          </div>
+          <p>Vive com Fome e Ansiedade</p>
+        </div>
+
+        <div className="bg-green-100 p-2 font-sans">
+          <div className="flex justify-center m-5">
+          <img src="https://newdetox.com.br/wp-content/uploads/elementor/thumbs/b3-pgxmicx8iyaj0ot9ictdbesn6ndhwp8x2kuyeqz6yo.png"/>
+          </div>
+          <p>Está com o Corpo Inchado e Pesado</p>
+        </div>
+
+        <div className="bg-green-100 p-2 font-sans">
+          <div className="flex justify-center m-5">
+          <img src="https://newdetox.com.br/wp-content/uploads/elementor/thumbs/b6-pgxmigolaafob4nswefvlduhk6uyrhnuf3gwbutm9s.png"/>
+          </div>
+          <p>Quer Emagrecer Rápido Sem Passar Fome</p>
+        </div>
+
+        <div className="bg-green-100 p-2 font-sans">
+          <div className="flex justify-center m-5">
+          <img src="https://newdetox.com.br/wp-content/uploads/elementor/thumbs/b4-pgxmidv2psbtcarwcv7zvwk3s18v4ecnepifw0xssg.png"/>
+          </div>
+          <p>Busca uma Solução Rápida e Saudável para Emagrecer</p>
+        </div>
+        </div>
+      </div>
+      </div>
         <div className='xl:hidden'>
           <h1 className='text-center font-semibold text-3xl'>Ainda com dúvidas?</h1>
           <div className='space-y-2'>
@@ -282,7 +329,7 @@ export default function Home() {
               <h1 className='text-center font-light text-lg m-5 p-2 bg-gray-200 shadow-2xl rounded-lg'> Quais os efeitos do New Detox?</h1>
               <p className='text-left m-2 p-3 text-base font-normal text-gray-600 '>New Detox possui uma ação emagrecedora, atuando na queima de gordura, desintoxicação do corpo, auxiliando na redução do inchaço do seu corpo, aumentando sua disposição e fazendo você emagrecer de forma rápida e definitiva.</p>
             </div>
-            
+
             <div>
             <h1 className='text-center font-light text-lg m-5 p-2 bg-gray-200 shadow-2xl rounded-lg'>Quantos quilos consigo emagrecer com New Detox?</h1>
             <p className='text-left m-2 p-3 text-base font-normal text-gray-600 '>Os resultados variam de pessoa para pessoa, mas com New Detox você já consegue obter e ver diferença já nas primeiras semanas de uso.</p>
