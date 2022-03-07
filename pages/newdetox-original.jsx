@@ -8,7 +8,7 @@ import Button from '@mui/material/Button';
 import Um from '../public/1.png'
 import Dois from '../public/2.png'
 import Treis from '../public/3.png'
-import Zap from '../src/components/whatsapp'
+import Zap from '../src/components/zapdetox'
 import Checkout from '../src/components/checkout'
 
 import Frete from '/public/Frete-gratis.png'
@@ -25,7 +25,7 @@ import Prova5 from '../public/print1.png'
 import Prova6 from '../public/print2.png'
 
 
-//<Zap/>
+//
 
 
 export default function Home() {
@@ -36,7 +36,7 @@ export default function Home() {
         <link rel="icon" href="/detox.png" />
         <meta name="description" content="New Detox possui fórmula 100% natural que contém ingredientes potentes capazes de agilizar o processo de emagrecimento, sem precisar sair de casa para academia"/>
         </Head>
-
+        <Zap/>
 
         {/* TOPBAR HEADLINE*/}
         <div className='flex justify-center m-5 pt-5'>
@@ -276,7 +276,6 @@ export default function Home() {
         <h1 className="text-center font-semibold text-2xl">COMO NEW DETOX TE FAZ EMAGRECER?</h1>
         <p className="text-center font-sans m-2 text-lg">New Detox reúne todos os ingredientes de uma receita na medida certa. Tudo isso feito com tecnologia avançada, que te fará <span className="underline">emagrecer muito mais rápido.</span> Você não precisará ter o trabalho de preparar receitas complicadas, nem comprar ingredientes e chás caros e difíceis de encontrar. Você terá tudo pronto. Basta apenas tomar 2 cápsulas por dia e, em poucas semanas, verá o resultado.</p>
         <div className="text-center font-medium text-2xl">
-        
         <div className="bg-green-100 p-2 font-sans rounded-lg">
           <h1>NEW DETOX É PARA VOCÊ QUE...</h1>
           <div className="flex justify-center m-5">
