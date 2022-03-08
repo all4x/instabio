@@ -57,7 +57,7 @@ export default function Home() {
             </a>
             </div>
         
-        <div className='m-4 bg-gradient-to-l from-green-800 to-yellow-600 px-2 rounded-lg mx-5'>
+        <div className='m-4 bg-gradient-to-l from-green-800 to-yellow-600 px-2 rounded-lg mx-5 xl:hidden 2xl:hidden lg:hidden  md:hidden '>
         <p className='text-center bg-gray-50 shadow-2xl m-3 p-2 font-thin text-2xl text-gray-800'> New Detox é um poderoso suplemento que acelera o seu metabolismo, diminui o inchaço e a retenção dos líquidos do seu corpo, elimina as substâncias inflamatórias e te faz emagrecer de forma rápida, saudável e definitiva.</p>
 
         </div>
@@ -101,7 +101,7 @@ export default function Home() {
         </div>
          {/* Provas sociais [ Varias provas ] */}
 
-       <div className='text-center font-sans text-3xl m-4'>
+       <div className='text-center font-sans text-3xl m-4 xl:hidden 2xl:hidden lg:hidden  md:hidden'>
         <p> Resultados com poucas semanas de uso! </p> 
 
       </div>
