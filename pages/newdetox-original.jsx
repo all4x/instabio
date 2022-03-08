@@ -1,6 +1,6 @@
 import Head from 'next/head'
 import Link from 'next/link'
-import Footer from '../components/Footer'
+import Footer from '../src/components/footerdetox'
 import Image from 'next/image'
 import Logo from '../public/logo-detox.png'
 import Potes from '../public/newdetox.png'
@@ -25,7 +25,8 @@ import Prova5 from '../public/print1.png'
 import Prova6 from '../public/print2.png'
 
 
-//
+//        <Zap/>
+
 
 
 export default function Home() {
@@ -36,32 +37,30 @@ export default function Home() {
         <link rel="icon" href="/detox.png" />
         <meta name="description" content="New Detox possui fórmula 100% natural que contém ingredientes potentes capazes de agilizar o processo de emagrecimento, sem precisar sair de casa para academia"/>
         </Head>
-        <Zap/>
 
         {/* TOPBAR HEADLINE*/}
         <div className='flex justify-center m-5 pt-5'>
             <Image src={Logo} width={317} height={45} />
         </div>
         <div className='xl:hidden'>
-          <h1 className='text-center font-light text-2xl text-green-800 mt-2 px-2'>Emagreça muito mais rapido</h1>
           <h2 className='text-center font-extrabold text-3xl text-green-800 my-5'>CONQUISTE SUA AUTO ESTIMA DE VOLTA EM POUCAS SEMANAS</h2>
-        <div className='m-4 bg-gradient-to-l from-green-800 to-yellow-600 px-2 rounded-lg'>
-        <p className='text-center bg-gray-50 shadow-2xl m-3 p-2 font-sans text-2xl text-gray-800'> New Detox é um poderoso suplemento que acelera o seu metabolismo, diminui o inchaço e a retenção dos líquidos do seu corpo, elimina as substâncias inflamatórias e te faz emagrecer de forma rápida, saudável e definitiva.</p>
-
-        </div>
         </div>
 
-      
 
         <div className='flex justify-center'>
             <Image src={Potes} width={341} height={341} />
         </div>
-        <div className='flex justify-center mb-5'>
-            <a href="https://app.monetizze.com.br/r/AFN18833790?src=Facebookads">
-                <Button variant="contained" disableElevation color="success" className='animate-pulse' >
-                Conheça o New detox
-                </Button>
+        <div className='flex justify-center m-5 '>
+            <a href='#checkout'>
+            <Button variant="contained" color="success">
+            Conheça  o NEW DETOX
+            </Button>
             </a>
+            </div>
+        
+        <div className='m-4 bg-gradient-to-l from-green-800 to-yellow-600 px-2 rounded-lg mx-5'>
+        <p className='text-center bg-gray-50 shadow-2xl m-3 p-2 font-thin text-2xl text-gray-800'> New Detox é um poderoso suplemento que acelera o seu metabolismo, diminui o inchaço e a retenção dos líquidos do seu corpo, elimina as substâncias inflamatórias e te faz emagrecer de forma rápida, saudável e definitiva.</p>
+
         </div>
         <div className='bg-green-700'>
 
@@ -104,7 +103,7 @@ export default function Home() {
          {/* Provas sociais [ Varias provas ] */}
 
        <div className='text-center font-sans text-3xl m-4'>
-        <p> Veja os resultados de algumas das minhas clientes😍 </p> 
+        <p> Resultados com poucas semanas de uso! </p> 
 
       </div>
       <div className='xl:hidden m-5 2xl:hidden lg:hidden p-2 md:hidden'>
@@ -115,17 +114,72 @@ export default function Home() {
         <Image src={Prova5}/>
         <Image src={Prova6}/>
 
+        <div className='flex justify-center m-5 '>
+            <a href='#checkout'>
+            <Button variant="contained" color="success">
+            Comprar Agora
+            </Button>
+            </a>
+            </div>
 
       </div>
+      {/* MOTIVOS */}
+      <div>
+
+        <div className="text-center font-medium text-2xl bg-green-100">
+        <div className="p-2 font-sans rounded-lg ">
+          <h1>NEW DETOX É PARA VOCÊ QUE...</h1>
+          <div className="flex justify-center m-5">
+          <img src="https://newdetox.com.br/wp-content/uploads/elementor/thumbs/b2-pgxmibzec498p2umnueqqx16l9i4p056qg7gxh0l4w.png"/>
+          </div>
+          <p>Já tentou de tudo mas Não consegue Emagrecer</p>
+        <div className="bg-green-100 p-2 font-sans">
+          <div className="flex justify-center m-5">
+          <img src="https://newdetox.com.br/wp-content/uploads/elementor/thumbs/b4-pgxmidv2psbtcarwcv7zvwk3s18v4ecnepifw0xssg.png"/>
+          </div>
+          <p>Vive Cansada(o) e sem Disposição para Nada</p>
+        </div>
+
+        <div className="bg-green-100 p-2 font-sans">
+          <div className="flex justify-center m-5">
+          <img src="https://newdetox.com.br/wp-content/uploads/elementor/thumbs/b5-pgxmifqr3gedzip61w190w30yszljsk42yteukv0g0.png"/>
+          </div>
+          <p>Vive com Fome e Ansiedade</p>
+        </div>
+
+        <div className="bg-green-100 p-2 font-sans">
+          <div className="flex justify-center m-5">
+          <img src="https://newdetox.com.br/wp-content/uploads/elementor/thumbs/b1-pgxmia3pyg6o1uxcytlhlxi9ehre9lxq26whyx3dhc.png"/>
+          </div>
+          <p>Está com o Corpo Inchado e Pesado</p>
+        </div>
+
+        <div className="bg-green-100 p-2 font-sans">
+          <div className="flex justify-center m-5">
+          <img src="https://newdetox.com.br/wp-content/uploads/elementor/thumbs/b6-pgxmigolaafob4nswefvlduhk6uyrhnuf3gwbutm9s.png"/>
+          </div>
+          <p>Quer Emagrecer Rápido Sem Passar Fome</p>
+        </div>
+
+        <div className="bg-green-100 p-2 font-sans">
+          <div className="flex justify-center m-5">
+          <img src="https://newdetox.com.br/wp-content/uploads/elementor/thumbs/b3-pgxmicx8iyaj0ot9ictdbesn6ndhwp8x2kuyeqz6yo.png"/>
+          </div>
+          <p>Busca uma Solução Rápida e Saudável para Emagrecer</p>
+        </div>
+        </div>
+      </div>
+      </div>
+      
          {/* CHECKOUT INTEIRO */}
-      <div className="bg-gray-50 p-5">
+      <div id="checkout" className="bg-gray-50 p-5">
       <h1 className='text-center text-4xl font-bold '>Escolha a Melhor Oferta Para Você</h1>
       <h2 className='text-center font-sans text-2xl'>Elimine de 4 a 6 kilos com 1 mês de tratamento</h2>
       
       </div>
 
               {/* CHECKOUT 1 pote */}
-      <div>
+      <div >
         <div className="mt-10 mb-5 ml-8 mr-8 flex justify-center bg-gray-100 rounded-xl ">
           <div className="m-4 p-2 rounded-xl">
             <div className="text-center">
@@ -263,6 +317,7 @@ export default function Home() {
 
       </div>
 
+
       <div className='flex justify-center mb-5'>
             <a href="https://app.monetizze.com.br/r/AFN18833790?src=Formulação">
                 <Button variant="contained" disableElevation color="success" className='animate-pulse' >
@@ -270,58 +325,13 @@ export default function Home() {
                 </Button>
             </a>
         </div>
-        {/* MOTIVOS */}
-      <div>
 
-      <div className="xl:hidden  2xl:hidden lg:hidden md:hidden mb-10 bg-gray-200 p-4 rounded-xl mx-3 border-b-2 border-gray-300 ">
+
+        <div className="xl:hidden  2xl:hidden lg:hidden md:hidden mb-10 bg-gray-200 p-4 rounded-xl mx-3 border-b-2 border-gray-300 ">
         <h1 className="text-center font-extrabold text-2xl">COMO NEW DETOX TE FAZ EMAGRECER?</h1>
-        <p className="text-center font-sans m-2 text-lg">New Detox reúne todos os ingredientes de uma receita na medida certa. Tudo isso feito com tecnologia avançada, que te fará <span className="underline">emagrecer muito mais rápido.</span> Você não precisará ter o trabalho de preparar receitas complicadas, nem comprar ingredientes e chás caros e difíceis de encontrar. Você terá tudo pronto. Basta apenas tomar 2 cápsulas por dia e, em poucas semanas, verá o resultado.</p>
+        <p className="text-center font-sans mt-5 text-lg">New Detox reúne todos os ingredientes de uma receita na medida certa. Tudo isso feito com tecnologia avançada, que te fará <span className="underline">emagrecer muito mais rápido.</span> Você não precisará ter o trabalho de preparar receitas complicadas, nem comprar ingredientes e chás caros e difíceis de encontrar. Você terá tudo pronto. Basta apenas tomar 2 cápsulas por dia e, em poucas semanas, verá o resultado.</p>
         </div>
 
-        <div className="text-center font-medium text-2xl bg-green-100">
-        <div className="p-2 font-sans rounded-lg ">
-          <h1>NEW DETOX É PARA VOCÊ QUE...</h1>
-          <div className="flex justify-center m-5">
-          <img src="https://newdetox.com.br/wp-content/uploads/elementor/thumbs/b2-pgxmibzec498p2umnueqqx16l9i4p056qg7gxh0l4w.png"/>
-          </div>
-          <p>Já tentou de tudo mas Não consegue Emagrecer</p>
-        <div className="bg-green-100 p-2 font-sans">
-          <div className="flex justify-center m-5">
-          <img src="https://newdetox.com.br/wp-content/uploads/elementor/thumbs/b4-pgxmidv2psbtcarwcv7zvwk3s18v4ecnepifw0xssg.png"/>
-          </div>
-          <p>Vive Cansada(o) e sem Disposição para Nada</p>
-        </div>
-
-        <div className="bg-green-100 p-2 font-sans">
-          <div className="flex justify-center m-5">
-          <img src="https://newdetox.com.br/wp-content/uploads/elementor/thumbs/b5-pgxmifqr3gedzip61w190w30yszljsk42yteukv0g0.png"/>
-          </div>
-          <p>Vive com Fome e Ansiedade</p>
-        </div>
-
-        <div className="bg-green-100 p-2 font-sans">
-          <div className="flex justify-center m-5">
-          <img src="https://newdetox.com.br/wp-content/uploads/elementor/thumbs/b3-pgxmicx8iyaj0ot9ictdbesn6ndhwp8x2kuyeqz6yo.png"/>
-          </div>
-          <p>Está com o Corpo Inchado e Pesado</p>
-        </div>
-
-        <div className="bg-green-100 p-2 font-sans">
-          <div className="flex justify-center m-5">
-          <img src="https://newdetox.com.br/wp-content/uploads/elementor/thumbs/b6-pgxmigolaafob4nswefvlduhk6uyrhnuf3gwbutm9s.png"/>
-          </div>
-          <p>Quer Emagrecer Rápido Sem Passar Fome</p>
-        </div>
-
-        <div className="bg-green-100 p-2 font-sans">
-          <div className="flex justify-center m-5">
-          <img src="https://newdetox.com.br/wp-content/uploads/elementor/thumbs/b4-pgxmidv2psbtcarwcv7zvwk3s18v4ecnepifw0xssg.png"/>
-          </div>
-          <p>Busca uma Solução Rápida e Saudável para Emagrecer</p>
-        </div>
-        </div>
-      </div>
-      </div>
         <div className='xl:hidden'>
           <h1 className='text-center font-semibold text-3xl'>Ainda com dúvidas?</h1>
           <div className='space-y-2'>
