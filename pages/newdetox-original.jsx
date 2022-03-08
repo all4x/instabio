@@ -1,6 +1,6 @@
 import Head from 'next/head'
 import Link from 'next/link'
-import Footer from '../src/components/footerdetox'
+import Footer from '../components/Footer'
 import Image from 'next/image'
 import Logo from '../public/logo-detox.png'
 import Potes from '../public/newdetox.png'
@@ -24,8 +24,7 @@ import Prova4 from '../public/4.jpg'
 import Prova5 from '../public/print1.png'
 import Prova6 from '../public/print2.png'
 
-
-//        <Zap/>
+//<Zap/>
 
 
 
@@ -170,7 +169,7 @@ export default function Home() {
         </div>
       </div>
       </div>
-      
+
          {/* CHECKOUT INTEIRO */}
       <div id="checkout" className="bg-gray-50 p-5">
       <h1 className='text-center text-4xl font-bold '>Escolha a Melhor Oferta Para Você</h1>
@@ -193,14 +192,14 @@ export default function Home() {
             <div className='flex justify-items-start'>
               <div> <Image src={Kit1}/></div>
               <div className='text-center flex-col justify-center'>
-                <h1 className='m-2 font-semibold text-gray-600 '> <strong className='line-through'>De R$137</strong></h1>
-                <h2 className='text-gray-600'>Por 12x <strong className=' text-black text-3xl font-black'>9,74</strong></h2>
-                <p className='text-gray-600 font-extrabold'>ou R$97,00 à vista</p>
+                <h1 className='m-2 font-semibold text-gray-600 '> <strong className='line-through'>De R$157</strong></h1>
+                <h2 className='text-gray-600'>Por 6x <strong className=' text-black text-3xl font-black'>18,33</strong></h2>
+                <p className='text-gray-600 font-extrabold'>ou R$110,00 à vista</p>
               </div>
             </div>
             <hr className="bg-yellow-700 m-3 p-[0.2%]" />
             <div className='flex justify-center '>
-            <a href='https://app.monetizze.com.br/r/BGM1438897?src=Facebookads-1'>
+            <a href='https://nyldecosmeticos.lojaintegrada.com.br/new-detox'>
             <Button variant="contained" color="success">
             Comprar Agora
             </Button>
@@ -208,9 +207,9 @@ export default function Home() {
             </div>
             <div className="text-center mt-5 font-medium">30 Dias De Garantia!</div>
           </div>
-          
+
         </div>
-        
+
       </div>
 
           {/* CHECKOUT 2 potes */}
@@ -235,7 +234,7 @@ export default function Home() {
             </div>
             <hr className="bg-yellow-700 m-3 p-[0.2%]" />
             <div className='flex justify-center '>
-            <a href='https://app.monetizze.com.br/r/BTU1443218?src=Facebook-ads-2'>
+            <a href='https://nyldecosmeticos.lojaintegrada.com.br/new-detox-2-pote'>
             <Button variant="contained" color="success">
             Comprar Agora
             </Button>
@@ -270,7 +269,7 @@ export default function Home() {
             </div>
             <hr className="bg-yellow-700 m-3 p-[0.2%]" />
             <div className='flex justify-center '>
-            <a href='https://app.monetizze.com.br/r/BLD1443220?src=Facebookads-3'>
+            <a href='https://nyldecosmeticos.lojaintegrada.com.br/new-detox-3-potes'>
             <Button variant="contained" color="success">
             Comprar Agora
             </Button>
@@ -304,7 +303,7 @@ export default function Home() {
             </div>
             <hr className="bg-yellow-700 m-3 p-[0.2%]" />
             <div className='flex justify-center '>
-            <a href='https://app.monetizze.com.br/r/BLA1443221?src=Facebookads-5'>
+            <a href='https://nyldecosmeticos.lojaintegrada.com.br/new-detox-5-potes'>
             <Button variant="contained" color="success">
             Comprar Agora
             </Button>
