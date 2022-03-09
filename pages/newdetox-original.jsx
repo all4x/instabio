@@ -191,13 +191,13 @@ export default function Home() {
               <div> <Image src={Kit1}/></div>
               <div className='text-center flex-col justify-center'>
                 <h1 className='m-2 font-semibold text-gray-600 '> <strong className='line-through'>De R$157</strong></h1>
-                <h2 className='text-gray-600'>Por 6x <strong className=' text-black text-3xl font-black'>18,33</strong></h2>
-                <p className='text-gray-600 font-extrabold'>ou R$110,00 à vista</p>
+                <h2 className='text-gray-600'>Por 12x <strong className=' text-black text-3xl font-black'>9,74</strong></h2>
+                <p className='text-gray-600 font-extrabold'>ou R$97,00 à vista</p>
               </div>
             </div>
             <hr className="bg-yellow-700 m-3 p-[0.2%]" />
             <div className='flex justify-center '>
-            <a href='https://nyldecosmeticos.lojaintegrada.com.br/new-detox'>
+            <a href='https://app.monetizze.com.br/r/AFN18833790?u=c&pl=XX142994'>
             <Button variant="contained" color="success">
             Comprar Agora
             </Button>
@@ -232,7 +232,7 @@ export default function Home() {
             </div>
             <hr className="bg-yellow-700 m-3 p-[0.2%]" />
             <div className='flex justify-center '>
-            <a href='https://nyldecosmeticos.lojaintegrada.com.br/new-detox-2-pote'>
+            <a href='https://app.monetizze.com.br/r/AFN18833790?u=c&pl=HM142996'>
             <Button variant="contained" color="success">
             Comprar Agora
             </Button>
@@ -267,7 +267,7 @@ export default function Home() {
             </div>
             <hr className="bg-yellow-700 m-3 p-[0.2%]" />
             <div className='flex justify-center '>
-            <a href='https://nyldecosmeticos.lojaintegrada.com.br/new-detox-3-potes'>
+            <a href='https://app.monetizze.com.br/r/AFN18833790?u=c&pl=VW142997'>
             <Button variant="contained" color="success">
             Comprar Agora
             </Button>
@@ -301,7 +301,7 @@ export default function Home() {
             </div>
             <hr className="bg-yellow-700 m-3 p-[0.2%]" />
             <div className='flex justify-center '>
-            <a href='https://nyldecosmeticos.lojaintegrada.com.br/new-detox-5-potes'>
+            <a href='https://app.monetizze.com.br/r/AFN18833790?u=c&pl=AJ142998'>
             <Button variant="contained" color="success">
             Comprar Agora
             </Button>
