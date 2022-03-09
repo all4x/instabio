@@ -9,9 +9,7 @@ import Um from '../public/1.png'
 import Dois from '../public/2.png'
 import Treis from '../public/3.png'
 import Zap from '../src/components/zapdetox'
-import Checkout from '../src/components/checkout'
 
-import Frete from '/public/Frete-gratis.png'
 import Kit1 from '/public/kit1.png'
 import Kit2 from '/public/mockup-2.png'
 import Kit3 from '/public/mockup-3.png'
@@ -315,15 +313,26 @@ export default function Home() {
         </div>
 
       </div>
-
-
-      <div className='flex justify-center mb-5'>
-            <a href="https://app.monetizze.com.br/r/AFN18833790?src=Formulação">
-                <Button variant="contained" disableElevation color="success" className='animate-pulse' >
-                CONHEÇA A FORMULAÇÃO DO NEW DETOX
-                </Button>
-            </a>
+      {/* GARANTIA */}
+      <div className='xl:hidden  2xl:hidden lg:hidden md:hidden'>
+        <div className='text-center'>
+            <h1 className="font-bold text-2xl px-2">Se por algum motivo você não ficar Satisfeita com New Detox, devolvemos 100% do Seu Dinheiro!</h1>
+            <p className='text-gray-700 text-lg'>Seu Risco por tentar é ZERO!</p>
+          <div className=' flex justify-center p-4 m-5'>
+          <img src='https://newdetox.com.br/wp-content/uploads/2021/12/garantia30.png'/>
+          </div>
         </div>
+        <div className='flex justify-center mb-4 '>
+            <a href='https://nyldecosmeticos.lojaintegrada.com.br/new-detox-5-potes'>
+            <Button variant="contained" color="success">
+            QUERO COMPRAR COM GARANTIA!
+            </Button>
+            </a>
+            </div>
+
+      </div>
+
+     
 
 
         <div className="xl:hidden  2xl:hidden lg:hidden md:hidden mb-10 bg-gray-200 p-4 rounded-xl mx-3 border-b-2 border-gray-300 ">
@@ -361,7 +370,13 @@ export default function Home() {
 
           </div>
         </div>
-
+        <div className='flex justify-center mb-5'>
+            <a href="https://app.monetizze.com.br/r/AFN18833790?src=Formulação">
+                <Button variant="contained" disableElevation color="success" className='animate-pulse' >
+                CONHEÇA A FORMULAÇÃO DO NEW DETOX
+                </Button>
+            </a>
+        </div>
 
         <Footer/>
         </div>
