@@ -25,9 +25,9 @@ function App() {
       right={5}
       zIndex={100}
       >
-          <h1 className='font-extrabold text-white px-2 mx-2 text-xs p-3 bg-green-900 rounded-br-xl'>Como posso te ajudar?</h1>
+          <h1 className='font-extrabold text-white px-2 mx-2 text-xs p-3 bg-green-900 rounded-br-xl'>Compre pelo whatsapp?</h1>
 
-      <Link href="https://api.whatsapp.com/send?phone=5563992072188&text=Ol%C3%A1%20gostaria%20de%20adquirir%20meu%20*NEW%20DETOX*%E2%98%BA%EF%B8%8F">
+      <Link href="https://api.whatsapp.com/send?phone=5563992072188&text=Ol%C3%A1%20gostaria%20de%20adquirir%20meu%20*NEW%20DETOX*">
       <Fab color="success" aria-label="edit" size='large'>
       <WhatsAppIcon sx={{ color: brown[50] }} fontSize='large' />
       </Fab>
