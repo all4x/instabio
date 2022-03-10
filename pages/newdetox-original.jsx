@@ -323,7 +323,7 @@ export default function Home() {
           </div>
         </div>
         <div className='flex justify-center mb-4 '>
-            <a href='https://nyldecosmeticos.lojaintegrada.com.br/new-detox-5-potes'>
+            <a href='#checkout'>
             <Button variant="contained" color="success">
             QUERO COMPRAR COM GARANTIA!
             </Button>
