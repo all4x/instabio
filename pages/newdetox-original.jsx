@@ -198,7 +198,7 @@ export default function Home() {
             </div>
             <hr className="bg-yellow-700 m-3 p-[0.2%]" />
             <div className='flex justify-center '>
-            <a href='https://app.monetizze.com.br/r/AFN18833790?u=c&pl=XX142994'>
+            <a href='https://app.monetizze.com.br/r/AFN18833790?u=c&pl=XX142994&src=checkout[1]-facebookads'>
             <Button variant="contained" color="success">
             Comprar Agora
             </Button>
@@ -233,7 +233,7 @@ export default function Home() {
             </div>
             <hr className="bg-yellow-700 m-3 p-[0.2%]" />
             <div className='flex justify-center '>
-            <a href='https://app.monetizze.com.br/r/AFN18833790?u=c&pl=HM142996'>
+            <a href='https://app.monetizze.com.br/r/AFN18833790?u=c&pl=HM142996&src=checkout[2]-facebookads'>
             <Button variant="contained" color="success">
             Comprar Agora
             </Button>
@@ -268,7 +268,7 @@ export default function Home() {
             </div>
             <hr className="bg-yellow-700 m-3 p-[0.2%]" />
             <div className='flex justify-center '>
-            <a href='https://app.monetizze.com.br/r/AFN18833790?u=c&pl=VW142997'>
+            <a href='https://app.monetizze.com.br/r/AFN18833790?u=c&pl=VW142997&src=checkout[3]-facebookads'>
             <Button variant="contained" color="success">
             Comprar Agora
             </Button>
@@ -302,7 +302,7 @@ export default function Home() {
             </div>
             <hr className="bg-yellow-700 m-3 p-[0.2%]" />
             <div className='flex justify-center '>
-            <a href='https://app.monetizze.com.br/r/AFN18833790?u=c&pl=AJ142998'>
+            <a href='https://app.monetizze.com.br/r/AFN18833790?u=c&pl=AJ142998&src=checkout[5]-facebookads'>
             <Button variant="contained" color="success">
             Comprar Agora
             </Button>
