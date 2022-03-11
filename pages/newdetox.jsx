@@ -155,7 +155,42 @@ export default function Home() {
         </div>
         
       </div>
-      
+      {/* CHECKOUT 2 potes */}
+      <div>
+        <div className="mt-10 mb-5 ml-8 mr-8 flex justify-center bg-gray-100 rounded-xl ">
+          <div className="m-4 p-2 rounded-xl">
+            <div className="text-center">
+              <h1 className="text-2xl font-semibold">Compre 2 Pote</h1>
+              <h2 className="text-xl font bg-gray-500 text-white px-4 rounded-md">
+                Tratamento para 2 Mês
+              </h2>
+            </div>
+            <hr className="bg-yellow-700 m-3 p-[0.2%]" />
+
+            <div className='flex justify-items-start'>
+              <div> <Image src={Kit2}/></div>
+              <div className='text-center flex-col justify-center'>
+                <h1 className='m-2 font-semibold text-gray-600 '> <strong className='line-through'>De R$194</strong></h1>
+                <h2 className='text-gray-600'>Por 6x <strong className=' text-black text-3xl font-black'>26,16</strong> sem jurus</h2>
+                <p className='text-gray-600 font-extrabold'>ou R$157,00 à vista</p>
+              </div>
+            </div>
+            <hr className="bg-yellow-700 m-3 p-[0.2%]" />
+            <div className='flex justify-center '>
+            <a href='https://nyldecosmeticos.lojaintegrada.com.br/new-detox-2-pote'>
+            <Button variant="contained" color="success">
+            Comprar Agora
+            </Button>
+            </a>
+            </div>
+            <div className="text-center mt-5 font-medium">30 Dias De Garantia!</div>
+
+          </div>
+        </div>
+
+      </div>
+
+
       <div className='flex justify-center mb-5'>
             <a href="https://app.monetizze.com.br/r/AFN18833790?src=Formulação">
                 <Button variant="contained" disableElevation color="success" className='animate-pulse' >
