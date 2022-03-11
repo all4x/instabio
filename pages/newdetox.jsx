@@ -23,7 +23,8 @@ import Prova from '../public/1.jpg'
 import Prova2 from '../public/2.jpg'
 import Prova3 from '../public/3.jpg'
 import Prova4 from '../public/4.jpg'
-
+import Prova5 from '../public/print1.png'
+import Prova6 from '../public/print2.png'
 
 
 
@@ -102,21 +103,31 @@ export default function Home() {
                 </h1>
         </div>
         </div>
-         {/* Provas sociais [ Varias provas ] */}
+        {/* Provas sociais [ Varias provas ] */}
 
-       <div className='text-center font-sans text-3xl m-4'>
-        <p> Veja os resultados de algumas das minhas clientes😍 </p> 
+       <div className='text-center font-sans text-3xl m-4 xl:hidden 2xl:hidden lg:hidden  md:hidden'>
+        <p> Resultados com poucas semanas de uso! </p> 
 
       </div>
-      <div className='xl:hidden m-5'>
+      <div className='xl:hidden m-5 2xl:hidden lg:hidden p-2 md:hidden'>
         <Image src={Prova}/>
         <Image src={Prova2}/>
         <Image src={Prova3}/>
         <Image src={Prova4}/>
+        <Image src={Prova5}/>
+        <Image src={Prova6}/>
+
+        <div className='flex justify-center m-5 '>
+            <a href='#checkout'>
+            <Button variant="contained" color="success">
+            Comprar Agora
+            </Button>
+            </a>
+            </div>
 
       </div>
          {/* CHECKOUT INTEIRO */}
-      <div className="bg-gray-50 p-5">
+      <div id="checkout" className="bg-gray-50 p-5">
       <h1 className='text-center text-4xl font-bold '>Escolha a Melhor Oferta Para Você</h1>
       <h2 className='text-center font-sans text-2xl'>Elimine de 4 a 6 kilos com 1 mês de tratamento</h2>
       

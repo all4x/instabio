@@ -1,6 +1,6 @@
 import Head from 'next/head'
 import Link from 'next/link'
-import Footer from '../components/Footer'
+import Footer from '../src/components/footerdetox'
 import Image from 'next/image'
 import Logo from '../public/logo-detox.png'
 import Potes from '../public/newdetox.png'
@@ -21,6 +21,7 @@ import Prova3 from '../public/3.jpg'
 import Prova4 from '../public/4.jpg'
 import Prova5 from '../public/print1.png'
 import Prova6 from '../public/print2.png'
+import Prova10 from '../public/10.PNG'
 
 // <Zap/>
 
@@ -37,11 +38,12 @@ export default function Home() {
         
        
         {/* TOPBAR HEADLINE*/}
-        <div className='flex justify-center m-5 pt-5'>
+        <div className='flex justify-center m-5 pt-5 mb-10'>
             <Image src={Logo} width={317} height={45} />
         </div>
         <div className='xl:hidden'>
-          <h2 className='text-center font-extrabold text-3xl text-green-800 my-5'>CONQUISTE SUA AUTO ESTIMA DE VOLTA EM POUCAS SEMANAS</h2>
+          <h2 className='text-center font-extrabold text-3xl text-green-800 mx-5'>CONQUISTE SUA AUTO ESTIMA DE VOLTA EM POUCAS SEMANAS</h2>
+          <h3 className='text-center font-mono text-xl mx-2'> SEM DIETAS MALUCAS OU EXERCÍCIOS FÍSICOS.</h3>
         </div>
 
 
@@ -57,9 +59,16 @@ export default function Home() {
             </div>
         
         <div className='m-4 bg-gradient-to-l from-green-800 to-yellow-600 px-2 rounded-lg mx-5 xl:hidden 2xl:hidden lg:hidden  md:hidden '>
-        <p className='text-center bg-gray-50 shadow-2xl m-3 p-2 font-thin text-2xl text-gray-800'> New Detox é um poderoso suplemento que acelera o seu metabolismo, diminui o inchaço e a retenção dos líquidos do seu corpo, elimina as substâncias inflamatórias e te faz emagrecer de forma rápida, saudável e definitiva.</p>
+       
+<div className="xl:hidden  2xl:hidden lg:hidden md:hidden mb-10 bg-white p-4 rounded-xl mx-3 border-b-2 border-gray-300 ">
+        <p className="text-left ml-4 font-serif mt-2 text-lg">New Detox é um poderoso suplemento que acelera o seu metabolismo, diminui o inchaço e a retenção dos líquidos do seu corpo, elimina as substâncias inflamatórias e te faz emagrecer de forma rápida, saudável e definitiva.</p>
+        </div>
+
+
 
         </div>
+
+        {/* 
         <div className='bg-green-700'>
 
         <div className=''>
@@ -74,6 +83,8 @@ export default function Home() {
                 </h1>
         </div>
 
+        
+
         <div className=''>
             
             <div className='flex justify-center '>
@@ -85,6 +96,7 @@ export default function Home() {
                 <strong className=''>SEM</strong>  Precisar se Matar com Exercícios Chatos e Cansativos...
                 </h1>
         </div>
+        
 
         <div className=''>
             
@@ -98,6 +110,7 @@ export default function Home() {
                 </h1>
         </div>
         </div>
+        */}
          {/* Provas sociais [ Varias provas ] */}
 
        <div className='text-center font-sans text-3xl m-4 xl:hidden 2xl:hidden lg:hidden  md:hidden'>
@@ -111,6 +124,7 @@ export default function Home() {
         <Image src={Prova4}/>
         <Image src={Prova5}/>
         <Image src={Prova6}/>
+        <Image src={Prova10}/>
 
         <div className='flex justify-center m-5 '>
             <a href='#checkout'>
@@ -169,10 +183,43 @@ export default function Home() {
       </div>
       </div>
 
+
+      {/* CARTA DE VENDAS */}
+
+      <div className='xl:hidden m-5 2xl:hidden lg:hidden p-2 md:hidden'>
+        <div>
+          <h1 className='text-2xl font-bold'>O que é e como funciona o New Detox?</h1>
+          <p className='text-left mt-2 p-3 text-base font-normal text-gray-700'>Ao contrário do que algumas pessoas podem pensar, New Detox não é um Remédio. Ao contrário de outros termogênicos famosos do mercado, o New Detox é um suplemento alimentar que não promove riscos a saúde.</p>       
+          <p className='text-left mt-2 p-3 text-base font-normal text-gray-600'>Isso significa que ele é feito de componentes naturais aprovados pela Anvisa, que combinados ativam a lipólise orgânica do corpo oferecem diversos benefícios que proporcionam o tão falado efeito de queima de gordura de 24 horas. Isso significa que em até 24 horas você conseguirá perder muitos quilos? É evidente que não.</p>       
+          <p className='text-left mt-2 p-3 text-base font-normal text-gray-600'>O New Detox funciona da seguinte maneira. Ao fazer a ingestão diária das cápsulas de New Detox, seu corpo absorve os nutrientes, que possuem propriedades metabólicas naturais, e começa a ter efeitos que proporcionam a queima de calorias.</p>       
+          <p className='text-left mt-2 p-3 text-base font-normal text-gray-600'>Esses efeitos costumam durar 24 horas. Ou seja, são 24 horas, queimando calorias de forma efetiva e saudável, mesmo que você não faça exercícios físicos. É claro que você com certeza irá potencializar ainda mais os resultados ao seguir um planejamento alimentar mais saudável e ter uma rotina de exercícios físicos.</p>       
+        </div>
+        <div className='m-4'>
+          <h1 className='text-2xl font-bold my-5' >Como New Detox ajuda a emagrecer</h1>
+          <div className='mt-3'>
+          <li>Acelera o emagrecimento</li>
+          <li>Sem efeito sanfona</li>
+          <li>Diminui o apetite</li>
+          <li>Não possui efeitos colaterais</li> 
+          <li>Diminui o volume abdominal</li>
+          </div>
+       </div>
+        <div>
+          <h1 className='text-2xl font-bold mt-5'>Não caia em cópias do New Detox!</h1>
+          <p className='text-left mt-2 p-3 text-base font-normal text-gray-600'>Além de evitar fazer dietas perigosas para seu corpo, antes de sair por aí procurando o melhor lugar pra comprar o seu New Detox, deixe-me abrir seus olhos pra um detalhe muito importante. Após os efeitos comprovados e expressivos, o verdadeiro New Detox se tornou um produto muito famoso atualmente.</p>
+          <p className='text-left mt-2 p-3 text-base font-normal text-gray-600'>E por ser um sucesso absoluto em vendas, muitas pessoas começaram a tentar replicar a fórmula emagrecedora do New Detox para tentar vender como se fosse o verdadeiro termogênico através da internet e até em farmácias.</p>
+          <p className='text-left mt-2 p-3 text-base font-normal text-gray-600'>Mas é preciso tomar cuidado, muitos desses pseudos, na verdade não passam de um verdadeiro golpe. Por isso, é impossível comprar o New Detox verdadeiro através de sites de venda como Mercado Livre e OLX, por exemplo. Por isso, evite a qualquer custo comprar esse tipo de produto nesses sites em que você não conhece a fonte de onde vem o produto.</p>
+        </div>
+
+      </div>
+
+
+
+
          {/* CHECKOUT INTEIRO */}
       <div id="checkout" className="bg-gray-50 p-5">
       <h1 className='text-center text-4xl font-bold '>Escolha a Melhor Oferta Para Você</h1>
-      <h2 className='text-center font-sans text-2xl'>Elimine de 4 a 6 kilos com 1 mês de tratamento</h2>
+      <h2 className='text-center font-sans text-2xl'>Elimine de 4 a 6 quilos com 1 mês de tratamento</h2>
       
       </div>
 
@@ -335,11 +382,7 @@ export default function Home() {
 
      
 
-
-        <div className="xl:hidden  2xl:hidden lg:hidden md:hidden mb-10 bg-gray-200 p-4 rounded-xl mx-3 border-b-2 border-gray-300 ">
-        <h1 className="text-center font-extrabold text-2xl">COMO NEW DETOX TE FAZ EMAGRECER?</h1>
-        <p className="text-center font-sans mt-5 text-lg">New Detox reúne todos os ingredientes de uma receita na medida certa. Tudo isso feito com tecnologia avançada, que te fará <span className="underline">emagrecer muito mais rápido.</span> Você não precisará ter o trabalho de preparar receitas complicadas, nem comprar ingredientes e chás caros e difíceis de encontrar. Você terá tudo pronto. Basta apenas tomar 2 cápsulas por dia e, em poucas semanas, verá o resultado.</p>
-        </div>
+        
 
         <div className='xl:hidden'>
           <h1 className='text-center font-semibold text-3xl'>Ainda com dúvidas?</h1>

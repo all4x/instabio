@@ -9,6 +9,9 @@ function Redes() {
   <div class="max-w-2xl mx-auto text-white py-10">
       <div class="text-center">
           <h3 class="text-3xl mb-3">New Detox</h3>
+          <p className='text-gray-300'>CNPJ</p>
+          <p className='text-gray-300'>40.457.656/0001-52</p>
+          <p >SITE SEGURO</p>
           
           </div>
       </div>
