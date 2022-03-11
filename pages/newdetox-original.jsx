@@ -204,13 +204,6 @@ export default function Home() {
           <li>Diminui o volume abdominal</li>
           </div>
        </div>
-        <div>
-          <h1 className='text-2xl font-bold mt-5'>Não caia em cópias do New Detox!</h1>
-          <p className='text-left mt-2 p-3 text-lg font-normal text-gray-600'>Além de evitar fazer dietas perigosas para seu corpo, antes de sair por aí procurando o melhor lugar pra comprar o seu New Detox, deixe-me abrir seus olhos pra um detalhe muito importante. Após os efeitos comprovados e expressivos, o verdadeiro New Detox se tornou um produto muito famoso atualmente.</p>
-          <p className='text-left mt-2 p-3 text-lg font-normal text-gray-600'>E por ser um sucesso absoluto em vendas, muitas pessoas começaram a tentar replicar a fórmula emagrecedora do New Detox para tentar vender como se fosse o verdadeiro termogênico através da internet e até em farmácias.</p>
-          <p className='text-left mt-2 p-3 text-lg font-normal text-gray-600'>Mas é preciso tomar cuidado, muitos desses pseudos, na verdade não passam de um verdadeiro golpe. Por isso, é impossível comprar o New Detox verdadeiro através de sites de venda como Mercado Livre e OLX, por exemplo. Por isso, evite a qualquer custo comprar esse tipo de produto nesses sites em que você não conhece a fonte de onde vem o produto.</p>
-        </div>
-
       </div>
 
 
