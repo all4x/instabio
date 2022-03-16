@@ -10,7 +10,7 @@ import Iphone from '/public/Iphone-spinner-2.gif'
 const convertion = () => {
 return <div>
         <Head>
-            <meta http-equiv="refresh" content="0;https://api.whatsapp.com/send?phone=5563992072188" />
+            <meta http-equiv="refresh" content="5;https://api.whatsapp.com/send?phone=5563992072188" />
         </Head>
                 <div class="h-screen bg-white">
         <div class="flex justify-center items-center h-full">
