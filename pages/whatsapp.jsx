@@ -12,7 +12,6 @@ import Logo from '/public/boneca 100x100.png'
 
 const convertion = () => {
 return <div>
-        <Topbar/>
         <Head>
         </Head>
         <div className=" bg-white mb-40">
