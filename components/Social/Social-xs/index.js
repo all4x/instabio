@@ -5,11 +5,11 @@ import Link from "next/link"
 
 function Social() {
     return (
-        <div className="space-y-2 mt-5">
+        <div className="space-y-2 p-4">
             {/*whatsapp*/}
-            <div className=" text-4xl bg-opacity-25 bg-white text-black rounded-full p-2">
+            <div className=" text-4xl bg-opacity-25 bg-white text-black rounded-xl p-2">
                 <div  className="text-center">
-                    <a href="https://api.whatsapp.com/send?phone=5563992072188&"><button class="bg-yellow-200  hover:bg-gray-700 text-white font-bold py-2 px-4 rounded-full w-80">Whatsapp</button></a>
+                    <Link href={"whatsapp"} ><button class="bg-yellow-400   hover:bg-gray-700 text-white font-bold py-2 px-4 rounded-xl w-80">Whatsapp</button></Link>
             </div>
                 </div>
 
@@ -17,8 +17,8 @@ function Social() {
 
                 <div className=" text-4xl bg-opacity-25 bg-white text-black rounded-full p-2">
                 <div  className="text-center">
-                    <Link href="/newdetox">
-                    <a><button class="bg-yellow-200  hover:bg-gray-700 text-white font-bold py-2 px-4 rounded-full w-80">New Detox</button></a>
+                    <Link href="newdetox-original">
+                    <a><button class="bg-yellow-400   hover:bg-gray-700 text-white font-bold py-2 px-4 rounded-xl w-80">New Detox</button></a>
                     </Link>
             </div>
                 </div>
@@ -26,17 +26,17 @@ function Social() {
                  {/* localização*/}
 
 
-                 <div className=" text-4xl bg-opacity-25 bg-white text-black rounded-full p-2">
+                 <div className=" text-4xl bg-opacity-25 bg-white text-black rounded-xl p-2">
                 <div  className="text-center">
-                    <a href="https://goo.gl/maps/XyfKMPcYKnTSJG959"><button class="bg-yellow-200  hover:bg-gray-700 text-white font-bold py-2 px-4 rounded-full w-80">Localização</button></a>
+                    <a href="https://goo.gl/maps/XyfKMPcYKnTSJG959"><button class="bg-yellow-400  hover:bg-gray-700 text-white font-bold py-2 px-4 rounded-xl w-80">Localização</button></a>
             </div>
                 </div>
 
                 {/* Instagram */}
 
-                <div className=" text-4xl bg-opacity-25 bg-white text-black rounded-full	p-2">
+                <div className=" text-4xl bg-opacity-25 bg-white text-black rounded-full p-2">
                 <div  className="text-center">
-                    <a href="https://www.instagram.com/nyldecosmeticos/"><button class="bg-yellow-200 hover:bg-gray-700 text-white font-bold py-2 px-4 rounded-full w-80">Instagram</button></a>
+                    <a href="https://www.instagram.com/nyldecosmeticos/"><button class="bg-yellow-400  hover:bg-gray-700 text-white font-bold py-2 px-4 rounded-xl w-80">Instagram</button></a>
             </div>
                 </div>
       </div>

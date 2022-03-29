@@ -12,7 +12,7 @@ function index() {
         <div>
             <Head>
             <meta name="title" content="Nylde Cosmeticos | Whatsapp"/>
-            <meta http-equiv="refresh" content="0;https://nyldecosmeticos.lojaintegrada.com.br/" />
+            <meta http-equiv="refresh" content="0;https://loja.nyldecosmeticos.com.br/" />
             </Head>
                 <div class="h-screen bg-white">
         <div class="flex justify-center items-center h-full">
