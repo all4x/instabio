@@ -22,7 +22,7 @@ return <div>
         <p className='text-center font-semibold text-2xl mt-4'>Tudo Certo!</p>
         <p className="text-xl font-sans text-center mt-1 p-4"> click no botão abaixo para ser direcionada para o whatsapp</p>
         <div className="flex justify-center">
-        <a href='https://api.whatsapp.com/send/?phone=5563992072188&text=Ol%C3%A1%2C+Acabei+de+preencher+seu+formul%C3%A1rio+e+gostaria+de+realizar+minha+primeira+consulta+em+terapia+capilar%EF%BF%BD&app_absent=0'>
+        <a href='https://api.whatsapp.com/send?phone=5563992072188&text=Ol%C3%A1%2C%20Acabei%20de%20preencher%20seu%20formul%C3%A1rio%20e%20gostaria%20de%20realizar%20minha%20primeira%20consulta%20em%20terapia%20capilar%EF%BF%BD'>
         <Button variant="contained" color="success">
             Whatsapp
             </Button>
