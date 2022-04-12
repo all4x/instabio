@@ -7,7 +7,6 @@ import Image from 'next/image'
 import Botao from '../../src/components/whatsapp'
 
 import Foto1 from '../../public/IMG_8153.jpg'
-import Foto2 from '../../public/IMG_8112.jpg'
 import Foto3 from '../../public/IMG_8300.jpg'
 import Foto4 from '../../public/IMG_6341.jpg'
 import Foto5 from '../../public/IMG_7063.jpg'
