@@ -18,8 +18,8 @@ function Terapia() {
             </div>
 
 
-            <div className="mt-[-10%] xl:w-1/2 mx-auto ">
-            <h1 className='text-center font-bold text-xl'><strong>Terapia Capilar: </strong> Saiba o que é, Como Funciona e Quando é Indicada</h1>
+            <div className="mt-[-10%] xl:w-1/2 mx-auto mt-9 ">
+            <h1 className='text-center font-bold text-xl mt-16'><strong>Terapia Capilar: </strong> Saiba o que é, Como Funciona e Quando é Indicada</h1>
             <p className='text-left ml-5 mt-8 font-sans text-gray-600'>10/04/2022</p>
                 <div className='flex justify-center m-6 '>
                 <img src="https://github.com/all4x/instabio/blob/main/public/IMG_8153.jpg?raw=true" height={690} width={560} className="rounded-2xl"/>
