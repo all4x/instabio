@@ -6,12 +6,6 @@ import Image from 'next/image'
 
 import Botao from '../../src/components/whatsapp'
 
-import Foto1 from '../blog/IMG_8153.jpg'
-import Foto2 from '../blog/IMG_8112.jpg'
-import Foto3 from '../blog/IMG_8300.jpg'
-import Foto4 from '../blog/IMG_6341.jpg'
-import Foto5 from '../blog/IMG_7063.jpg'
-
 
 
 function Terapia() {
@@ -28,7 +22,7 @@ function Terapia() {
             <h1 className='text-center font-bold text-xl'><strong>Terapia Capilar: </strong> Saiba o que é, Como Funciona e Quando é Indicada</h1>
             <p className='text-left ml-5 mt-8 font-sans text-gray-600'>10/04/2022</p>
                 <div className='flex justify-center m-6 '>
-                    <Image src={Foto1} height={250} width={320} className="rounded-2xl"/>
+                <img src="https://github.com/all4x/instabio/blob/main/public/IMG_8153.jpg?raw=true" height={690} width={560} className="rounded-2xl"/>
                 </div>
             
             <h1 className='text-center font-bold text-2xl'>Terapia Capilar: o que é?</h1>
@@ -40,7 +34,7 @@ function Terapia() {
            
             </div>
                 <div className='flex justify-center m-5'>
-                    <Image src={Foto2} height={690} width={560} className="rounded-2xl"/>
+                <img src="https://github.com/all4x/instabio/blob/main/public/IMG_8112.JPG?raw=true" height={690} width={560} className="rounded-2xl"/>
                 </div>
                 <h1 className='text-center font-bold text-2xl'>Benefícios da Terapia Capilar</h1>
                 
@@ -64,7 +58,7 @@ function Terapia() {
 
                 <div className='space-y-6'>
                 <div className='flex justify-center m-5'>
-                                    <Image src={Foto3} height={690} width={560} className="rounded-2xl"/>
+                <img src="https://github.com/all4x/instabio/blob/main/public/IMG_8300.jpg?raw=true" height={690} width={560} className="rounded-2xl"/>
                                 </div>
                                 <h1 className='text-center font-bold text-2xl'> Detox capilar</h1>
                                 <p className='text-left ml-5 text-lg text-gray-700 mt-5 m-5'>O Detox é uma limpeza profunda que higieniza, esfolia e pode até regenerar o couro cabeludo. Esse procedimento costuma ser o primeiro passo para os demais tratamentos e pode ser feito em todos os tipos de cabelos, muito utilizado em casos de descamação e excesso de oleosidade.</p>
@@ -72,7 +66,7 @@ function Terapia() {
                             
                 <div className='space-y-6'>
                 <div className='flex justify-center m-5'>
-                                    <Image src={Foto4} height={690} width={560} className="rounded-2xl"/>
+                                    <img src="https://github.com/all4x/instabio/blob/main/public/IMG_6341.JPG?raw=true" height={690} width={560} className="rounded-2xl"/>
                                 </div>
                                 <h1 className='text-center font-bold text-2xl'> Aromaterapia</h1>
                                 <p className='text-left ml-5 text-lg text-gray-700 mt-5 m-5'> Utiliza-se de óleos essenciais e vegetais para auxiliar em algumas patologias do couro cabeludo e nos fios dos cabelos. Alguns óleos estimulam a circulação sanguínea, combatem a queda capilar, têm ação fungicida, anti-inflamatória, cicatrizante, bactericida einúmeros outros benefícios.</p>
@@ -80,7 +74,7 @@ function Terapia() {
 
                 <div className='space-y-6'>
                 <div className='flex justify-center m-5'>
-                                    <Image src={Foto5} height={690} width={560} className="rounded-2xl"/>
+                <img src="https://github.com/all4x/instabio/blob/main/public/IMG_7063.JPG?raw=true" height={690} width={560} className="rounded-2xl"/>
                                 </div>
                                 <h1 className='text-center font-bold text-2xl'> Alta frequência</h1>
                                 <p className='text-left ml-5 text-lg text-gray-700 mt-5 m-5'>Essa técnica muito utilizada produz um campo eletromagnético, O gás tem propriedade ionizante quando em determinada energia gera a formação do gás ozônio. Trazendo benefícios como ativar a circulação sanguínea, fortalece o folículo piloso, reconstrói a cutícula capilar, auxilia nos danos provocados pela química nos cabelos, caspa intensa e alopecia por excesso de oleosidade. Como cicatrizante, a alta frequência capilar também cauteriza possíveis feridas no couro cabeludo.</p>
