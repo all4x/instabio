@@ -6,10 +6,11 @@ import Image from 'next/image'
 
 import Botao from '../../src/components/whatsapp'
 
-import Foto1 from '../../public/IMG_8153.jpg'
-import Foto3 from '../../public/IMG_8300.jpg'
-import Foto4 from '../../public/IMG_6341.jpg'
-import Foto5 from '../../public/IMG_7063.jpg'
+import Foto1 from '../blog/IMG_8153.jpg'
+import Foto2 from '../blog/IMG_8112.jpg'
+import Foto3 from '../blog/IMG_8300.jpg'
+import Foto4 from '../blog/IMG_6341.jpg'
+import Foto5 from '../blog/IMG_7063.jpg'
 
 
 
@@ -39,7 +40,7 @@ function Terapia() {
            
             </div>
                 <div className='flex justify-center m-5'>
-                    <img href='https://raw.githubusercontent.com/all4x/instabio/main/public/IMG_8112.JPG' className='rounded-2xl'></img>
+                    <Image src={Foto2} height={690} width={560} className="rounded-2xl"/>
                 </div>
                 <h1 className='text-center font-bold text-2xl'>Benefícios da Terapia Capilar</h1>
                 
