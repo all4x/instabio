@@ -40,7 +40,7 @@ function Terapia() {
            
             </div>
                 <div className='flex justify-center m-5'>
-                    <Image src={Foto2} height={690} width={560} className="rounded-2xl"/>
+                    <img href='https://raw.githubusercontent.com/all4x/instabio/main/public/IMG_8112.JPG' className='rounded-2xl'></img>
                 </div>
                 <h1 className='text-center font-bold text-2xl'>Benefícios da Terapia Capilar</h1>
                 
