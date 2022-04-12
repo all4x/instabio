@@ -25,7 +25,6 @@ function App() {
       right={5}
       zIndex={100}
       >
-          <h1 className='font-extrabold text-white px-2 mx-2 text-xs p-3 bg-green-900 rounded-br-xl'>Como posso te ajudar?</h1>
 
       <Link href="/whatsapp">
       <Fab color="success" aria-label="edit" size='large'>
