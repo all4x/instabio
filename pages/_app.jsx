@@ -16,6 +16,8 @@ function MyApp({ Component, pageProps }) {
 
   return (
     <>
+
+
       {/* Google Tag Manager - Global base code */}
       <Script
         strategy="afterInteractive"

@@ -20,7 +20,7 @@ function Social() {
             {/*whatsapp*/}
             <div className=" text-4xl bg-opacity-25 bg-white text-black rounded-xl p-2">
                 <div  className="text-center">
-                    <Link href={"whatsapp"} ><button class="bg-yellow-200   hover:bg-gray-700 text-white font-bold py-2 px-4 rounded-xl w-80">Whatsapp</button></Link>
+                    <Link href={"whatsapp"} ><button class="bg-yellow-200   hover:bg-gray-700 text-white font-bold py-2 px-4 rounded-xl w-80">Consulta</button></Link>
             </div>
                 </div>
 
